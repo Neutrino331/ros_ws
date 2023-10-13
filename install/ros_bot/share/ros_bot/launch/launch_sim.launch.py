@@ -1,0 +1,1 @@
+/home/rick/ros_ws/src/ros_bot/launch/launch_sim.launch.py

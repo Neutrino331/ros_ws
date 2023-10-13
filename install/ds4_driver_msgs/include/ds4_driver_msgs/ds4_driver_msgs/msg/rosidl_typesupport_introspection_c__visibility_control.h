@@ -1,0 +1,1 @@
+/home/rick/ros_ws/build/ds4_driver_msgs/rosidl_typesupport_introspection_c/ds4_driver_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h

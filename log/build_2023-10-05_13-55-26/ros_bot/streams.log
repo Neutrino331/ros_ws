@@ -1,0 +1,68 @@
+[0.018s] Invoking command in '/home/rick/ros_ws/build/ros_bot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rick/ros_ws/src/ros_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rick/ros_ws/install/ros_bot
+[0.100s] -- The C compiler identification is GNU 11.4.0
+[0.202s] -- The CXX compiler identification is GNU 11.4.0
+[0.205s] -- Detecting C compiler ABI info
+[0.282s] -- Detecting C compiler ABI info - done
+[0.287s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.288s] -- Detecting C compile features
+[0.288s] -- Detecting C compile features - done
+[0.290s] -- Detecting CXX compiler ABI info
+[0.350s] -- Detecting CXX compiler ABI info - done
+[0.354s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.354s] -- Detecting CXX compile features
+[0.354s] -- Detecting CXX compile features - done
+[0.356s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.453s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.490s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.501s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.540s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.544s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.544s] -- Added test 'lint_cmake' to check CMake code style
+[0.544s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.546s] -- Added test 'xmllint' to check XML markup files
+[0.547s] -- Configuring done
+[0.548s] -- Generating done
+[0.548s] -- Build files have been written to: /home/rick/ros_ws/build/ros_bot
+[0.551s] Invoked command in '/home/rick/ros_ws/build/ros_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rick/ros_ws/src/ros_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rick/ros_ws/install/ros_bot
+[0.552s] Invoking command in '/home/rick/ros_ws/build/ros_bot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rick/ros_ws/build/ros_bot -- -j24 -l24
+[0.578s] Invoked command in '/home/rick/ros_ws/build/ros_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rick/ros_ws/build/ros_bot -- -j24 -l24
+[0.638s] Invoking command in '/home/rick/ros_ws/build/ros_bot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rick/ros_ws/build/ros_bot
+[0.648s] -- Install configuration: ""
+[0.648s] -- Execute custom install script
+[0.649s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/config/drive_bot.rviz
+[0.657s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/config/empty.yaml
+[0.665s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/config/gazebo_params.yaml
+[0.672s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/config/mapper_params_online_async.yaml
+[0.679s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/config/my_controllers.yaml
+[0.686s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/config/rviz.rviz
+[0.694s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/config/view_bot.rviz
+[0.701s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/description/camera.xacro
+[0.708s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/description/depth_camera.xacro
+[0.714s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/description/gazebo_control.xacro
+[0.722s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/description/inertial_macros.xacro
+[0.728s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/description/lidar.xacro
+[0.735s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/description/robot.urdf.xacro
+[0.743s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/description/robot_core.xacro
+[0.749s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/description/ros2_control.xacro
+[0.757s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/launch/camera.launch.py
+[0.763s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/launch/launch_sim.launch.py
+[0.774s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/launch/rplidar.launch.py
+[0.784s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/launch/rsp.launch.py
+[0.795s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/worlds/cafe.world
+[0.806s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/worlds/empty.world
+[0.813s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ament_index/resource_index/package_run_dependencies/ros_bot
+[0.822s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ament_index/resource_index/parent_prefix_path/ros_bot
+[0.831s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/environment/ament_prefix_path.sh
+[0.840s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/environment/ament_prefix_path.dsv
+[0.847s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/environment/path.sh
+[0.860s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/environment/path.dsv
+[0.876s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/local_setup.bash
+[0.890s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/local_setup.sh
+[0.908s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/local_setup.zsh
+[0.923s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/local_setup.dsv
+[0.940s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/package.dsv
+[0.949s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ament_index/resource_index/packages/ros_bot
+[0.953s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/cmake/ros_botConfig.cmake
+[0.958s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/cmake/ros_botConfig-version.cmake
+[0.963s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/package.xml
+[0.970s] Invoked command in '/home/rick/ros_ws/build/ros_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rick/ros_ws/build/ros_bot

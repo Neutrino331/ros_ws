@@ -1,0 +1,11 @@
+/home/rick/ros_ws/build/ds4_driver/CMakeFiles/uninstall.dir
+/home/rick/ros_ws/build/ds4_driver/CMakeFiles/ds4_driver_uninstall.dir
+/home/rick/ros_ws/build/ds4_driver/CMakeFiles/ament_cmake_python_symlink_ds4_driver.dir
+/home/rick/ros_ws/build/ds4_driver/CMakeFiles/ament_cmake_python_build_ds4_driver_egg.dir
+/home/rick/ros_ws/build/ds4_driver/CMakeFiles/test.dir
+/home/rick/ros_ws/build/ds4_driver/CMakeFiles/edit_cache.dir
+/home/rick/ros_ws/build/ds4_driver/CMakeFiles/rebuild_cache.dir
+/home/rick/ros_ws/build/ds4_driver/CMakeFiles/list_install_components.dir
+/home/rick/ros_ws/build/ds4_driver/CMakeFiles/install.dir
+/home/rick/ros_ws/build/ds4_driver/CMakeFiles/install/local.dir
+/home/rick/ros_ws/build/ds4_driver/CMakeFiles/install/strip.dir

@@ -1,0 +1,1 @@
+/home/rick/ros_ws/build/ds4_driver_msgs/rosidl_cmake/rosidl_cmake-extras.cmake

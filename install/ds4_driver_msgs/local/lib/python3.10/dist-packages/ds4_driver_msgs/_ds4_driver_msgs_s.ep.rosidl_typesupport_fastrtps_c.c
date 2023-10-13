@@ -1,0 +1,1 @@
+/home/rick/ros_ws/build/ds4_driver_msgs/rosidl_generator_py/ds4_driver_msgs/_ds4_driver_msgs_s.ep.rosidl_typesupport_fastrtps_c.c

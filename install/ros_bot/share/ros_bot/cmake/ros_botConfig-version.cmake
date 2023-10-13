@@ -1,0 +1,1 @@
+/home/rick/ros_ws/build/ros_bot/ament_cmake_core/ros_botConfig-version.cmake

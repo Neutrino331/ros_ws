@@ -1,0 +1,1 @@
+Invoking command in '/home/rick/ros_ws/build/ds4_driver_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/rick/.local/bin/cmake --build /home/rick/ros_ws/build/ds4_driver_msgs -- -j24 -l24

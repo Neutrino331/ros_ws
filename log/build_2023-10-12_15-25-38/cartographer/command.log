@@ -1,0 +1,2 @@
+Invoking command in '/home/rick/ros_ws/build/cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/rick/.local/bin/cmake --build /home/rick/ros_ws/build/cartographer -- -j24 -l24
+Invoked command in '/home/rick/ros_ws/build/cartographer' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/rick/.local/bin/cmake --build /home/rick/ros_ws/build/cartographer -- -j24 -l24

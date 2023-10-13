@@ -1,0 +1,1 @@
+/home/rick/ros_ws/build/ds4_driver_msgs/rosidl_typesupport_introspection_cpp/ds4_driver_msgs/msg/detail/trackpad__rosidl_typesupport_introspection_cpp.hpp

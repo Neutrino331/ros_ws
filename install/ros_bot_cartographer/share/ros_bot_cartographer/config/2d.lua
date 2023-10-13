@@ -1,0 +1,1 @@
+/home/rick/ros_ws/src/ros_bot_cartographer/config/2d.lua

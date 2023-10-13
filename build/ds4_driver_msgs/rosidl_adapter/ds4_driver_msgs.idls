@@ -1,0 +1,4 @@
+/home/rick/ros_ws/build/ds4_driver_msgs/rosidl_adapter/ds4_driver_msgs:msg/Feedback.idl
+/home/rick/ros_ws/build/ds4_driver_msgs/rosidl_adapter/ds4_driver_msgs:msg/Status.idl
+/home/rick/ros_ws/build/ds4_driver_msgs/rosidl_adapter/ds4_driver_msgs:msg/Report.idl
+/home/rick/ros_ws/build/ds4_driver_msgs/rosidl_adapter/ds4_driver_msgs:msg/Trackpad.idl

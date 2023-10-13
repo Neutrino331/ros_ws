@@ -1,0 +1,23 @@
+[0.041s] Invoking command in '/home/rick/ros_ws/build/ros_bot_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/rick/.local/bin/cmake --build /home/rick/ros_ws/build/ros_bot_cartographer -- -j24 -l24
+[0.068s] Invoked command in '/home/rick/ros_ws/build/ros_bot_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/rick/.local/bin/cmake --build /home/rick/ros_ws/build/ros_bot_cartographer -- -j24 -l24
+[0.117s] Invoking command in '/home/rick/ros_ws/build/ros_bot_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/rick/.local/bin/cmake --install /home/rick/ros_ws/build/ros_bot_cartographer
+[0.134s] -- Install configuration: ""
+[0.134s] -- Execute custom install script
+[0.134s] -- Up-to-date symlink: /home/rick/ros_ws/install/ros_bot_cartographer/share/ament_index/resource_index/package_run_dependencies/ros_bot_cartographer
+[0.134s] -- Up-to-date symlink: /home/rick/ros_ws/install/ros_bot_cartographer/share/ament_index/resource_index/parent_prefix_path/ros_bot_cartographer
+[0.134s] -- Up-to-date symlink: /home/rick/ros_ws/install/ros_bot_cartographer/share/ros_bot_cartographer/environment/ament_prefix_path.sh
+[0.134s] -- Up-to-date symlink: /home/rick/ros_ws/install/ros_bot_cartographer/share/ros_bot_cartographer/environment/ament_prefix_path.dsv
+[0.134s] -- Up-to-date symlink: /home/rick/ros_ws/install/ros_bot_cartographer/share/ros_bot_cartographer/environment/path.sh
+[0.135s] -- Up-to-date symlink: /home/rick/ros_ws/install/ros_bot_cartographer/share/ros_bot_cartographer/environment/path.dsv
+[0.135s] -- Up-to-date symlink: /home/rick/ros_ws/install/ros_bot_cartographer/share/ros_bot_cartographer/local_setup.bash
+[0.135s] -- Up-to-date symlink: /home/rick/ros_ws/install/ros_bot_cartographer/share/ros_bot_cartographer/local_setup.sh
+[0.135s] -- Up-to-date symlink: /home/rick/ros_ws/install/ros_bot_cartographer/share/ros_bot_cartographer/local_setup.zsh
+[0.135s] -- Up-to-date symlink: /home/rick/ros_ws/install/ros_bot_cartographer/share/ros_bot_cartographer/local_setup.dsv
+[0.135s] -- Symlinking: /home/rick/ros_ws/install/ros_bot_cartographer/share/ros_bot_cartographer/package.dsv
+[0.137s] -- Up-to-date symlink: /home/rick/ros_ws/install/ros_bot_cartographer/share/ament_index/resource_index/packages/ros_bot_cartographer
+[0.137s] -- Up-to-date symlink: /home/rick/ros_ws/install/ros_bot_cartographer/share/ros_bot_cartographer/cmake/ros_bot_cartographerConfig.cmake
+[0.137s] -- Up-to-date symlink: /home/rick/ros_ws/install/ros_bot_cartographer/share/ros_bot_cartographer/cmake/ros_bot_cartographerConfig-version.cmake
+[0.137s] -- Up-to-date symlink: /home/rick/ros_ws/install/ros_bot_cartographer/share/ros_bot_cartographer/package.xml
+[0.137s] -- Up-to-date symlink: /home/rick/ros_ws/install/ros_bot_cartographer/share/ros_bot_cartographer/config/2d.lua
+[0.137s] -- Up-to-date symlink: /home/rick/ros_ws/install/ros_bot_cartographer/share/ros_bot_cartographer/launch/cartographer.launch.py
+[0.141s] Invoked command in '/home/rick/ros_ws/build/ros_bot_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/rick/.local/bin/cmake --install /home/rick/ros_ws/build/ros_bot_cartographer

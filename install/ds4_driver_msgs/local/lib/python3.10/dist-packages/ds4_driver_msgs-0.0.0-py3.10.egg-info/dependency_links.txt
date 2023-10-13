@@ -1,0 +1,1 @@
+/home/rick/ros_ws/build/ds4_driver_msgs/ament_cmake_python/ds4_driver_msgs/ds4_driver_msgs.egg-info/dependency_links.txt
