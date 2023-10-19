@@ -1,0 +1,236 @@
+<?xml version="1.0"?>
+ <robot name="Robotcar1">
+   <link name="base_footprint">
+     <visual>
+       <geometry>
+         <box size="0.41 .483 .05" />
+       </geometry>
+       <origin rpy="0 0 0" xyz="0 0 0.025" />
+       <material name="black">
+         <color rgba="0 0 0 1" />
+       </material>
+     </visual>
+   </link>  
+   
+   <link name="wheel_left_back">
+     <visual>
+       <geometry>
+         <cylinder length="0.076" radius="0.076" />
+       </geometry>
+       <origin rpy="1.57 1.57 0" xyz="-0.18 0.2415 0" />
+         <material name="cyan">
+           <color rgba="0 1 1 1" />
+         </material>
+     </visual>
+   </link>
+     
+   <link name="wheel_right_front">
+     <visual>
+       <geometry>
+         <cylinder length="0.076" radius="0.076" />
+       </geometry>
+       <origin rpy="1.57 1.57 0" xyz="0.2875 -0.1915 0" />
+       <material name="cyan"/>
+     </visual>
+   </link>
+   
+   <link name="wheel_left_front">
+     <visual>
+       <geometry>
+         <cylinder length="0.076" radius="0.076" />
+       </geometry>
+       <origin rpy="1.57 1.57 0" xyz="0.2875 0.1915 0" />
+       <material name="cyan"/>
+     </visual>
+   </link>
+
+   <link name="wheel_right_back">
+     <visual>
+       <geometry>
+         <cylinder length="0.076" radius="0.076" />
+       </geometry>
+       <origin rpy="1.57 1.57 0" xyz="-0.18 -0.2415 0" />
+       <material name="cyan"/>
+     </visual>
+   </link>
+   
+   <link name="second_layerbox">
+     <visual>
+       <geometry>
+         <box size="0.41 .35 .01"/>
+       </geometry>
+       <origin rpy="0 0 0" xyz="0 0 0.29" />
+       <material name="black"/>
+     </visual>
+   </link>
+   
+   <link name="second_layerbox_1">
+     <visual>
+       <geometry>
+         <box size="0.2 .3 .25" />
+       </geometry>
+       <origin rpy="0 0 0" xyz="-0.1 0 0.15" />
+         <material name="blue">
+           <color rgba="0 0 1 1" />
+         </material>
+     </visual>
+   </link>
+   
+   <link name="second_layerbox_2">
+     <visual>
+       <geometry>
+         <box size="0.05 .25 .2" />
+       </geometry>
+       <origin rpy="0 0 0" xyz="0.05 0 0.15" />
+         <material name="white">
+           <color rgba="1 1 1 1" />
+         </material>
+     </visual>
+   </link>
+   
+   <link name="balance_box">
+     <visual>
+       <geometry>
+         <box size="0.12 .48 .05"/>
+       </geometry>
+       <origin rpy="0 0 0" xyz="0.285 0 0.095" />
+       <material name="red">
+         <color rgba="1 0 0 1" />
+       </material>
+     </visual>
+   </link>
+   
+   <link name="laser">
+     <visual>
+       <geometry>
+         <cylinder length="0.1" radius="0.05" />
+       </geometry>
+       <origin rpy="0 0 0" xyz="0.285 0 0.17" />
+         <material name="yellow">
+           <color rgba="1 1 0 1.0" />
+         </material>
+     </visual>
+   </link>
+   
+   <link name="second_layercylinder_1">
+     <visual>
+       <geometry>
+         <cylinder length="0.25" radius="0.005" />
+       </geometry>
+       <origin rpy="0 0 0" xyz="0.185 0.165 0.165" />
+       <material name="gold">
+         <color rgba="1 0.549 0 1.0" />
+       </material>
+     </visual>
+   </link>
+   
+   <link name="second_layercylinder_2">
+     <visual>
+       <geometry>
+         <cylinder length="0.25" radius="0.005" />
+       </geometry>
+       <origin rpy="0 0 0" xyz="-0.185 0.165 0.165" />
+       <material name="gold"/>
+     </visual>
+   </link>
+   
+   <link name="second_layercylinder_3">
+     <visual>
+       <geometry>
+         <cylinder length="0.25" radius="0.005" />
+       </geometry>
+       <origin rpy="0 0 0" xyz="-0.185 -0.165 0.165" />
+       <material name="gold"/>  
+     </visual>
+   </link>
+   
+   <link name="second_layercylinder_4">
+     <visual>
+       <geometry>
+         <cylinder length="0.25" radius="0.005" />
+       </geometry>
+       <origin rpy="0 0 0" xyz="0.185 -0.165 0.165" />
+       <material name="gold"/>
+     </visual>
+   </link>
+   
+   <joint name="base_to_wheel_right_front" type="fixed">
+     <parent link="base_footprint"/>
+     <child link="wheel_right_front"/>
+     <origin xyz="0 0 0"/>
+   </joint>
+   
+    <joint name="base_to_wheel_left_front" type="fixed">
+      <parent link="base_footprint"/>
+      <child link="wheel_left_front"/>
+      <origin xyz="0 0 0"/>
+    </joint>
+
+   <joint name="base_to_wheel_left_back" type="fixed">
+     <parent link="base_footprint"/>
+     <child link="wheel_left_back"/>
+     <origin xyz="0 0 0"/>
+   </joint>
+
+   <joint name="base_to_wheel_right_back" type="fixed">
+     <parent link="base_footprint"/>
+     <child link="wheel_right_back"/>
+     <origin xyz="0 0 0"/>
+   </joint> 
+   
+   <joint name="base_to_second_layerbox" type="fixed">
+     <parent link="base_footprint"/>
+     <child link="second_layerbox"/>
+     <origin xyz="0 0 0"/>
+   </joint>  
+   
+   <joint name="base_to_second_layerbox_1" type="fixed">
+     <parent link="base_footprint"/>
+     <child link="second_layerbox_1"/>
+     <origin xyz="0 0 0"/>
+   </joint>
+   
+   <joint name="base_to_second_layerbox_2" type="fixed">
+     <parent link="base_footprint"/>
+     <child link="second_layerbox_2"/>
+     <origin xyz="0 0 0"/>
+   </joint>
+      
+   <joint name="base_to_balance_box" type="fixed">
+     <parent link="base_footprint"/>
+     <child link="balance_box"/>
+     <origin xyz="0 0 0"/>
+   </joint>   
+   
+   <joint name="base_to_laser" type="fixed">
+     <parent link="base_footprint"/>
+     <child link="laser"/>
+     <origin xyz="0 0 0"/>
+   </joint> 
+   
+   <joint name="base_to_second_layercylinder_1" type="fixed">
+     <parent link="base_footprint"/>
+     <child link="second_layercylinder_1"/>
+     <origin xyz="0 0 0"/>
+   </joint>
+   
+   <joint name="base_to_second_layercylinder_2" type="fixed">
+     <parent link="base_footprint"/>
+     <child link="second_layercylinder_2"/>
+     <origin xyz="0 0 0"/>
+   </joint>  
+
+   <joint name="base_to_second_layercylinder_3" type="fixed">
+     <parent link="base_footprint"/>
+     <child link="second_layercylinder_3"/>
+     <origin xyz="0 0 0"/>
+   </joint>    
+
+   <joint name="base_to_second_layercylinder_4" type="fixed">
+     <parent link="base_footprint"/>
+     <child link="second_layercylinder_4"/>
+     <origin xyz="0 0 0"/>
+   </joint>
+   
+  </robot> 
+<!--black: 0 0 0 1;white:1 1 1 1;red:1 0 0 1;green:0 1 0 1;blue:0 0 1 1;grey:0.2 0.2 0.2 1;gold:1 0.549 0 1;orange: ${255/255} ${108/255} ${10/255} 1.0;brown: ${222/255} ${207/255} ${195/255} 1.0; Yellow:1 1 0 1.0-->  

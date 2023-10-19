@@ -1,0 +1,37 @@
+running develop
+running egg_info
+creating ayuda_description.egg-info
+writing ayuda_description.egg-info/PKG-INFO
+writing dependency_links to ayuda_description.egg-info/dependency_links.txt
+writing entry points to ayuda_description.egg-info/entry_points.txt
+writing requirements to ayuda_description.egg-info/requires.txt
+writing top-level names to ayuda_description.egg-info/top_level.txt
+writing manifest file 'ayuda_description.egg-info/SOURCES.txt'
+reading manifest file 'ayuda_description.egg-info/SOURCES.txt'
+writing manifest file 'ayuda_description.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/rick/ros_ws/install/ayuda_description/lib/python3.10/site-packages/ayuda-description.egg-link (link to .)
+Installing state_publisher script to /home/rick/ros_ws/install/ayuda_description/lib/ayuda_description
+
+Installed /home/rick/ros_ws/build/ayuda_description
+running install_data
+creating /home/rick/ros_ws/install/ayuda_description/share/ament_index
+creating /home/rick/ros_ws/install/ayuda_description/share/ament_index/resource_index
+creating /home/rick/ros_ws/install/ayuda_description/share/ament_index/resource_index/packages
+copying resource/ayuda_description -> /home/rick/ros_ws/install/ayuda_description/share/ament_index/resource_index/packages
+copying package.xml -> /home/rick/ros_ws/install/ayuda_description/share/ayuda_description
+creating /home/rick/ros_ws/install/ayuda_description/share/ayuda_description/launch
+copying launch/rsp.launch.py -> /home/rick/ros_ws/install/ayuda_description/share/ayuda_description/launch
+copying launch/demo.launch.py -> /home/rick/ros_ws/install/ayuda_description/share/ayuda_description/launch
+copying launch/launch_sim.launch.py -> /home/rick/ros_ws/install/ayuda_description/share/ayuda_description/launch
+creating /home/rick/ros_ws/install/ayuda_description/share/ayuda_description/urdf
+copying urdf/camera.xacro -> /home/rick/ros_ws/install/ayuda_description/share/ayuda_description/urdf
+copying urdf/inertial_macros.xacro -> /home/rick/ros_ws/install/ayuda_description/share/ayuda_description/urdf
+copying urdf/lidar.xacro -> /home/rick/ros_ws/install/ayuda_description/share/ayuda_description/urdf
+copying urdf/ros2_control.xacro -> /home/rick/ros_ws/install/ayuda_description/share/ayuda_description/urdf
+copying urdf/robotcar.urdf -> /home/rick/ros_ws/install/ayuda_description/share/ayuda_description/urdf
+copying urdf/robotcar.urdf.xacro -> /home/rick/ros_ws/install/ayuda_description/share/ayuda_description/urdf
+copying urdf/gazebo_control.xacro -> /home/rick/ros_ws/install/ayuda_description/share/ayuda_description/urdf
+copying urdf/syscombase.urdf -> /home/rick/ros_ws/install/ayuda_description/share/ayuda_description/urdf
+copying urdf/readme.txt -> /home/rick/ros_ws/install/ayuda_description/share/ayuda_description/urdf
+copying urdf/n_robot_core.xacro -> /home/rick/ros_ws/install/ayuda_description/share/ayuda_description/urdf

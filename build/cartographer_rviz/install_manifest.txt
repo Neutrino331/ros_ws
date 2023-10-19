@@ -1,0 +1,7 @@
+/home/rick/ros_ws/install/cartographer_rviz/lib/libcartographer_rviz.so
+/home/rick/ros_ws/install/cartographer_rviz/share/cartographer_rviz/ogre_media/materials/glsl120/glsl120.program
+/home/rick/ros_ws/install/cartographer_rviz/share/cartographer_rviz/ogre_media/materials/glsl120/submap.vert
+/home/rick/ros_ws/install/cartographer_rviz/share/cartographer_rviz/ogre_media/materials/glsl120/submap.frag
+/home/rick/ros_ws/install/cartographer_rviz/share/cartographer_rviz/ogre_media/materials/scripts/submap.material
+/home/rick/ros_ws/install/cartographer_rviz/share/cartographer_rviz/cmake/cartographer_rvizExport.cmake
+/home/rick/ros_ws/install/cartographer_rviz/share/cartographer_rviz/cmake/cartographer_rvizExport-release.cmake

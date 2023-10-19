@@ -26,9 +26,8 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   )
 
 
-# Targets to which this target links.
-set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/rick/ros_ws/build/ds4_driver_msgs/CMakeFiles/ds4_driver_msgs__rosidl_generator_c.dir/DependInfo.cmake"
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
   )
 
 # Fortran module output directory.

@@ -1,0 +1,22 @@
+[0.505s] Invoking command in '/home/rick/ros_ws/build/ayuda_description': PYTHONPATH=/home/rick/ros_ws/build/ayuda_description/prefix_override:/home/rick/ros_ws/install/ayuda_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/rick/ros_ws/build/ayuda_description/build --no-deps install_data
+[0.650s] running develop
+[0.650s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.651s]   warnings.warn(
+[0.651s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.651s]   warnings.warn(
+[0.746s] running egg_info
+[0.746s] writing ayuda_description.egg-info/PKG-INFO
+[0.746s] writing dependency_links to ayuda_description.egg-info/dependency_links.txt
+[0.746s] writing entry points to ayuda_description.egg-info/entry_points.txt
+[0.746s] writing requirements to ayuda_description.egg-info/requires.txt
+[0.746s] writing top-level names to ayuda_description.egg-info/top_level.txt
+[0.747s] reading manifest file 'ayuda_description.egg-info/SOURCES.txt'
+[0.747s] writing manifest file 'ayuda_description.egg-info/SOURCES.txt'
+[0.748s] running build_ext
+[0.748s] Creating /home/rick/ros_ws/install/ayuda_description/lib/python3.10/site-packages/ayuda-description.egg-link (link to .)
+[0.749s] Installing state_publisher script to /home/rick/ros_ws/install/ayuda_description/lib/ayuda_description
+[0.749s] 
+[0.749s] Installed /home/rick/ros_ws/build/ayuda_description
+[0.749s] running install_data
+[0.749s] copying urdf/robotcar.urdf.xacro -> /home/rick/ros_ws/install/ayuda_description/share/ayuda_description/urdf
+[0.765s] Invoked command in '/home/rick/ros_ws/build/ayuda_description' returned '0': PYTHONPATH=/home/rick/ros_ws/build/ayuda_description/prefix_override:/home/rick/ros_ws/install/ayuda_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/rick/ros_ws/build/ayuda_description/build --no-deps install_data

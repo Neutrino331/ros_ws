@@ -1,0 +1,1 @@
+/home/rick/ros_ws/build/cartographer_ros_msgs/rosidl_generator_c/cartographer_ros_msgs/srv/detail/start_trajectory__struct.h

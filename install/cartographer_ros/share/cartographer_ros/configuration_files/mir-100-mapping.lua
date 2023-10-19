@@ -1,0 +1,1 @@
+/home/rick/ros_ws/src/cartographer_ros/cartographer_ros/configuration_files/mir-100-mapping.lua

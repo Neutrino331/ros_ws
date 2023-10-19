@@ -1,0 +1,25 @@
+{
+  "package_name": "cartographer_ros_msgs",
+  "non_idl_tuples": [
+    "/home/rick/ros_ws/src/cartographer_ros/cartographer_ros_msgs:msg/BagfileProgress.msg",
+    "/home/rick/ros_ws/src/cartographer_ros/cartographer_ros_msgs:msg/HistogramBucket.msg",
+    "/home/rick/ros_ws/src/cartographer_ros/cartographer_ros_msgs:msg/LandmarkEntry.msg",
+    "/home/rick/ros_ws/src/cartographer_ros/cartographer_ros_msgs:msg/LandmarkList.msg",
+    "/home/rick/ros_ws/src/cartographer_ros/cartographer_ros_msgs:msg/MetricFamily.msg",
+    "/home/rick/ros_ws/src/cartographer_ros/cartographer_ros_msgs:msg/MetricLabel.msg",
+    "/home/rick/ros_ws/src/cartographer_ros/cartographer_ros_msgs:msg/Metric.msg",
+    "/home/rick/ros_ws/src/cartographer_ros/cartographer_ros_msgs:msg/StatusCode.msg",
+    "/home/rick/ros_ws/src/cartographer_ros/cartographer_ros_msgs:msg/StatusResponse.msg",
+    "/home/rick/ros_ws/src/cartographer_ros/cartographer_ros_msgs:msg/SubmapEntry.msg",
+    "/home/rick/ros_ws/src/cartographer_ros/cartographer_ros_msgs:msg/SubmapList.msg",
+    "/home/rick/ros_ws/src/cartographer_ros/cartographer_ros_msgs:msg/SubmapTexture.msg",
+    "/home/rick/ros_ws/src/cartographer_ros/cartographer_ros_msgs:msg/TrajectoryStates.msg",
+    "/home/rick/ros_ws/src/cartographer_ros/cartographer_ros_msgs:srv/FinishTrajectory.srv",
+    "/home/rick/ros_ws/src/cartographer_ros/cartographer_ros_msgs:srv/GetTrajectoryStates.srv",
+    "/home/rick/ros_ws/src/cartographer_ros/cartographer_ros_msgs:srv/ReadMetrics.srv",
+    "/home/rick/ros_ws/src/cartographer_ros/cartographer_ros_msgs:srv/StartTrajectory.srv",
+    "/home/rick/ros_ws/src/cartographer_ros/cartographer_ros_msgs:srv/TrajectoryQuery.srv",
+    "/home/rick/ros_ws/src/cartographer_ros/cartographer_ros_msgs:srv/SubmapQuery.srv",
+    "/home/rick/ros_ws/src/cartographer_ros/cartographer_ros_msgs:srv/WriteState.srv"
+  ]
+}

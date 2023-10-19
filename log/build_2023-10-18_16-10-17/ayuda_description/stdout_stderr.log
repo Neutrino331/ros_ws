@@ -1,0 +1,20 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+writing ayuda_description.egg-info/PKG-INFO
+writing dependency_links to ayuda_description.egg-info/dependency_links.txt
+writing entry points to ayuda_description.egg-info/entry_points.txt
+writing requirements to ayuda_description.egg-info/requires.txt
+writing top-level names to ayuda_description.egg-info/top_level.txt
+reading manifest file 'ayuda_description.egg-info/SOURCES.txt'
+writing manifest file 'ayuda_description.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/rick/ros_ws/install/ayuda_description/lib/python3.10/site-packages/ayuda-description.egg-link (link to .)
+Installing state_publisher script to /home/rick/ros_ws/install/ayuda_description/lib/ayuda_description
+
+Installed /home/rick/ros_ws/build/ayuda_description
+running install_data
+copying config/my_controllers.yaml -> /home/rick/ros_ws/install/ayuda_description/share/ayuda_description/config

@@ -1,6 +1,0 @@
-Invoking command in '/home/rick/ros_ws/build/cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/rick/.local/bin/cmake /home/rick/ros_ws/src/cartographer -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rick/ros_ws/install/cartographer
-Invoked command in '/home/rick/ros_ws/build/cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/rick/.local/bin/cmake /home/rick/ros_ws/src/cartographer -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rick/ros_ws/install/cartographer
-Invoking command in '/home/rick/ros_ws/build/cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/rick/.local/bin/cmake --build /home/rick/ros_ws/build/cartographer -- -j24 -l24
-Invoked command in '/home/rick/ros_ws/build/cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/rick/.local/bin/cmake --build /home/rick/ros_ws/build/cartographer -- -j24 -l24
-Invoking command in '/home/rick/ros_ws/build/cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/rick/.local/bin/cmake --install /home/rick/ros_ws/build/cartographer
-Invoked command in '/home/rick/ros_ws/build/cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/rick/.local/bin/cmake --install /home/rick/ros_ws/build/cartographer

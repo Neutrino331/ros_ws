@@ -1,1 +1,0 @@
-/home/rick/ros_ws/src/ros_bot_cartographer/launch/cartographer.launch.py

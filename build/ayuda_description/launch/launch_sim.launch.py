@@ -1,0 +1,1 @@
+/home/rick/ros_ws/src/ayuda_description/launch/launch_sim.launch.py

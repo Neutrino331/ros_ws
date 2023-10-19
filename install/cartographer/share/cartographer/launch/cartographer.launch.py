@@ -1,1 +1,0 @@
-/home/rick/ros_ws/src/cartographer/launch/cartographer.launch.py

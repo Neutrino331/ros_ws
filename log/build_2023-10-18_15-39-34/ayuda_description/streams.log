@@ -1,0 +1,26 @@
+[0.615s] Invoking command in '/home/rick/ros_ws/build/ayuda_description': PYTHONPATH=/home/rick/ros_ws/build/ayuda_description/prefix_override:/home/rick/ros_ws/install/ayuda_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/rick/ros_ws/build/ayuda_description/build --no-deps install_data
+[0.756s] running develop
+[0.757s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.757s]   warnings.warn(
+[0.758s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.758s]   warnings.warn(
+[0.853s] running egg_info
+[0.853s] writing ayuda_description.egg-info/PKG-INFO
+[0.853s] writing dependency_links to ayuda_description.egg-info/dependency_links.txt
+[0.853s] writing entry points to ayuda_description.egg-info/entry_points.txt
+[0.853s] writing requirements to ayuda_description.egg-info/requires.txt
+[0.853s] writing top-level names to ayuda_description.egg-info/top_level.txt
+[0.854s] reading manifest file 'ayuda_description.egg-info/SOURCES.txt'
+[0.855s] writing manifest file 'ayuda_description.egg-info/SOURCES.txt'
+[0.855s] running build_ext
+[0.855s] Creating /home/rick/ros_ws/install/ayuda_description/lib/python3.10/site-packages/ayuda-description.egg-link (link to .)
+[0.856s] Installing state_publisher script to /home/rick/ros_ws/install/ayuda_description/lib/ayuda_description
+[0.856s] 
+[0.856s] Installed /home/rick/ros_ws/build/ayuda_description
+[0.856s] running install_data
+[0.856s] creating /home/rick/ros_ws/install/ayuda_description/share/ayuda_description/config
+[0.856s] copying config/gazebo_params.yaml -> /home/rick/ros_ws/install/ayuda_description/share/ayuda_description/config
+[0.856s] copying config/twist_mux.yaml -> /home/rick/ros_ws/install/ayuda_description/share/ayuda_description/config
+[0.856s] copying config/my_controllers.yaml -> /home/rick/ros_ws/install/ayuda_description/share/ayuda_description/config
+[0.856s] copying config/gaz_ros2_ctl_use_sim.yaml -> /home/rick/ros_ws/install/ayuda_description/share/ayuda_description/config
+[0.874s] Invoked command in '/home/rick/ros_ws/build/ayuda_description' returned '0': PYTHONPATH=/home/rick/ros_ws/build/ayuda_description/prefix_override:/home/rick/ros_ws/install/ayuda_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/rick/ros_ws/build/ayuda_description/build --no-deps install_data

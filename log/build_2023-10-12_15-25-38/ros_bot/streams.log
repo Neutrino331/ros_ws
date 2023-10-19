@@ -1,2 +1,0 @@
-[0.042s] Invoking command in '/home/rick/ros_ws/build/ros_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/rick/.local/bin/cmake --build /home/rick/ros_ws/build/ros_bot -- -j24 -l24
-[0.078s] Invoked command in '/home/rick/ros_ws/build/ros_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/rick/.local/bin/cmake --build /home/rick/ros_ws/build/ros_bot -- -j24 -l24
