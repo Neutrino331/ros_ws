@@ -1,0 +1,44 @@
+[0.257s] Invoking command in '/home/rick/ros_ws/build/rosbot_nav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rick/ros_ws/install/ayuda_description:/opt/ros/humble /home/rick/.local/bin/cmake /home/rick/ros_ws/src/rosbot_nav -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rick/ros_ws/install/rosbot_nav
+[0.308s] -- The C compiler identification is GNU 11.4.0
+[0.357s] -- The CXX compiler identification is GNU 11.4.0
+[0.373s] -- Detecting C compiler ABI info
+[0.429s] -- Detecting C compiler ABI info - done
+[0.440s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.440s] -- Detecting C compile features
+[0.441s] -- Detecting C compile features - done
+[0.445s] -- Detecting CXX compiler ABI info
+[0.495s] -- Detecting CXX compiler ABI info - done
+[0.505s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.505s] -- Detecting CXX compile features
+[0.505s] -- Detecting CXX compile features - done
+[0.508s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.929s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.998s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.033s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.113s] -- Added test 'lint_cmake' to check CMake code style
+[1.114s] -- Added test 'xmllint' to check XML markup files
+[1.116s] -- Configuring done (0.8s)
+[1.118s] -- Generating done (0.0s)
+[1.119s] -- Build files have been written to: /home/rick/ros_ws/build/rosbot_nav
+[1.127s] Invoked command in '/home/rick/ros_ws/build/rosbot_nav' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rick/ros_ws/install/ayuda_description:/opt/ros/humble /home/rick/.local/bin/cmake /home/rick/ros_ws/src/rosbot_nav -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rick/ros_ws/install/rosbot_nav
+[1.128s] Invoking command in '/home/rick/ros_ws/build/rosbot_nav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rick/ros_ws/install/ayuda_description:/opt/ros/humble /home/rick/.local/bin/cmake --build /home/rick/ros_ws/build/rosbot_nav -- -j24 -l24
+[1.166s] Invoked command in '/home/rick/ros_ws/build/rosbot_nav' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rick/ros_ws/install/ayuda_description:/opt/ros/humble /home/rick/.local/bin/cmake --build /home/rick/ros_ws/build/rosbot_nav -- -j24 -l24
+[1.203s] Invoking command in '/home/rick/ros_ws/build/rosbot_nav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rick/ros_ws/install/ayuda_description:/opt/ros/humble /home/rick/.local/bin/cmake --install /home/rick/ros_ws/build/rosbot_nav
+[1.224s] -- Install configuration: ""
+[1.225s] -- Execute custom install script
+[1.226s] -- Symlinking: /home/rick/ros_ws/install/rosbot_nav/share/ament_index/resource_index/package_run_dependencies/rosbot_nav
+[1.227s] -- Symlinking: /home/rick/ros_ws/install/rosbot_nav/share/ament_index/resource_index/parent_prefix_path/rosbot_nav
+[1.229s] -- Symlinking: /home/rick/ros_ws/install/rosbot_nav/share/rosbot_nav/environment/ament_prefix_path.sh
+[1.231s] -- Symlinking: /home/rick/ros_ws/install/rosbot_nav/share/rosbot_nav/environment/ament_prefix_path.dsv
+[1.233s] -- Symlinking: /home/rick/ros_ws/install/rosbot_nav/share/rosbot_nav/environment/path.sh
+[1.236s] -- Symlinking: /home/rick/ros_ws/install/rosbot_nav/share/rosbot_nav/environment/path.dsv
+[1.238s] -- Symlinking: /home/rick/ros_ws/install/rosbot_nav/share/rosbot_nav/local_setup.bash
+[1.240s] -- Symlinking: /home/rick/ros_ws/install/rosbot_nav/share/rosbot_nav/local_setup.sh
+[1.243s] -- Symlinking: /home/rick/ros_ws/install/rosbot_nav/share/rosbot_nav/local_setup.zsh
+[1.245s] -- Symlinking: /home/rick/ros_ws/install/rosbot_nav/share/rosbot_nav/local_setup.dsv
+[1.247s] -- Symlinking: /home/rick/ros_ws/install/rosbot_nav/share/rosbot_nav/package.dsv
+[1.249s] -- Symlinking: /home/rick/ros_ws/install/rosbot_nav/share/ament_index/resource_index/packages/rosbot_nav
+[1.252s] -- Symlinking: /home/rick/ros_ws/install/rosbot_nav/share/rosbot_nav/cmake/rosbot_navConfig.cmake
+[1.254s] -- Symlinking: /home/rick/ros_ws/install/rosbot_nav/share/rosbot_nav/cmake/rosbot_navConfig-version.cmake
+[1.257s] -- Symlinking: /home/rick/ros_ws/install/rosbot_nav/share/rosbot_nav/package.xml
+[1.361s] Invoked command in '/home/rick/ros_ws/build/rosbot_nav' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rick/ros_ws/install/ayuda_description:/opt/ros/humble /home/rick/.local/bin/cmake --install /home/rick/ros_ws/build/rosbot_nav

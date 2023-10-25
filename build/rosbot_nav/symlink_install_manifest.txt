@@ -1,0 +1,15 @@
+/home/rick/ros_ws/install/rosbot_nav/share/ament_index/resource_index/package_run_dependencies/rosbot_nav
+/home/rick/ros_ws/install/rosbot_nav/share/ament_index/resource_index/parent_prefix_path/rosbot_nav
+/home/rick/ros_ws/install/rosbot_nav/share/rosbot_nav/environment/ament_prefix_path.sh
+/home/rick/ros_ws/install/rosbot_nav/share/rosbot_nav/environment/ament_prefix_path.dsv
+/home/rick/ros_ws/install/rosbot_nav/share/rosbot_nav/environment/path.sh
+/home/rick/ros_ws/install/rosbot_nav/share/rosbot_nav/environment/path.dsv
+/home/rick/ros_ws/install/rosbot_nav/share/rosbot_nav/local_setup.bash
+/home/rick/ros_ws/install/rosbot_nav/share/rosbot_nav/local_setup.sh
+/home/rick/ros_ws/install/rosbot_nav/share/rosbot_nav/local_setup.zsh
+/home/rick/ros_ws/install/rosbot_nav/share/rosbot_nav/local_setup.dsv
+/home/rick/ros_ws/install/rosbot_nav/share/rosbot_nav/package.dsv
+/home/rick/ros_ws/install/rosbot_nav/share/ament_index/resource_index/packages/rosbot_nav
+/home/rick/ros_ws/install/rosbot_nav/share/rosbot_nav/cmake/rosbot_navConfig.cmake
+/home/rick/ros_ws/install/rosbot_nav/share/rosbot_nav/cmake/rosbot_navConfig-version.cmake
+/home/rick/ros_ws/install/rosbot_nav/share/rosbot_nav/package.xml
