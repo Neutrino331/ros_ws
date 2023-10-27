@@ -1,0 +1,21 @@
+[0.872s] Invoking command in '/home/rick/ros_ws/build/ayuda_description': PYTHONPATH=/home/rick/ros_ws/build/ayuda_description/prefix_override:/home/rick/ros_ws/install/ayuda_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/rick/ros_ws/build/ayuda_description/build --no-deps install_data
+[1.131s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.131s]   warnings.warn(
+[1.131s] running develop
+[1.133s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.133s]   warnings.warn(
+[1.300s] running egg_info
+[1.300s] writing ayuda_description.egg-info/PKG-INFO
+[1.301s] writing dependency_links to ayuda_description.egg-info/dependency_links.txt
+[1.301s] writing entry points to ayuda_description.egg-info/entry_points.txt
+[1.301s] writing requirements to ayuda_description.egg-info/requires.txt
+[1.301s] writing top-level names to ayuda_description.egg-info/top_level.txt
+[1.302s] reading manifest file 'ayuda_description.egg-info/SOURCES.txt'
+[1.303s] writing manifest file 'ayuda_description.egg-info/SOURCES.txt'
+[1.305s] running build_ext
+[1.305s] Creating /home/rick/ros_ws/install/ayuda_description/lib/python3.10/site-packages/ayuda-description.egg-link (link to .)
+[1.306s] Installing state_publisher script to /home/rick/ros_ws/install/ayuda_description/lib/ayuda_description
+[1.306s] 
+[1.306s] Installed /home/rick/ros_ws/build/ayuda_description
+[1.306s] running install_data
+[1.334s] Invoked command in '/home/rick/ros_ws/build/ayuda_description' returned '0': PYTHONPATH=/home/rick/ros_ws/build/ayuda_description/prefix_override:/home/rick/ros_ws/install/ayuda_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/rick/ros_ws/build/ayuda_description/build --no-deps install_data
