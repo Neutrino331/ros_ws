@@ -1,0 +1,3 @@
+/home/rick/ros_ws/install/imu_filter_madgwick/lib/libimu_filter_madgwick.so
+/home/rick/ros_ws/install/imu_filter_madgwick/share/imu_filter_madgwick/cmake/export_imu_filter_madgwickExport.cmake
+/home/rick/ros_ws/install/imu_filter_madgwick/share/imu_filter_madgwick/cmake/export_imu_filter_madgwickExport-noconfig.cmake

@@ -16,6 +16,7 @@
 /home/rick/ros_ws/install/ros_bot/share/ros_bot/description/depth_camera.xacro
 /home/rick/ros_ws/install/ros_bot/share/ros_bot/description/face.xacro
 /home/rick/ros_ws/install/ros_bot/share/ros_bot/description/gazebo_control.xacro
+/home/rick/ros_ws/install/ros_bot/share/ros_bot/description/imu.xacro
 /home/rick/ros_ws/install/ros_bot/share/ros_bot/description/inertial_macros.xacro
 /home/rick/ros_ws/install/ros_bot/share/ros_bot/description/lidar.xacro
 /home/rick/ros_ws/install/ros_bot/share/ros_bot/description/robot.urdf.xacro

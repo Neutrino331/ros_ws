@@ -1,0 +1,15 @@
+/home/rick/ros_ws/install/imu_tools/share/ament_index/resource_index/package_run_dependencies/imu_tools
+/home/rick/ros_ws/install/imu_tools/share/ament_index/resource_index/parent_prefix_path/imu_tools
+/home/rick/ros_ws/install/imu_tools/share/imu_tools/environment/ament_prefix_path.sh
+/home/rick/ros_ws/install/imu_tools/share/imu_tools/environment/ament_prefix_path.dsv
+/home/rick/ros_ws/install/imu_tools/share/imu_tools/environment/path.sh
+/home/rick/ros_ws/install/imu_tools/share/imu_tools/environment/path.dsv
+/home/rick/ros_ws/install/imu_tools/share/imu_tools/local_setup.bash
+/home/rick/ros_ws/install/imu_tools/share/imu_tools/local_setup.sh
+/home/rick/ros_ws/install/imu_tools/share/imu_tools/local_setup.zsh
+/home/rick/ros_ws/install/imu_tools/share/imu_tools/local_setup.dsv
+/home/rick/ros_ws/install/imu_tools/share/imu_tools/package.dsv
+/home/rick/ros_ws/install/imu_tools/share/ament_index/resource_index/packages/imu_tools
+/home/rick/ros_ws/install/imu_tools/share/imu_tools/cmake/imu_toolsConfig.cmake
+/home/rick/ros_ws/install/imu_tools/share/imu_tools/cmake/imu_toolsConfig-version.cmake
+/home/rick/ros_ws/install/imu_tools/share/imu_tools/package.xml
