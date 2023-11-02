@@ -1,0 +1,31 @@
+[0.225s] Invoking command in '/home/rick/ros_ws/build/rviz_imu_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rick/ros_ws/install/ayuda_description:/opt/ros/humble /home/rick/.local/bin/cmake --build /home/rick/ros_ws/build/rviz_imu_plugin -- -j24 -l24
+[0.434s] [ 11%] [34m[1mAutomatic MOC for target rviz_imu_plugin[0m
+[0.434s] [ 11%] Built target rviz_imu_plugin_autogen
+[0.434s] [100%] Built target rviz_imu_plugin
+[0.436s] Invoked command in '/home/rick/ros_ws/build/rviz_imu_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rick/ros_ws/install/ayuda_description:/opt/ros/humble /home/rick/.local/bin/cmake --build /home/rick/ros_ws/build/rviz_imu_plugin -- -j24 -l24
+[0.486s] Invoking command in '/home/rick/ros_ws/build/rviz_imu_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rick/ros_ws/install/ayuda_description:/opt/ros/humble /home/rick/.local/bin/cmake --install /home/rick/ros_ws/build/rviz_imu_plugin
+[0.539s] -- Install configuration: ""
+[0.539s] -- Execute custom install script
+[0.539s] -- Up-to-date symlink: /home/rick/ros_ws/install/rviz_imu_plugin/share/rviz_imu_plugin//plugin_description.xml
+[0.539s] -- Up-to-date symlink: /home/rick/ros_ws/install/rviz_imu_plugin/share/rviz_imu_plugin/environment/library_path.sh
+[0.539s] -- Up-to-date symlink: /home/rick/ros_ws/install/rviz_imu_plugin/share/rviz_imu_plugin/environment/library_path.dsv
+[0.539s] -- Up-to-date symlink: /home/rick/ros_ws/install/rviz_imu_plugin/share/ament_index/resource_index/package_run_dependencies/rviz_imu_plugin
+[0.539s] -- Up-to-date symlink: /home/rick/ros_ws/install/rviz_imu_plugin/share/ament_index/resource_index/parent_prefix_path/rviz_imu_plugin
+[0.539s] -- Up-to-date symlink: /home/rick/ros_ws/install/rviz_imu_plugin/share/rviz_imu_plugin/environment/ament_prefix_path.sh
+[0.539s] -- Up-to-date symlink: /home/rick/ros_ws/install/rviz_imu_plugin/share/rviz_imu_plugin/environment/ament_prefix_path.dsv
+[0.539s] -- Up-to-date symlink: /home/rick/ros_ws/install/rviz_imu_plugin/share/rviz_imu_plugin/environment/path.sh
+[0.539s] -- Up-to-date symlink: /home/rick/ros_ws/install/rviz_imu_plugin/share/rviz_imu_plugin/environment/path.dsv
+[0.539s] -- Up-to-date symlink: /home/rick/ros_ws/install/rviz_imu_plugin/share/rviz_imu_plugin/local_setup.bash
+[0.539s] -- Up-to-date symlink: /home/rick/ros_ws/install/rviz_imu_plugin/share/rviz_imu_plugin/local_setup.sh
+[0.539s] -- Up-to-date symlink: /home/rick/ros_ws/install/rviz_imu_plugin/share/rviz_imu_plugin/local_setup.zsh
+[0.539s] -- Up-to-date symlink: /home/rick/ros_ws/install/rviz_imu_plugin/share/rviz_imu_plugin/local_setup.dsv
+[0.539s] -- Symlinking: /home/rick/ros_ws/install/rviz_imu_plugin/share/rviz_imu_plugin/package.dsv
+[0.539s] -- Up-to-date symlink: /home/rick/ros_ws/install/rviz_imu_plugin/share/ament_index/resource_index/packages/rviz_imu_plugin
+[0.539s] -- Up-to-date symlink: /home/rick/ros_ws/install/rviz_imu_plugin/share/ament_index/resource_index/rviz_common__pluginlib__plugin/rviz_imu_plugin
+[0.539s] -- Up-to-date symlink: /home/rick/ros_ws/install/rviz_imu_plugin/share/rviz_imu_plugin/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.539s] -- Up-to-date symlink: /home/rick/ros_ws/install/rviz_imu_plugin/share/rviz_imu_plugin/cmake/ament_cmake_export_libraries-extras.cmake
+[0.539s] -- Up-to-date symlink: /home/rick/ros_ws/install/rviz_imu_plugin/share/rviz_imu_plugin/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.539s] -- Up-to-date symlink: /home/rick/ros_ws/install/rviz_imu_plugin/share/rviz_imu_plugin/cmake/rviz_imu_pluginConfig.cmake
+[0.539s] -- Up-to-date symlink: /home/rick/ros_ws/install/rviz_imu_plugin/share/rviz_imu_plugin/cmake/rviz_imu_pluginConfig-version.cmake
+[0.539s] -- Up-to-date symlink: /home/rick/ros_ws/install/rviz_imu_plugin/share/rviz_imu_plugin/package.xml
+[0.539s] -- Up-to-date: /home/rick/ros_ws/install/rviz_imu_plugin/lib/librviz_imu_plugin.so

@@ -1,0 +1,114 @@
+[0.228s] Invoking command in '/home/rick/ros_ws/build/ros_bot': CMAKE_PREFIX_PATH=/opt/ros/humble /home/rick/.local/bin/cmake /home/rick/ros_ws/src/ros_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rick/ros_ws/install/ros_bot
+[0.273s] -- The C compiler identification is GNU 11.4.0
+[0.311s] -- The CXX compiler identification is GNU 11.4.0
+[0.322s] -- Detecting C compiler ABI info
+[0.356s] -- Detecting C compiler ABI info - done
+[0.368s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.369s] -- Detecting C compile features
+[0.369s] -- Detecting C compile features - done
+[0.375s] -- Detecting CXX compiler ABI info
+[0.416s] -- Detecting CXX compiler ABI info - done
+[0.428s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.428s] -- Detecting CXX compile features
+[0.428s] -- Detecting CXX compile features - done
+[0.430s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.689s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.728s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.745s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.806s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.827s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.829s] -- Added test 'lint_cmake' to check CMake code style
+[0.832s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.837s] -- Added test 'xmllint' to check XML markup files
+[0.838s] -- Configuring done (0.6s)
+[0.840s] -- Generating done (0.0s)
+[0.840s] -- Build files have been written to: /home/rick/ros_ws/build/ros_bot
+[0.847s] Invoked command in '/home/rick/ros_ws/build/ros_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/rick/.local/bin/cmake /home/rick/ros_ws/src/ros_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rick/ros_ws/install/ros_bot
+[0.848s] Invoking command in '/home/rick/ros_ws/build/ros_bot': CMAKE_PREFIX_PATH=/opt/ros/humble /home/rick/.local/bin/cmake --build /home/rick/ros_ws/build/ros_bot -- -j24 -l24
+[0.879s] Invoked command in '/home/rick/ros_ws/build/ros_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/rick/.local/bin/cmake --build /home/rick/ros_ws/build/ros_bot -- -j24 -l24
+[0.910s] Invoking command in '/home/rick/ros_ws/build/ros_bot': CMAKE_PREFIX_PATH=/opt/ros/humble /home/rick/.local/bin/cmake --install /home/rick/ros_ws/build/ros_bot
+[0.928s] -- Install configuration: ""
+[0.928s] -- Execute custom install script
+[0.928s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/config/ball_tracker_params_robot.yaml
+[0.930s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/config/ball_tracker_params_sim.yaml
+[0.932s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/config/drive_bot.rviz
+[0.934s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/config/gaz_ros2_ctl_use_sim.yaml
+[0.936s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/config/gazebo_params.yaml
+[0.938s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/config/joystick.yaml
+[0.940s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/config/main.rviz
+[0.942s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/config/map.rviz
+[0.944s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/config/mapper_params_online_async.yaml
+[0.947s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/config/my_controllers.yaml
+[0.949s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/config/nav2_params.yaml
+[0.951s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/config/rviz.rviz
+[0.953s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/config/twist_mux.yaml
+[0.955s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/config/view_bot.rviz
+[0.957s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/description/camera.xacro
+[0.959s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/description/depth_camera.xacro
+[0.962s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/description/face.xacro
+[0.964s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/description/gazebo_control.xacro
+[0.966s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/description/imu.xacro
+[0.968s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/description/inertial_macros.xacro
+[0.970s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/description/lidar.xacro
+[0.972s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/description/robot.urdf.xacro
+[0.974s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/description/robot_core.xacro
+[0.976s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/description/ros2_control.xacro
+[0.978s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/launch/aio.launch.py
+[0.980s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/launch/ball_tracker.launch.py
+[0.982s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/launch/camera.launch.py
+[0.984s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/launch/ds4.launch.py
+[0.986s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/launch/joystick.launch.py
+[0.988s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/launch/launch_robot.launch.py
+[0.989s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/launch/launch_sim.launch.py
+[0.991s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/launch/localization_launch.py
+[0.993s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/launch/navigation_launch.py
+[0.996s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/launch/online_async_launch.py
+[0.998s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/launch/rplidar.launch.py
+[1.000s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/launch/rsp.launch.py
+[1.003s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/worlds/cafe.world
+[1.005s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/worlds/cafe/materials/textures/__auto_10.jpg
+[1.006s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/worlds/cafe/materials/textures/__auto_2.jpg
+[1.008s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/worlds/cafe/materials/textures/__auto_21.jpg
+[1.010s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/worlds/cafe/materials/textures/__auto_22.jpg
+[1.012s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/worlds/cafe/materials/textures/__auto_23.jpg
+[1.015s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/worlds/cafe/materials/textures/__auto_24.jpg
+[1.017s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/worlds/cafe/materials/textures/__auto_25.jpg
+[1.018s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/worlds/cafe/materials/textures/__auto_26.jpg
+[1.021s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/worlds/cafe/materials/textures/__auto_28.jpg
+[1.022s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/worlds/cafe/materials/textures/__auto_29.jpg
+[1.025s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/worlds/cafe/materials/textures/__auto_30.jpg
+[1.027s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/worlds/cafe/materials/textures/__auto_31.jpg
+[1.029s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/worlds/cafe/materials/textures/__auto_34.jpg
+[1.031s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/worlds/cafe/materials/textures/__auto_35.jpg
+[1.033s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/worlds/cafe/materials/textures/__auto_37.jpg
+[1.035s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/worlds/cafe/meshes/cafe.dae
+[1.037s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/worlds/cafe/model.config
+[1.039s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/worlds/cafe/model.sdf
+[1.041s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/worlds/cafe_table/materials/textures/Maple.jpg
+[1.043s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/worlds/cafe_table/materials/textures/Wood_Floor_Dark.jpg
+[1.061s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/worlds/cafe_table/meshes/cafe_table.dae
+[1.062s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/worlds/cafe_table/model-1_4.sdf
+[1.062s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/worlds/cafe_table/model.config
+[1.063s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/worlds/cafe_table/model.sdf
+[1.063s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/worlds/empty.world
+[1.063s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/maps/my_map.pgm
+[1.063s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/maps/my_map.yaml
+[1.063s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/maps/my_serialized_map.data
+[1.063s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/maps/my_serialized_map.posegraph
+[1.064s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/lib/ros_bot/odometry_publisher.py
+[1.066s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ament_index/resource_index/package_run_dependencies/ros_bot
+[1.069s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ament_index/resource_index/parent_prefix_path/ros_bot
+[1.071s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/environment/ament_prefix_path.sh
+[1.072s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/environment/ament_prefix_path.dsv
+[1.075s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/environment/path.sh
+[1.078s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/environment/path.dsv
+[1.079s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/local_setup.bash
+[1.081s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/local_setup.sh
+[1.083s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/local_setup.zsh
+[1.086s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/local_setup.dsv
+[1.088s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/package.dsv
+[1.090s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ament_index/resource_index/packages/ros_bot
+[1.091s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/cmake/ros_botConfig.cmake
+[1.093s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/cmake/ros_botConfig-version.cmake
+[1.095s] -- Symlinking: /home/rick/ros_ws/install/ros_bot/share/ros_bot/package.xml
+[1.167s] Invoked command in '/home/rick/ros_ws/build/ros_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/rick/.local/bin/cmake --install /home/rick/ros_ws/build/ros_bot

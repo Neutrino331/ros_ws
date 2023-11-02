@@ -1,0 +1,104 @@
+[0.387s] Invoking command in '/home/rick/ros_ws/build/cartographer': CMAKE_PREFIX_PATH=/home/rick/ros_ws/install/imu_tools:/home/rick/ros_ws/install/rviz_imu_plugin:/home/rick/ros_ws/install/rosbot_nav:/home/rick/ros_ws/install/ros_bot:/home/rick/ros_ws/install/imu_filter_madgwick:/home/rick/ros_ws/install/imu_complementary_filter:/home/rick/ros_ws/install/ds4_driver:/home/rick/ros_ws/install/ds4_driver_msgs:/home/rick/ros_ws/install/cartographer_test:/home/rick/ros_ws/install/cartographer_rviz:/home/rick/ros_ws/install/cartographer_ros:/home/rick/ros_ws/install/ayuda_description:/opt/ros/humble:/home/rick/ros_ws/install/cartographer_ros_msgs:/home/rick/ros_ws/install/cartographer /home/rick/.local/bin/cmake --build /home/rick/ros_ws/build/cartographer -- -j24 -l24
+[0.647s] [  1%] [34m[1mBuilding documentation.[0m
+[0.648s] [  1%] Built target gtest
+[0.648s] [  1%] Built target cartographer_detect_changes
+[0.649s] [  2%] Built target gmock
+[0.649s] [  2%] Built target gmock_main
+[0.649s] [ 55%] Built target cartographer
+[0.649s] [ 56%] Built target cartographer_print_configuration
+[0.649s] [ 56%] Built target cartographer_pbstream
+[0.649s] [ 56%] Built target cartographer_compute_relations_metrics
+[0.649s] [ 57%] Built target cartographer_autogenerate_ground_truth
+[0.649s] [ 58%] Built target cartographer_test_library
+[0.649s] [ 59%] Built target cartographer.common.fixed_ratio_sampler_test
+[0.649s] [ 59%] Built target cartographer.common.internal.blocking_queue_test
+[0.649s] [ 59%] Built target cartographer.common.task_test
+[0.649s] [ 60%] Built target cartographer.common.math_test
+[0.649s] [ 60%] Built target cartographer.common.configuration_files_test
+[0.649s] [ 61%] Built target cartographer.io.internal.in_memory_proto_stream_test
+[0.649s] [ 61%] Built target cartographer.io.fake_file_writer_test
+[0.649s] [ 62%] Built target cartographer.common.thread_pool_test
+[0.649s] [ 62%] Built target cartographer.io.proto_stream_test
+[0.649s] [ 62%] Built target cartographer.common.lua_parameter_dictionary_test
+[0.649s] [ 64%] Built target cartographer.io.proto_stream_deserializer_test
+[0.649s] [ 64%] Built target cartographer.common.internal.rate_timer_test
+[0.649s] [ 64%] Built target cartographer.io.probability_grid_points_processor_test
+[0.649s] [ 65%] Built target cartographer.io.points_processor_pipeline_builder_test
+[0.649s] [ 66%] Built target cartographer.mapping.2d.submap_2d_test
+[0.649s] [ 67%] Built target cartographer.io.serialization_format_migration_test
+[0.649s] [ 67%] Built target cartographer.mapping.2d.range_data_inserter_2d_test
+[0.649s] [ 68%] Built target cartographer.mapping.2d.probability_grid_test
+[0.649s] [ 68%] Built target cartographer.mapping.2d.map_limits_test
+[0.649s] [ 68%] Built target cartographer.mapping.2d.xy_index_test
+[0.649s] [ 69%] Built target cartographer.mapping.3d.hybrid_grid_test
+[0.650s] [ 69%] Built target cartographer.mapping.id_test
+[0.650s] [ 70%] Built target cartographer.mapping.imu_tracker_test
+[0.650s] [ 70%] Built target cartographer.mapping.internal.2d.pose_graph_2d_test
+[0.650s] [ 71%] Built target cartographer.mapping.internal.2d.ray_to_pixel_mask_test
+[0.651s] [ 72%] Built target cartographer.mapping.3d.submap_3d_test
+[0.651s] [ 73%] Built target cartographer.mapping.internal.2d.scan_matching.ceres_scan_matcher_2d_test
+[0.651s] [ 73%] Built target cartographer.mapping.internal.2d.overlapping_submaps_trimmer_2d_test
+[0.651s] [ 73%] Built target cartographer.mapping.internal.2d.normal_estimation_2d_test
+[0.653s] [ 73%] Built target cartographer.mapping.3d.range_data_inserter_3d_test
+[0.653s] [ 74%] Built target cartographer.mapping.internal.2d.scan_matching.correlative_scan_matcher_test
+[0.653s] [ 74%] Built target cartographer.mapping.internal.2d.scan_matching.fast_correlative_scan_matcher_2d_test
+[0.653s] [ 76%] Built target cartographer.mapping.internal.2d.scan_matching.real_time_correlative_scan_matcher_2d_test
+[0.653s] [ 76%] Built target cartographer.mapping.internal.2d.scan_matching.interpolated_tsdf_2d_test
+[0.653s] [ 77%] Built target cartographer.mapping.internal.2d.tsd_value_converter_test
+[0.653s] [ 77%] Built target cartographer.mapping.internal.2d.scan_matching.tsdf_match_cost_function_2d_test
+[0.653s] [ 78%] Built target cartographer.mapping.internal.2d.tsdf_range_data_inserter_2d_test
+[0.653s] [ 78%] Built target cartographer.mapping.internal.2d.scan_matching.occupied_space_cost_function_2d_test
+[0.653s] [ 78%] Built target cartographer.mapping.internal.3d.local_trajectory_builder_3d_test
+[0.653s] [ 78%] Built target cartographer.mapping.internal.2d.tsdf_2d_test
+[0.653s] [ 79%] Built target cartographer.mapping.internal.3d.pose_graph_3d_test
+[0.653s] [ 79%] Built target cartographer.mapping.internal.3d.scan_matching.fast_correlative_scan_matcher_3d_test
+[0.653s] [ 80%] Built target cartographer.mapping.internal.3d.scan_matching.ceres_scan_matcher_3d_test
+[0.653s] [ 81%] Built target cartographer.mapping.internal.3d.scan_matching.intensity_cost_function_3d_test
+[0.653s] [ 82%] Built target cartographer.mapping.internal.3d.scan_matching.precomputation_grid_3d_test
+[0.653s] [ 83%] Built target cartographer.mapping.internal.3d.scan_matching.rotation_delta_cost_functor_3d_test
+[0.653s] [ 83%] Built target cartographer.mapping.internal.3d.scan_matching.interpolated_grid_test
+[0.654s] [ 83%] Built target cartographer.mapping.internal.3d.scan_matching.real_time_correlative_scan_matcher_3d_test
+[0.654s] [ 83%] Built target cartographer.mapping.internal.constraints.constraint_builder_2d_test
+[0.654s] [ 83%] Built target cartographer.mapping.internal.3d.scan_matching.rotational_scan_matcher_test
+[0.655s] [ 84%] Built target cartographer.mapping.internal.connected_components_test
+[0.655s] [ 85%] Built target cartographer.mapping.internal.optimization.cost_functions.landmark_cost_function_2d_test
+[0.655s] [ 85%] Built target cartographer.mapping.internal.optimization.cost_functions.landmark_cost_function_3d_test
+[0.655s] [ 86%] Built target cartographer.mapping.internal.range_data_collator_test
+[0.655s] [ 87%] Built target cartographer.mapping.internal.optimization.cost_functions.spa_cost_function_2d_test
+[0.655s] [ 87%] Built target cartographer.mapping.internal.trajectory_connectivity_state_test
+[0.656s] [ 88%] Built target cartographer.mapping.map_builder_test
+[0.656s] [ 89%] Built target cartographer.mapping.internal.constraints.constraint_builder_3d_test
+[0.656s] [ 90%] Built target cartographer.mapping.pose_graph_test
+[0.656s] [ 90%] Built target cartographer.mapping.internal.motion_filter_test
+[0.656s] [ 90%] Built target cartographer.mapping.internal.optimization.optimization_problem_3d_test
+[0.656s] [ 90%] Built target cartographer.mapping.pose_graph_trimmer_test
+[0.656s] [ 90%] Built target cartographer.mapping.pose_extrapolator_test
+[0.656s] [ 91%] Built target cartographer.mapping.probability_values_test
+[0.656s] [ 92%] Built target cartographer.mapping.trajectory_node_test
+[0.656s] [ 92%] Built target cartographer.mapping.submaps_test
+[0.656s] [ 92%] Built target cartographer.mapping.value_conversion_tables_test
+[0.662s] [ 93%] Built target cartographer.sensor.map_by_time_test
+[0.664s] [ 94%] Built target cartographer.sensor.point_cloud_test
+[0.666s] [ 94%] Built target cartographer.sensor.internal.trajectory_collator_test
+[0.666s] [ 94%] Built target cartographer.sensor.internal.collator_test
+[0.666s] [ 95%] Built target cartographer.sensor.internal.ordered_multi_queue_test
+[0.666s] [ 96%] Built target cartographer.sensor.compressed_point_cloud_test
+[0.666s] [ 97%] Built target cartographer.transform.transform_interpolation_buffer_test
+[0.666s] [ 98%] Built target cartographer.sensor.internal.voxel_filter_test
+[0.666s] [100%] Built target cartographer.transform.rigid_transform_test
+[0.666s] [100%] Built target cartographer.transform.timestamped_transform_test
+[0.667s] [100%] Built target cartographer.sensor.landmark_data_test
+[0.667s] [100%] Built target cartographer.transform.transform_test
+[0.667s] [100%] Built target cartographer.sensor.range_data_test
+[0.678s] [01mRunning Sphinx v4.3.2[39;49;00m
+[0.770s] [01mloading pickled environment... [39;49;00mdone
+[0.771s] [01mbuilding [mo]: [39;49;00mtargets for 0 po files that are out of date
+[0.771s] [01mbuilding [html]: [39;49;00mtargets for 0 source files that are out of date
+[0.772s] [01mupdating environment: [39;49;00m0 added, 0 changed, 0 removed
+[0.772s] [01mlooking for now-outdated files... [39;49;00mnone found
+[0.772s] [01mno targets are out of date.[39;49;00m
+[0.772s] [01mbuild succeeded.[39;49;00m
+[0.772s] 
+[0.772s] The HTML pages are in html.
+[0.828s] [100%] Built target build_doc
+[0.995s] Invoked command in '/home/rick/ros_ws/build/cartographer' returned '0': CMAKE_PREFIX_PATH=/home/rick/ros_ws/install/imu_tools:/home/rick/ros_ws/install/rviz_imu_plugin:/home/rick/ros_ws/install/rosbot_nav:/home/rick/ros_ws/install/ros_bot:/home/rick/ros_ws/install/imu_filter_madgwick:/home/rick/ros_ws/install/imu_complementary_filter:/home/rick/ros_ws/install/ds4_driver:/home/rick/ros_ws/install/ds4_driver_msgs:/home/rick/ros_ws/install/cartographer_test:/home/rick/ros_ws/install/cartographer_rviz:/home/rick/ros_ws/install/cartographer_ros:/home/rick/ros_ws/install/ayuda_description:/opt/ros/humble:/home/rick/ros_ws/install/cartographer_ros_msgs:/home/rick/ros_ws/install/cartographer /home/rick/.local/bin/cmake --build /home/rick/ros_ws/build/cartographer -- -j24 -l24

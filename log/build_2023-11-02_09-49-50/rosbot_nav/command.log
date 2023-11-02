@@ -1,0 +1,6 @@
+Invoking command in '/home/rick/ros_ws/build/rosbot_nav': CMAKE_PREFIX_PATH=/opt/ros/humble /home/rick/.local/bin/cmake /home/rick/ros_ws/src/rosbot_nav -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rick/ros_ws/install/rosbot_nav
+Invoked command in '/home/rick/ros_ws/build/rosbot_nav' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/rick/.local/bin/cmake /home/rick/ros_ws/src/rosbot_nav -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rick/ros_ws/install/rosbot_nav
+Invoking command in '/home/rick/ros_ws/build/rosbot_nav': CMAKE_PREFIX_PATH=/opt/ros/humble /home/rick/.local/bin/cmake --build /home/rick/ros_ws/build/rosbot_nav -- -j24 -l24
+Invoked command in '/home/rick/ros_ws/build/rosbot_nav' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/rick/.local/bin/cmake --build /home/rick/ros_ws/build/rosbot_nav -- -j24 -l24
+Invoking command in '/home/rick/ros_ws/build/rosbot_nav': CMAKE_PREFIX_PATH=/opt/ros/humble /home/rick/.local/bin/cmake --install /home/rick/ros_ws/build/rosbot_nav
+Invoked command in '/home/rick/ros_ws/build/rosbot_nav' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/rick/.local/bin/cmake --install /home/rick/ros_ws/build/rosbot_nav

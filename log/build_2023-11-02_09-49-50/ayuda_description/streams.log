@@ -1,0 +1,48 @@
+[0.695s] Invoking command in '/home/rick/ros_ws/build/ayuda_description': PYTHONPATH=/home/rick/ros_ws/build/ayuda_description/prefix_override:/home/rick/ros_ws/install/ayuda_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/rick/ros_ws/build/ayuda_description/build --no-deps install_data
+[0.847s] running develop
+[0.847s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.848s]   warnings.warn(
+[0.850s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.850s]   warnings.warn(
+[0.963s] running egg_info
+[0.963s] creating ayuda_description.egg-info
+[0.964s] writing ayuda_description.egg-info/PKG-INFO
+[0.964s] writing dependency_links to ayuda_description.egg-info/dependency_links.txt
+[0.964s] writing entry points to ayuda_description.egg-info/entry_points.txt
+[0.965s] writing requirements to ayuda_description.egg-info/requires.txt
+[0.965s] writing top-level names to ayuda_description.egg-info/top_level.txt
+[0.965s] writing manifest file 'ayuda_description.egg-info/SOURCES.txt'
+[0.965s] reading manifest file 'ayuda_description.egg-info/SOURCES.txt'
+[0.966s] writing manifest file 'ayuda_description.egg-info/SOURCES.txt'
+[0.966s] running build_ext
+[0.966s] Creating /home/rick/ros_ws/install/ayuda_description/lib/python3.10/site-packages/ayuda-description.egg-link (link to .)
+[0.966s] Installing state_publisher script to /home/rick/ros_ws/install/ayuda_description/lib/ayuda_description
+[0.966s] 
+[0.966s] Installed /home/rick/ros_ws/build/ayuda_description
+[0.966s] running install_data
+[0.966s] creating /home/rick/ros_ws/install/ayuda_description/share/ament_index
+[0.967s] creating /home/rick/ros_ws/install/ayuda_description/share/ament_index/resource_index
+[0.967s] creating /home/rick/ros_ws/install/ayuda_description/share/ament_index/resource_index/packages
+[0.967s] copying resource/ayuda_description -> /home/rick/ros_ws/install/ayuda_description/share/ament_index/resource_index/packages
+[0.967s] copying package.xml -> /home/rick/ros_ws/install/ayuda_description/share/ayuda_description
+[0.967s] creating /home/rick/ros_ws/install/ayuda_description/share/ayuda_description/launch
+[0.967s] copying launch/rsp.launch.py -> /home/rick/ros_ws/install/ayuda_description/share/ayuda_description/launch
+[0.967s] copying launch/demo.launch.py -> /home/rick/ros_ws/install/ayuda_description/share/ayuda_description/launch
+[0.967s] copying launch/launch_sim.launch.py -> /home/rick/ros_ws/install/ayuda_description/share/ayuda_description/launch
+[0.967s] creating /home/rick/ros_ws/install/ayuda_description/share/ayuda_description/urdf
+[0.967s] copying urdf/camera.xacro -> /home/rick/ros_ws/install/ayuda_description/share/ayuda_description/urdf
+[0.967s] copying urdf/inertial_macros.xacro -> /home/rick/ros_ws/install/ayuda_description/share/ayuda_description/urdf
+[0.967s] copying urdf/lidar.xacro -> /home/rick/ros_ws/install/ayuda_description/share/ayuda_description/urdf
+[0.968s] copying urdf/ros2_control.xacro -> /home/rick/ros_ws/install/ayuda_description/share/ayuda_description/urdf
+[0.968s] copying urdf/robotcar.urdf -> /home/rick/ros_ws/install/ayuda_description/share/ayuda_description/urdf
+[0.968s] copying urdf/robotcar.urdf.xacro -> /home/rick/ros_ws/install/ayuda_description/share/ayuda_description/urdf
+[0.968s] copying urdf/gazebo_control.xacro -> /home/rick/ros_ws/install/ayuda_description/share/ayuda_description/urdf
+[0.968s] copying urdf/syscombase.urdf -> /home/rick/ros_ws/install/ayuda_description/share/ayuda_description/urdf
+[0.969s] copying urdf/readme.txt -> /home/rick/ros_ws/install/ayuda_description/share/ayuda_description/urdf
+[0.969s] copying urdf/n_robot_core.xacro -> /home/rick/ros_ws/install/ayuda_description/share/ayuda_description/urdf
+[0.969s] creating /home/rick/ros_ws/install/ayuda_description/share/ayuda_description/config
+[0.969s] copying config/gazebo_params.yaml -> /home/rick/ros_ws/install/ayuda_description/share/ayuda_description/config
+[0.970s] copying config/twist_mux.yaml -> /home/rick/ros_ws/install/ayuda_description/share/ayuda_description/config
+[0.970s] copying config/my_controllers.yaml -> /home/rick/ros_ws/install/ayuda_description/share/ayuda_description/config
+[0.970s] copying config/gaz_ros2_ctl_use_sim.yaml -> /home/rick/ros_ws/install/ayuda_description/share/ayuda_description/config
+[1.127s] Invoked command in '/home/rick/ros_ws/build/ayuda_description' returned '0': PYTHONPATH=/home/rick/ros_ws/build/ayuda_description/prefix_override:/home/rick/ros_ws/install/ayuda_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/rick/ros_ws/build/ayuda_description/build --no-deps install_data

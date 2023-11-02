@@ -1,0 +1,8 @@
+Built target ament_cmake_python_symlink_ds4_driver
+running egg_info
+writing ds4_driver.egg-info/PKG-INFO
+writing dependency_links to ds4_driver.egg-info/dependency_links.txt
+writing top-level names to ds4_driver.egg-info/top_level.txt
+reading manifest file 'ds4_driver.egg-info/SOURCES.txt'
+writing manifest file 'ds4_driver.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_ds4_driver_egg

@@ -1,1 +1,0 @@
-/home/rick/ros_ws/build/cartographer_ros_msgs/rosidl_cmake/srv/TrajectoryQuery_Response.msg

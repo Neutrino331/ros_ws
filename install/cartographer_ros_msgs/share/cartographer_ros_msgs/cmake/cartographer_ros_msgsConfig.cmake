@@ -1,1 +1,0 @@
-/home/rick/ros_ws/build/cartographer_ros_msgs/ament_cmake_core/cartographer_ros_msgsConfig.cmake

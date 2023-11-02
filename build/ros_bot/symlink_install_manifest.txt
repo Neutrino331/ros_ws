@@ -64,6 +64,7 @@
 /home/rick/ros_ws/install/ros_bot/share/ros_bot/maps/my_map.yaml
 /home/rick/ros_ws/install/ros_bot/share/ros_bot/maps/my_serialized_map.data
 /home/rick/ros_ws/install/ros_bot/share/ros_bot/maps/my_serialized_map.posegraph
+/home/rick/ros_ws/install/ros_bot/lib/ros_bot/odometry_publisher.py
 /home/rick/ros_ws/install/ros_bot/share/ament_index/resource_index/package_run_dependencies/ros_bot
 /home/rick/ros_ws/install/ros_bot/share/ament_index/resource_index/parent_prefix_path/ros_bot
 /home/rick/ros_ws/install/ros_bot/share/ros_bot/environment/ament_prefix_path.sh

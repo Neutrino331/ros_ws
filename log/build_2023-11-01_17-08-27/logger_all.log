@@ -1,0 +1,1076 @@
+[0.585s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.585s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=24, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fa04bddd720>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fa04bdde890>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fa04bdde890>>)
+[0.613s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.613s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.613s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.613s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.613s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.613s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.613s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/rick/ros_ws'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/ayuda_description) by extensions ['ignore', 'ignore_ament_install']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(src/ayuda_description) by extension 'ignore'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(src/ayuda_description) by extension 'ignore_ament_install'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(src/ayuda_description) by extensions ['colcon_pkg']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(src/ayuda_description) by extension 'colcon_pkg'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(src/ayuda_description) by extensions ['colcon_meta']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(src/ayuda_description) by extension 'colcon_meta'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(src/ayuda_description) by extensions ['ros']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(src/ayuda_description) by extension 'ros'
+[0.623s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ayuda_description' with type 'ros.ament_python' and name 'ayuda_description'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer) by extensions ['ignore', 'ignore_ament_install']
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer) by extension 'ignore'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer) by extension 'ignore_ament_install'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer) by extensions ['colcon_pkg']
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer) by extension 'colcon_pkg'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer) by extensions ['colcon_meta']
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer) by extension 'colcon_meta'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer) by extensions ['ros']
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer) by extension 'ros'
+[0.624s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cartographer' with type 'ros.cmake' and name 'cartographer'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extension 'ignore'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extension 'ignore_ament_install'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extensions ['colcon_pkg']
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extension 'colcon_pkg'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extensions ['colcon_meta']
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extension 'colcon_meta'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extensions ['ros']
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extension 'ros'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extensions ['cmake', 'python']
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extension 'cmake'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extension 'python'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extensions ['python_setup_py']
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extension 'python_setup_py'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros) by extension 'ignore'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros) by extension 'ignore_ament_install'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros) by extensions ['colcon_pkg']
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros) by extension 'colcon_pkg'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros) by extensions ['colcon_meta']
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros) by extension 'colcon_meta'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros) by extensions ['ros']
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros) by extension 'ros'
+[0.626s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cartographer_ros/cartographer_ros' with type 'ros.ament_cmake' and name 'cartographer_ros'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros_msgs) by extension 'ignore'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros_msgs) by extension 'ignore_ament_install'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros_msgs) by extensions ['colcon_pkg']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros_msgs) by extension 'colcon_pkg'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros_msgs) by extensions ['colcon_meta']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros_msgs) by extension 'colcon_meta'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros_msgs) by extensions ['ros']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros_msgs) by extension 'ros'
+[0.626s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cartographer_ros/cartographer_ros_msgs' with type 'ros.ament_cmake' and name 'cartographer_ros_msgs'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_rviz) by extensions ['ignore', 'ignore_ament_install']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_rviz) by extension 'ignore'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_rviz) by extension 'ignore_ament_install'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_rviz) by extensions ['colcon_pkg']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_rviz) by extension 'colcon_pkg'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_rviz) by extensions ['colcon_meta']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_rviz) by extension 'colcon_meta'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_rviz) by extensions ['ros']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_rviz) by extension 'ros'
+[0.627s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cartographer_ros/cartographer_rviz' with type 'ros.ament_cmake' and name 'cartographer_rviz'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/docs) by extension 'ignore'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/docs) ignored
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extension 'ignore'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extension 'ignore_ament_install'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extensions ['colcon_pkg']
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extension 'colcon_pkg'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extensions ['colcon_meta']
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extension 'colcon_meta'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extensions ['ros']
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extension 'ros'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extensions ['cmake', 'python']
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extension 'cmake'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extension 'python'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extensions ['python_setup_py']
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extension 'python_setup_py'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_test) by extensions ['ignore', 'ignore_ament_install']
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_test) by extension 'ignore'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_test) by extension 'ignore_ament_install'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_test) by extensions ['colcon_pkg']
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_test) by extension 'colcon_pkg'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_test) by extensions ['colcon_meta']
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_test) by extension 'colcon_meta'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_test) by extensions ['ros']
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_test) by extension 'ros'
+[0.628s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cartographer_test' with type 'ros.ament_cmake' and name 'cartographer_test'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4_driver) by extension 'ignore'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4_driver) by extension 'ignore_ament_install'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4_driver) by extensions ['colcon_pkg']
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4_driver) by extension 'colcon_pkg'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4_driver) by extensions ['colcon_meta']
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4_driver) by extension 'colcon_meta'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4_driver) by extensions ['ros']
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4_driver) by extension 'ros'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4_driver) by extensions ['cmake', 'python']
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4_driver) by extension 'cmake'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4_driver) by extension 'python'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4_driver) by extensions ['python_setup_py']
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4_driver) by extension 'python_setup_py'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4_driver/docker) by extensions ['ignore', 'ignore_ament_install']
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4_driver/docker) by extension 'ignore'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4_driver/docker) by extension 'ignore_ament_install'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4_driver/docker) by extensions ['colcon_pkg']
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4_driver/docker) by extension 'colcon_pkg'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4_driver/docker) by extensions ['colcon_meta']
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4_driver/docker) by extension 'colcon_meta'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4_driver/docker) by extensions ['ros']
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4_driver/docker) by extension 'ros'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4_driver/docker) by extensions ['cmake', 'python']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4_driver/docker) by extension 'cmake'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4_driver/docker) by extension 'python'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4_driver/docker) by extensions ['python_setup_py']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4_driver/docker) by extension 'python_setup_py'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4_driver/ds4_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4_driver/ds4_driver) by extension 'ignore'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4_driver/ds4_driver) by extension 'ignore_ament_install'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4_driver/ds4_driver) by extensions ['colcon_pkg']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4_driver/ds4_driver) by extension 'colcon_pkg'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4_driver/ds4_driver) by extensions ['colcon_meta']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4_driver/ds4_driver) by extension 'colcon_meta'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4_driver/ds4_driver) by extensions ['ros']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4_driver/ds4_driver) by extension 'ros'
+[0.629s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ds4_driver/ds4_driver' with type 'ros.ament_cmake' and name 'ds4_driver'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4_driver/ds4_driver_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4_driver/ds4_driver_msgs) by extension 'ignore'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4_driver/ds4_driver_msgs) by extension 'ignore_ament_install'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4_driver/ds4_driver_msgs) by extensions ['colcon_pkg']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4_driver/ds4_driver_msgs) by extension 'colcon_pkg'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4_driver/ds4_driver_msgs) by extensions ['colcon_meta']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4_driver/ds4_driver_msgs) by extension 'colcon_meta'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4_driver/ds4_driver_msgs) by extensions ['ros']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4_driver/ds4_driver_msgs) by extension 'ros'
+[0.630s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ds4_driver/ds4_driver_msgs' with type 'ros.ament_cmake' and name 'ds4_driver_msgs'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools) by extensions ['ignore', 'ignore_ament_install']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools) by extension 'ignore'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools) by extension 'ignore_ament_install'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools) by extensions ['colcon_pkg']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools) by extension 'colcon_pkg'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools) by extensions ['colcon_meta']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools) by extension 'colcon_meta'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools) by extensions ['ros']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools) by extension 'ros'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools) by extensions ['cmake', 'python']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools) by extension 'cmake'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools) by extension 'python'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools) by extensions ['python_setup_py']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools) by extension 'python_setup_py'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_complementary_filter) by extensions ['ignore', 'ignore_ament_install']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_complementary_filter) by extension 'ignore'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_complementary_filter) by extension 'ignore_ament_install'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_complementary_filter) by extensions ['colcon_pkg']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_complementary_filter) by extension 'colcon_pkg'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_complementary_filter) by extensions ['colcon_meta']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_complementary_filter) by extension 'colcon_meta'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_complementary_filter) by extensions ['ros']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_complementary_filter) by extension 'ros'
+[0.631s] DEBUG:colcon.colcon_core.package_identification:Package 'src/imu_tools/imu_complementary_filter' with type 'ros.ament_cmake' and name 'imu_complementary_filter'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_filter_madgwick) by extensions ['ignore', 'ignore_ament_install']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_filter_madgwick) by extension 'ignore'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_filter_madgwick) by extension 'ignore_ament_install'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_filter_madgwick) by extensions ['colcon_pkg']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_filter_madgwick) by extension 'colcon_pkg'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_filter_madgwick) by extensions ['colcon_meta']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_filter_madgwick) by extension 'colcon_meta'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_filter_madgwick) by extensions ['ros']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_filter_madgwick) by extension 'ros'
+[0.632s] DEBUG:colcon.colcon_core.package_identification:Package 'src/imu_tools/imu_filter_madgwick' with type 'ros.ament_cmake' and name 'imu_filter_madgwick'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_tools) by extensions ['ignore', 'ignore_ament_install']
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_tools) by extension 'ignore'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_tools) by extension 'ignore_ament_install'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_tools) by extensions ['colcon_pkg']
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_tools) by extension 'colcon_pkg'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_tools) by extensions ['colcon_meta']
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_tools) by extension 'colcon_meta'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_tools) by extensions ['ros']
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_tools) by extension 'ros'
+[0.632s] DEBUG:colcon.colcon_core.package_identification:Package 'src/imu_tools/imu_tools' with type 'ros.ament_cmake' and name 'imu_tools'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/rviz_imu_plugin) by extensions ['ignore', 'ignore_ament_install']
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/rviz_imu_plugin) by extension 'ignore'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/rviz_imu_plugin) by extension 'ignore_ament_install'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/rviz_imu_plugin) by extensions ['colcon_pkg']
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/rviz_imu_plugin) by extension 'colcon_pkg'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/rviz_imu_plugin) by extensions ['colcon_meta']
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/rviz_imu_plugin) by extension 'colcon_meta'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/rviz_imu_plugin) by extensions ['ros']
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/rviz_imu_plugin) by extension 'ros'
+[0.633s] DEBUG:colcon.colcon_core.package_identification:Package 'src/imu_tools/rviz_imu_plugin' with type 'ros.ament_cmake' and name 'rviz_imu_plugin'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_bot) by extensions ['ignore', 'ignore_ament_install']
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_bot) by extension 'ignore'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_bot) by extension 'ignore_ament_install'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_bot) by extensions ['colcon_pkg']
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_bot) by extension 'colcon_pkg'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_bot) by extensions ['colcon_meta']
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_bot) by extension 'colcon_meta'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_bot) by extensions ['ros']
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_bot) by extension 'ros'
+[0.633s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_bot' with type 'ros.ament_cmake' and name 'ros_bot'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_nav) by extensions ['ignore', 'ignore_ament_install']
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_nav) by extension 'ignore'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_nav) by extension 'ignore_ament_install'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_nav) by extensions ['colcon_pkg']
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_nav) by extension 'colcon_pkg'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_nav) by extensions ['colcon_meta']
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_nav) by extension 'colcon_meta'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_nav) by extensions ['ros']
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_nav) by extension 'ros'
+[0.634s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rosbot_nav' with type 'ros.ament_cmake' and name 'rosbot_nav'
+[0.634s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.634s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.634s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.634s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.634s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.688s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.688s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.712s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 14 installed packages in /home/rick/ros_ws/install
+[0.722s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 427 installed packages in /opt/ros/humble
+[0.723s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.780s] Level 5:colcon.colcon_core.verb:set package 'ayuda_description' build argument 'cmake_args' from command line to 'None'
+[0.780s] Level 5:colcon.colcon_core.verb:set package 'ayuda_description' build argument 'cmake_target' from command line to 'None'
+[0.780s] Level 5:colcon.colcon_core.verb:set package 'ayuda_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.780s] Level 5:colcon.colcon_core.verb:set package 'ayuda_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.780s] Level 5:colcon.colcon_core.verb:set package 'ayuda_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.780s] Level 5:colcon.colcon_core.verb:set package 'ayuda_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.780s] Level 5:colcon.colcon_core.verb:set package 'ayuda_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.780s] Level 5:colcon.colcon_core.verb:set package 'ayuda_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.780s] Level 5:colcon.colcon_core.verb:set package 'ayuda_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.780s] DEBUG:colcon.colcon_core.verb:Building package 'ayuda_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rick/ros_ws/build/ayuda_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rick/ros_ws/install/ayuda_description', 'merge_install': False, 'path': '/home/rick/ros_ws/src/ayuda_description', 'symlink_install': True, 'test_result_base': None}
+[0.789s] Level 5:colcon.colcon_core.verb:set package 'cartographer' build argument 'cmake_args' from command line to 'None'
+[0.789s] Level 5:colcon.colcon_core.verb:set package 'cartographer' build argument 'cmake_target' from command line to 'None'
+[0.789s] Level 5:colcon.colcon_core.verb:set package 'cartographer' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.789s] Level 5:colcon.colcon_core.verb:set package 'cartographer' build argument 'cmake_clean_cache' from command line to 'False'
+[0.789s] Level 5:colcon.colcon_core.verb:set package 'cartographer' build argument 'cmake_clean_first' from command line to 'False'
+[0.789s] Level 5:colcon.colcon_core.verb:set package 'cartographer' build argument 'cmake_force_configure' from command line to 'False'
+[0.789s] Level 5:colcon.colcon_core.verb:set package 'cartographer' build argument 'ament_cmake_args' from command line to 'None'
+[0.789s] Level 5:colcon.colcon_core.verb:set package 'cartographer' build argument 'catkin_cmake_args' from command line to 'None'
+[0.789s] Level 5:colcon.colcon_core.verb:set package 'cartographer' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.789s] DEBUG:colcon.colcon_core.verb:Building package 'cartographer' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rick/ros_ws/build/cartographer', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rick/ros_ws/install/cartographer', 'merge_install': False, 'path': '/home/rick/ros_ws/src/cartographer', 'symlink_install': True, 'test_result_base': None}
+[0.798s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros_msgs' build argument 'cmake_args' from command line to 'None'
+[0.798s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros_msgs' build argument 'cmake_target' from command line to 'None'
+[0.798s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.798s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.798s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.798s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.798s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.798s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.798s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.798s] DEBUG:colcon.colcon_core.verb:Building package 'cartographer_ros_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rick/ros_ws/build/cartographer_ros_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rick/ros_ws/install/cartographer_ros_msgs', 'merge_install': False, 'path': '/home/rick/ros_ws/src/cartographer_ros/cartographer_ros_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.806s] Level 5:colcon.colcon_core.verb:set package 'cartographer_test' build argument 'cmake_args' from command line to 'None'
+[0.806s] Level 5:colcon.colcon_core.verb:set package 'cartographer_test' build argument 'cmake_target' from command line to 'None'
+[0.806s] Level 5:colcon.colcon_core.verb:set package 'cartographer_test' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.806s] Level 5:colcon.colcon_core.verb:set package 'cartographer_test' build argument 'cmake_clean_cache' from command line to 'False'
+[0.806s] Level 5:colcon.colcon_core.verb:set package 'cartographer_test' build argument 'cmake_clean_first' from command line to 'False'
+[0.806s] Level 5:colcon.colcon_core.verb:set package 'cartographer_test' build argument 'cmake_force_configure' from command line to 'False'
+[0.806s] Level 5:colcon.colcon_core.verb:set package 'cartographer_test' build argument 'ament_cmake_args' from command line to 'None'
+[0.806s] Level 5:colcon.colcon_core.verb:set package 'cartographer_test' build argument 'catkin_cmake_args' from command line to 'None'
+[0.806s] Level 5:colcon.colcon_core.verb:set package 'cartographer_test' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.806s] DEBUG:colcon.colcon_core.verb:Building package 'cartographer_test' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rick/ros_ws/build/cartographer_test', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rick/ros_ws/install/cartographer_test', 'merge_install': False, 'path': '/home/rick/ros_ws/src/cartographer_test', 'symlink_install': True, 'test_result_base': None}
+[0.815s] Level 5:colcon.colcon_core.verb:set package 'ds4_driver_msgs' build argument 'cmake_args' from command line to 'None'
+[0.815s] Level 5:colcon.colcon_core.verb:set package 'ds4_driver_msgs' build argument 'cmake_target' from command line to 'None'
+[0.815s] Level 5:colcon.colcon_core.verb:set package 'ds4_driver_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.815s] Level 5:colcon.colcon_core.verb:set package 'ds4_driver_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.815s] Level 5:colcon.colcon_core.verb:set package 'ds4_driver_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.815s] Level 5:colcon.colcon_core.verb:set package 'ds4_driver_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.815s] Level 5:colcon.colcon_core.verb:set package 'ds4_driver_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.815s] Level 5:colcon.colcon_core.verb:set package 'ds4_driver_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.815s] Level 5:colcon.colcon_core.verb:set package 'ds4_driver_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.815s] DEBUG:colcon.colcon_core.verb:Building package 'ds4_driver_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rick/ros_ws/build/ds4_driver_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rick/ros_ws/install/ds4_driver_msgs', 'merge_install': False, 'path': '/home/rick/ros_ws/src/ds4_driver/ds4_driver_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.823s] Level 5:colcon.colcon_core.verb:set package 'imu_complementary_filter' build argument 'cmake_args' from command line to 'None'
+[0.823s] Level 5:colcon.colcon_core.verb:set package 'imu_complementary_filter' build argument 'cmake_target' from command line to 'None'
+[0.823s] Level 5:colcon.colcon_core.verb:set package 'imu_complementary_filter' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.823s] Level 5:colcon.colcon_core.verb:set package 'imu_complementary_filter' build argument 'cmake_clean_cache' from command line to 'False'
+[0.823s] Level 5:colcon.colcon_core.verb:set package 'imu_complementary_filter' build argument 'cmake_clean_first' from command line to 'False'
+[0.823s] Level 5:colcon.colcon_core.verb:set package 'imu_complementary_filter' build argument 'cmake_force_configure' from command line to 'False'
+[0.823s] Level 5:colcon.colcon_core.verb:set package 'imu_complementary_filter' build argument 'ament_cmake_args' from command line to 'None'
+[0.823s] Level 5:colcon.colcon_core.verb:set package 'imu_complementary_filter' build argument 'catkin_cmake_args' from command line to 'None'
+[0.823s] Level 5:colcon.colcon_core.verb:set package 'imu_complementary_filter' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.823s] DEBUG:colcon.colcon_core.verb:Building package 'imu_complementary_filter' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rick/ros_ws/build/imu_complementary_filter', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rick/ros_ws/install/imu_complementary_filter', 'merge_install': False, 'path': '/home/rick/ros_ws/src/imu_tools/imu_complementary_filter', 'symlink_install': True, 'test_result_base': None}
+[0.832s] Level 5:colcon.colcon_core.verb:set package 'imu_filter_madgwick' build argument 'cmake_args' from command line to 'None'
+[0.832s] Level 5:colcon.colcon_core.verb:set package 'imu_filter_madgwick' build argument 'cmake_target' from command line to 'None'
+[0.832s] Level 5:colcon.colcon_core.verb:set package 'imu_filter_madgwick' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.832s] Level 5:colcon.colcon_core.verb:set package 'imu_filter_madgwick' build argument 'cmake_clean_cache' from command line to 'False'
+[0.832s] Level 5:colcon.colcon_core.verb:set package 'imu_filter_madgwick' build argument 'cmake_clean_first' from command line to 'False'
+[0.832s] Level 5:colcon.colcon_core.verb:set package 'imu_filter_madgwick' build argument 'cmake_force_configure' from command line to 'False'
+[0.832s] Level 5:colcon.colcon_core.verb:set package 'imu_filter_madgwick' build argument 'ament_cmake_args' from command line to 'None'
+[0.832s] Level 5:colcon.colcon_core.verb:set package 'imu_filter_madgwick' build argument 'catkin_cmake_args' from command line to 'None'
+[0.832s] Level 5:colcon.colcon_core.verb:set package 'imu_filter_madgwick' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.832s] DEBUG:colcon.colcon_core.verb:Building package 'imu_filter_madgwick' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rick/ros_ws/build/imu_filter_madgwick', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rick/ros_ws/install/imu_filter_madgwick', 'merge_install': False, 'path': '/home/rick/ros_ws/src/imu_tools/imu_filter_madgwick', 'symlink_install': True, 'test_result_base': None}
+[0.840s] Level 5:colcon.colcon_core.verb:set package 'ros_bot' build argument 'cmake_args' from command line to 'None'
+[0.840s] Level 5:colcon.colcon_core.verb:set package 'ros_bot' build argument 'cmake_target' from command line to 'None'
+[0.840s] Level 5:colcon.colcon_core.verb:set package 'ros_bot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.840s] Level 5:colcon.colcon_core.verb:set package 'ros_bot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.840s] Level 5:colcon.colcon_core.verb:set package 'ros_bot' build argument 'cmake_clean_first' from command line to 'False'
+[0.840s] Level 5:colcon.colcon_core.verb:set package 'ros_bot' build argument 'cmake_force_configure' from command line to 'False'
+[0.840s] Level 5:colcon.colcon_core.verb:set package 'ros_bot' build argument 'ament_cmake_args' from command line to 'None'
+[0.840s] Level 5:colcon.colcon_core.verb:set package 'ros_bot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.840s] Level 5:colcon.colcon_core.verb:set package 'ros_bot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.840s] DEBUG:colcon.colcon_core.verb:Building package 'ros_bot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rick/ros_ws/build/ros_bot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rick/ros_ws/install/ros_bot', 'merge_install': False, 'path': '/home/rick/ros_ws/src/ros_bot', 'symlink_install': True, 'test_result_base': None}
+[0.848s] Level 5:colcon.colcon_core.verb:set package 'rosbot_nav' build argument 'cmake_args' from command line to 'None'
+[0.849s] Level 5:colcon.colcon_core.verb:set package 'rosbot_nav' build argument 'cmake_target' from command line to 'None'
+[0.849s] Level 5:colcon.colcon_core.verb:set package 'rosbot_nav' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.849s] Level 5:colcon.colcon_core.verb:set package 'rosbot_nav' build argument 'cmake_clean_cache' from command line to 'False'
+[0.849s] Level 5:colcon.colcon_core.verb:set package 'rosbot_nav' build argument 'cmake_clean_first' from command line to 'False'
+[0.849s] Level 5:colcon.colcon_core.verb:set package 'rosbot_nav' build argument 'cmake_force_configure' from command line to 'False'
+[0.849s] Level 5:colcon.colcon_core.verb:set package 'rosbot_nav' build argument 'ament_cmake_args' from command line to 'None'
+[0.849s] Level 5:colcon.colcon_core.verb:set package 'rosbot_nav' build argument 'catkin_cmake_args' from command line to 'None'
+[0.849s] Level 5:colcon.colcon_core.verb:set package 'rosbot_nav' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.849s] DEBUG:colcon.colcon_core.verb:Building package 'rosbot_nav' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rick/ros_ws/build/rosbot_nav', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rick/ros_ws/install/rosbot_nav', 'merge_install': False, 'path': '/home/rick/ros_ws/src/rosbot_nav', 'symlink_install': True, 'test_result_base': None}
+[0.858s] Level 5:colcon.colcon_core.verb:set package 'rviz_imu_plugin' build argument 'cmake_args' from command line to 'None'
+[0.858s] Level 5:colcon.colcon_core.verb:set package 'rviz_imu_plugin' build argument 'cmake_target' from command line to 'None'
+[0.858s] Level 5:colcon.colcon_core.verb:set package 'rviz_imu_plugin' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.858s] Level 5:colcon.colcon_core.verb:set package 'rviz_imu_plugin' build argument 'cmake_clean_cache' from command line to 'False'
+[0.858s] Level 5:colcon.colcon_core.verb:set package 'rviz_imu_plugin' build argument 'cmake_clean_first' from command line to 'False'
+[0.858s] Level 5:colcon.colcon_core.verb:set package 'rviz_imu_plugin' build argument 'cmake_force_configure' from command line to 'False'
+[0.858s] Level 5:colcon.colcon_core.verb:set package 'rviz_imu_plugin' build argument 'ament_cmake_args' from command line to 'None'
+[0.858s] Level 5:colcon.colcon_core.verb:set package 'rviz_imu_plugin' build argument 'catkin_cmake_args' from command line to 'None'
+[0.858s] Level 5:colcon.colcon_core.verb:set package 'rviz_imu_plugin' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.858s] DEBUG:colcon.colcon_core.verb:Building package 'rviz_imu_plugin' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rick/ros_ws/build/rviz_imu_plugin', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rick/ros_ws/install/rviz_imu_plugin', 'merge_install': False, 'path': '/home/rick/ros_ws/src/imu_tools/rviz_imu_plugin', 'symlink_install': True, 'test_result_base': None}
+[0.866s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros' build argument 'cmake_args' from command line to 'None'
+[0.866s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros' build argument 'cmake_target' from command line to 'None'
+[0.866s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.866s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.866s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.866s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.866s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.866s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.866s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.866s] DEBUG:colcon.colcon_core.verb:Building package 'cartographer_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rick/ros_ws/build/cartographer_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rick/ros_ws/install/cartographer_ros', 'merge_install': False, 'path': '/home/rick/ros_ws/src/cartographer_ros/cartographer_ros', 'symlink_install': True, 'test_result_base': None}
+[0.875s] Level 5:colcon.colcon_core.verb:set package 'ds4_driver' build argument 'cmake_args' from command line to 'None'
+[0.875s] Level 5:colcon.colcon_core.verb:set package 'ds4_driver' build argument 'cmake_target' from command line to 'None'
+[0.875s] Level 5:colcon.colcon_core.verb:set package 'ds4_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.875s] Level 5:colcon.colcon_core.verb:set package 'ds4_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.875s] Level 5:colcon.colcon_core.verb:set package 'ds4_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.875s] Level 5:colcon.colcon_core.verb:set package 'ds4_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.875s] Level 5:colcon.colcon_core.verb:set package 'ds4_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.875s] Level 5:colcon.colcon_core.verb:set package 'ds4_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.875s] Level 5:colcon.colcon_core.verb:set package 'ds4_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.875s] DEBUG:colcon.colcon_core.verb:Building package 'ds4_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rick/ros_ws/build/ds4_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rick/ros_ws/install/ds4_driver', 'merge_install': False, 'path': '/home/rick/ros_ws/src/ds4_driver/ds4_driver', 'symlink_install': True, 'test_result_base': None}
+[0.883s] Level 5:colcon.colcon_core.verb:set package 'imu_tools' build argument 'cmake_args' from command line to 'None'
+[0.883s] Level 5:colcon.colcon_core.verb:set package 'imu_tools' build argument 'cmake_target' from command line to 'None'
+[0.883s] Level 5:colcon.colcon_core.verb:set package 'imu_tools' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.883s] Level 5:colcon.colcon_core.verb:set package 'imu_tools' build argument 'cmake_clean_cache' from command line to 'False'
+[0.883s] Level 5:colcon.colcon_core.verb:set package 'imu_tools' build argument 'cmake_clean_first' from command line to 'False'
+[0.883s] Level 5:colcon.colcon_core.verb:set package 'imu_tools' build argument 'cmake_force_configure' from command line to 'False'
+[0.883s] Level 5:colcon.colcon_core.verb:set package 'imu_tools' build argument 'ament_cmake_args' from command line to 'None'
+[0.883s] Level 5:colcon.colcon_core.verb:set package 'imu_tools' build argument 'catkin_cmake_args' from command line to 'None'
+[0.883s] Level 5:colcon.colcon_core.verb:set package 'imu_tools' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.883s] DEBUG:colcon.colcon_core.verb:Building package 'imu_tools' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rick/ros_ws/build/imu_tools', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rick/ros_ws/install/imu_tools', 'merge_install': False, 'path': '/home/rick/ros_ws/src/imu_tools/imu_tools', 'symlink_install': True, 'test_result_base': None}
+[0.891s] Level 5:colcon.colcon_core.verb:set package 'cartographer_rviz' build argument 'cmake_args' from command line to 'None'
+[0.891s] Level 5:colcon.colcon_core.verb:set package 'cartographer_rviz' build argument 'cmake_target' from command line to 'None'
+[0.891s] Level 5:colcon.colcon_core.verb:set package 'cartographer_rviz' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.891s] Level 5:colcon.colcon_core.verb:set package 'cartographer_rviz' build argument 'cmake_clean_cache' from command line to 'False'
+[0.891s] Level 5:colcon.colcon_core.verb:set package 'cartographer_rviz' build argument 'cmake_clean_first' from command line to 'False'
+[0.891s] Level 5:colcon.colcon_core.verb:set package 'cartographer_rviz' build argument 'cmake_force_configure' from command line to 'False'
+[0.891s] Level 5:colcon.colcon_core.verb:set package 'cartographer_rviz' build argument 'ament_cmake_args' from command line to 'None'
+[0.891s] Level 5:colcon.colcon_core.verb:set package 'cartographer_rviz' build argument 'catkin_cmake_args' from command line to 'None'
+[0.891s] Level 5:colcon.colcon_core.verb:set package 'cartographer_rviz' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.891s] DEBUG:colcon.colcon_core.verb:Building package 'cartographer_rviz' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rick/ros_ws/build/cartographer_rviz', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rick/ros_ws/install/cartographer_rviz', 'merge_install': False, 'path': '/home/rick/ros_ws/src/cartographer_ros/cartographer_rviz', 'symlink_install': True, 'test_result_base': None}
+[0.900s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.908s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.909s] INFO:colcon.colcon_ros.task.cmake.build:Building ROS package in '/home/rick/ros_ws/src/cartographer' with build type 'cmake'
+[0.909s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rick/ros_ws/src/cartographer'
+[0.919s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.919s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.919s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.946s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rick/ros_ws/src/cartographer_ros/cartographer_ros_msgs' with build type 'ament_cmake'
+[0.946s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rick/ros_ws/src/cartographer_ros/cartographer_ros_msgs'
+[0.957s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.957s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.984s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rick/ros_ws/src/ds4_driver/ds4_driver_msgs' with build type 'ament_cmake'
+[0.984s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rick/ros_ws/src/ds4_driver/ds4_driver_msgs'
+[0.993s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.993s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.020s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rick/ros_ws/src/imu_tools/imu_complementary_filter' with build type 'ament_cmake'
+[1.020s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rick/ros_ws/src/imu_tools/imu_complementary_filter'
+[1.029s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.029s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.058s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rick/ros_ws/src/imu_tools/imu_filter_madgwick' with build type 'ament_cmake'
+[1.058s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rick/ros_ws/src/imu_tools/imu_filter_madgwick'
+[1.067s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.068s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.094s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rick/ros_ws/src/imu_tools/rviz_imu_plugin' with build type 'ament_cmake'
+[1.095s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rick/ros_ws/src/imu_tools/rviz_imu_plugin'
+[1.103s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.103s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.131s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rick/ros_ws/src/ayuda_description' with build type 'ament_python'
+[1.131s] Level 1:colcon.colcon_core.shell:create_environment_hook('ayuda_description', 'ament_prefix_path')
+[1.141s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rick/ros_ws/install/ayuda_description/share/ayuda_description/hook/ament_prefix_path.ps1'
+[1.141s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rick/ros_ws/install/ayuda_description/share/ayuda_description/hook/ament_prefix_path.dsv'
+[1.141s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rick/ros_ws/install/ayuda_description/share/ayuda_description/hook/ament_prefix_path.sh'
+[1.150s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.151s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.185s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rick/ros_ws/src/cartographer_test' with build type 'ament_cmake'
+[1.185s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rick/ros_ws/src/cartographer_test'
+[1.195s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.195s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.224s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rick/ros_ws/src/ros_bot' with build type 'ament_cmake'
+[1.225s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rick/ros_ws/src/ros_bot'
+[1.234s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.234s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.262s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rick/ros_ws/src/rosbot_nav' with build type 'ament_cmake'
+[1.262s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rick/ros_ws/src/rosbot_nav'
+[1.273s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.273s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.310s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rick/ros_ws/build/cartographer': CMAKE_PREFIX_PATH=/home/rick/ros_ws/install/imu_tools:/home/rick/ros_ws/install/rviz_imu_plugin:/home/rick/ros_ws/install/rosbot_nav:/home/rick/ros_ws/install/ros_bot:/home/rick/ros_ws/install/imu_filter_madgwick:/home/rick/ros_ws/install/imu_complementary_filter:/home/rick/ros_ws/install/ds4_driver:/home/rick/ros_ws/install/ds4_driver_msgs:/home/rick/ros_ws/install/cartographer_test:/home/rick/ros_ws/install/cartographer_rviz:/home/rick/ros_ws/install/cartographer_ros:/home/rick/ros_ws/install/ayuda_description:/opt/ros/humble:/home/rick/ros_ws/install/cartographer_ros_msgs:/home/rick/ros_ws/install/cartographer /home/rick/.local/bin/cmake --build /home/rick/ros_ws/build/cartographer -- -j24 -l24
+[1.312s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rick/ros_ws/build/cartographer_ros_msgs': CMAKE_PREFIX_PATH=/home/rick/ros_ws/install/imu_tools:/home/rick/ros_ws/install/rviz_imu_plugin:/home/rick/ros_ws/install/rosbot_nav:/home/rick/ros_ws/install/ros_bot:/home/rick/ros_ws/install/imu_filter_madgwick:/home/rick/ros_ws/install/imu_complementary_filter:/home/rick/ros_ws/install/ds4_driver:/home/rick/ros_ws/install/ds4_driver_msgs:/home/rick/ros_ws/install/cartographer_test:/home/rick/ros_ws/install/cartographer_rviz:/home/rick/ros_ws/install/cartographer_ros:/home/rick/ros_ws/install/ayuda_description:/opt/ros/humble:/home/rick/ros_ws/install/cartographer_ros_msgs:/home/rick/ros_ws/install/cartographer /home/rick/.local/bin/cmake --build /home/rick/ros_ws/build/cartographer_ros_msgs -- -j24 -l24
+[1.314s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rick/ros_ws/build/ds4_driver_msgs': CMAKE_PREFIX_PATH=/home/rick/ros_ws/install/imu_tools:/home/rick/ros_ws/install/rviz_imu_plugin:/home/rick/ros_ws/install/rosbot_nav:/home/rick/ros_ws/install/ros_bot:/home/rick/ros_ws/install/imu_filter_madgwick:/home/rick/ros_ws/install/imu_complementary_filter:/home/rick/ros_ws/install/ds4_driver:/home/rick/ros_ws/install/ds4_driver_msgs:/home/rick/ros_ws/install/cartographer_test:/home/rick/ros_ws/install/cartographer_rviz:/home/rick/ros_ws/install/cartographer_ros:/home/rick/ros_ws/install/ayuda_description:/opt/ros/humble:/home/rick/ros_ws/install/cartographer_ros_msgs:/home/rick/ros_ws/install/cartographer /home/rick/.local/bin/cmake --build /home/rick/ros_ws/build/ds4_driver_msgs -- -j24 -l24
+[1.315s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rick/ros_ws/build/imu_complementary_filter': CMAKE_PREFIX_PATH=/home/rick/ros_ws/install/imu_tools:/home/rick/ros_ws/install/rviz_imu_plugin:/home/rick/ros_ws/install/rosbot_nav:/home/rick/ros_ws/install/ros_bot:/home/rick/ros_ws/install/imu_filter_madgwick:/home/rick/ros_ws/install/imu_complementary_filter:/home/rick/ros_ws/install/ds4_driver:/home/rick/ros_ws/install/ds4_driver_msgs:/home/rick/ros_ws/install/cartographer_test:/home/rick/ros_ws/install/cartographer_rviz:/home/rick/ros_ws/install/cartographer_ros:/home/rick/ros_ws/install/ayuda_description:/opt/ros/humble:/home/rick/ros_ws/install/cartographer_ros_msgs:/home/rick/ros_ws/install/cartographer /home/rick/.local/bin/cmake --build /home/rick/ros_ws/build/imu_complementary_filter -- -j24 -l24
+[1.317s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rick/ros_ws/build/imu_filter_madgwick': CMAKE_PREFIX_PATH=/home/rick/ros_ws/install/imu_tools:/home/rick/ros_ws/install/rviz_imu_plugin:/home/rick/ros_ws/install/rosbot_nav:/home/rick/ros_ws/install/ros_bot:/home/rick/ros_ws/install/imu_filter_madgwick:/home/rick/ros_ws/install/imu_complementary_filter:/home/rick/ros_ws/install/ds4_driver:/home/rick/ros_ws/install/ds4_driver_msgs:/home/rick/ros_ws/install/cartographer_test:/home/rick/ros_ws/install/cartographer_rviz:/home/rick/ros_ws/install/cartographer_ros:/home/rick/ros_ws/install/ayuda_description:/opt/ros/humble:/home/rick/ros_ws/install/cartographer_ros_msgs:/home/rick/ros_ws/install/cartographer /home/rick/.local/bin/cmake --build /home/rick/ros_ws/build/imu_filter_madgwick -- -j24 -l24
+[1.319s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rick/ros_ws/build/rviz_imu_plugin': CMAKE_PREFIX_PATH=/home/rick/ros_ws/install/imu_tools:/home/rick/ros_ws/install/rviz_imu_plugin:/home/rick/ros_ws/install/rosbot_nav:/home/rick/ros_ws/install/ros_bot:/home/rick/ros_ws/install/imu_filter_madgwick:/home/rick/ros_ws/install/imu_complementary_filter:/home/rick/ros_ws/install/ds4_driver:/home/rick/ros_ws/install/ds4_driver_msgs:/home/rick/ros_ws/install/cartographer_test:/home/rick/ros_ws/install/cartographer_rviz:/home/rick/ros_ws/install/cartographer_ros:/home/rick/ros_ws/install/ayuda_description:/opt/ros/humble:/home/rick/ros_ws/install/cartographer_ros_msgs:/home/rick/ros_ws/install/cartographer /home/rick/.local/bin/cmake --build /home/rick/ros_ws/build/rviz_imu_plugin -- -j24 -l24
+[1.494s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rick/ros_ws/src/ayuda_description'
+[1.503s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.503s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.571s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rick/ros_ws/build/cartographer_test': CMAKE_PREFIX_PATH=/home/rick/ros_ws/install/imu_tools:/home/rick/ros_ws/install/rviz_imu_plugin:/home/rick/ros_ws/install/rosbot_nav:/home/rick/ros_ws/install/ros_bot:/home/rick/ros_ws/install/imu_filter_madgwick:/home/rick/ros_ws/install/imu_complementary_filter:/home/rick/ros_ws/install/ds4_driver:/home/rick/ros_ws/install/ds4_driver_msgs:/home/rick/ros_ws/install/cartographer_test:/home/rick/ros_ws/install/cartographer_rviz:/home/rick/ros_ws/install/cartographer_ros:/home/rick/ros_ws/install/ayuda_description:/opt/ros/humble:/home/rick/ros_ws/install/cartographer_ros_msgs:/home/rick/ros_ws/install/cartographer /home/rick/.local/bin/cmake --build /home/rick/ros_ws/build/cartographer_test -- -j24 -l24
+[1.574s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rick/ros_ws/build/ros_bot': CMAKE_PREFIX_PATH=/home/rick/ros_ws/install/imu_tools:/home/rick/ros_ws/install/rviz_imu_plugin:/home/rick/ros_ws/install/rosbot_nav:/home/rick/ros_ws/install/ros_bot:/home/rick/ros_ws/install/imu_filter_madgwick:/home/rick/ros_ws/install/imu_complementary_filter:/home/rick/ros_ws/install/ds4_driver:/home/rick/ros_ws/install/ds4_driver_msgs:/home/rick/ros_ws/install/cartographer_test:/home/rick/ros_ws/install/cartographer_rviz:/home/rick/ros_ws/install/cartographer_ros:/home/rick/ros_ws/install/ayuda_description:/opt/ros/humble:/home/rick/ros_ws/install/cartographer_ros_msgs:/home/rick/ros_ws/install/cartographer /home/rick/.local/bin/cmake --build /home/rick/ros_ws/build/ros_bot -- -j24 -l24
+[1.588s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rick/ros_ws/build/rosbot_nav': CMAKE_PREFIX_PATH=/home/rick/ros_ws/install/imu_tools:/home/rick/ros_ws/install/rviz_imu_plugin:/home/rick/ros_ws/install/rosbot_nav:/home/rick/ros_ws/install/ros_bot:/home/rick/ros_ws/install/imu_filter_madgwick:/home/rick/ros_ws/install/imu_complementary_filter:/home/rick/ros_ws/install/ds4_driver:/home/rick/ros_ws/install/ds4_driver_msgs:/home/rick/ros_ws/install/cartographer_test:/home/rick/ros_ws/install/cartographer_rviz:/home/rick/ros_ws/install/cartographer_ros:/home/rick/ros_ws/install/ayuda_description:/opt/ros/humble:/home/rick/ros_ws/install/cartographer_ros_msgs:/home/rick/ros_ws/install/cartographer /home/rick/.local/bin/cmake --build /home/rick/ros_ws/build/rosbot_nav -- -j24 -l24
+[1.588s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rick/ros_ws/build/imu_complementary_filter' returned '0': CMAKE_PREFIX_PATH=/home/rick/ros_ws/install/imu_tools:/home/rick/ros_ws/install/rviz_imu_plugin:/home/rick/ros_ws/install/rosbot_nav:/home/rick/ros_ws/install/ros_bot:/home/rick/ros_ws/install/imu_filter_madgwick:/home/rick/ros_ws/install/imu_complementary_filter:/home/rick/ros_ws/install/ds4_driver:/home/rick/ros_ws/install/ds4_driver_msgs:/home/rick/ros_ws/install/cartographer_test:/home/rick/ros_ws/install/cartographer_rviz:/home/rick/ros_ws/install/cartographer_ros:/home/rick/ros_ws/install/ayuda_description:/opt/ros/humble:/home/rick/ros_ws/install/cartographer_ros_msgs:/home/rick/ros_ws/install/cartographer /home/rick/.local/bin/cmake --build /home/rick/ros_ws/build/imu_complementary_filter -- -j24 -l24
+[1.591s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rick/ros_ws/build/imu_filter_madgwick' returned '0': CMAKE_PREFIX_PATH=/home/rick/ros_ws/install/imu_tools:/home/rick/ros_ws/install/rviz_imu_plugin:/home/rick/ros_ws/install/rosbot_nav:/home/rick/ros_ws/install/ros_bot:/home/rick/ros_ws/install/imu_filter_madgwick:/home/rick/ros_ws/install/imu_complementary_filter:/home/rick/ros_ws/install/ds4_driver:/home/rick/ros_ws/install/ds4_driver_msgs:/home/rick/ros_ws/install/cartographer_test:/home/rick/ros_ws/install/cartographer_rviz:/home/rick/ros_ws/install/cartographer_ros:/home/rick/ros_ws/install/ayuda_description:/opt/ros/humble:/home/rick/ros_ws/install/cartographer_ros_msgs:/home/rick/ros_ws/install/cartographer /home/rick/.local/bin/cmake --build /home/rick/ros_ws/build/imu_filter_madgwick -- -j24 -l24
+[1.591s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rick/ros_ws/build/ds4_driver_msgs' returned '0': CMAKE_PREFIX_PATH=/home/rick/ros_ws/install/imu_tools:/home/rick/ros_ws/install/rviz_imu_plugin:/home/rick/ros_ws/install/rosbot_nav:/home/rick/ros_ws/install/ros_bot:/home/rick/ros_ws/install/imu_filter_madgwick:/home/rick/ros_ws/install/imu_complementary_filter:/home/rick/ros_ws/install/ds4_driver:/home/rick/ros_ws/install/ds4_driver_msgs:/home/rick/ros_ws/install/cartographer_test:/home/rick/ros_ws/install/cartographer_rviz:/home/rick/ros_ws/install/cartographer_ros:/home/rick/ros_ws/install/ayuda_description:/opt/ros/humble:/home/rick/ros_ws/install/cartographer_ros_msgs:/home/rick/ros_ws/install/cartographer /home/rick/.local/bin/cmake --build /home/rick/ros_ws/build/ds4_driver_msgs -- -j24 -l24
+[1.591s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rick/ros_ws/build/rviz_imu_plugin' returned '0': CMAKE_PREFIX_PATH=/home/rick/ros_ws/install/imu_tools:/home/rick/ros_ws/install/rviz_imu_plugin:/home/rick/ros_ws/install/rosbot_nav:/home/rick/ros_ws/install/ros_bot:/home/rick/ros_ws/install/imu_filter_madgwick:/home/rick/ros_ws/install/imu_complementary_filter:/home/rick/ros_ws/install/ds4_driver:/home/rick/ros_ws/install/ds4_driver_msgs:/home/rick/ros_ws/install/cartographer_test:/home/rick/ros_ws/install/cartographer_rviz:/home/rick/ros_ws/install/cartographer_ros:/home/rick/ros_ws/install/ayuda_description:/opt/ros/humble:/home/rick/ros_ws/install/cartographer_ros_msgs:/home/rick/ros_ws/install/cartographer /home/rick/.local/bin/cmake --build /home/rick/ros_ws/build/rviz_imu_plugin -- -j24 -l24
+[1.593s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rick/ros_ws/build/cartographer_ros_msgs' returned '0': CMAKE_PREFIX_PATH=/home/rick/ros_ws/install/imu_tools:/home/rick/ros_ws/install/rviz_imu_plugin:/home/rick/ros_ws/install/rosbot_nav:/home/rick/ros_ws/install/ros_bot:/home/rick/ros_ws/install/imu_filter_madgwick:/home/rick/ros_ws/install/imu_complementary_filter:/home/rick/ros_ws/install/ds4_driver:/home/rick/ros_ws/install/ds4_driver_msgs:/home/rick/ros_ws/install/cartographer_test:/home/rick/ros_ws/install/cartographer_rviz:/home/rick/ros_ws/install/cartographer_ros:/home/rick/ros_ws/install/ayuda_description:/opt/ros/humble:/home/rick/ros_ws/install/cartographer_ros_msgs:/home/rick/ros_ws/install/cartographer /home/rick/.local/bin/cmake --build /home/rick/ros_ws/build/cartographer_ros_msgs -- -j24 -l24
+[1.602s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rick/ros_ws/build/cartographer_test' returned '0': CMAKE_PREFIX_PATH=/home/rick/ros_ws/install/imu_tools:/home/rick/ros_ws/install/rviz_imu_plugin:/home/rick/ros_ws/install/rosbot_nav:/home/rick/ros_ws/install/ros_bot:/home/rick/ros_ws/install/imu_filter_madgwick:/home/rick/ros_ws/install/imu_complementary_filter:/home/rick/ros_ws/install/ds4_driver:/home/rick/ros_ws/install/ds4_driver_msgs:/home/rick/ros_ws/install/cartographer_test:/home/rick/ros_ws/install/cartographer_rviz:/home/rick/ros_ws/install/cartographer_ros:/home/rick/ros_ws/install/ayuda_description:/opt/ros/humble:/home/rick/ros_ws/install/cartographer_ros_msgs:/home/rick/ros_ws/install/cartographer /home/rick/.local/bin/cmake --build /home/rick/ros_ws/build/cartographer_test -- -j24 -l24
+[1.604s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rick/ros_ws/build/ros_bot' returned '0': CMAKE_PREFIX_PATH=/home/rick/ros_ws/install/imu_tools:/home/rick/ros_ws/install/rviz_imu_plugin:/home/rick/ros_ws/install/rosbot_nav:/home/rick/ros_ws/install/ros_bot:/home/rick/ros_ws/install/imu_filter_madgwick:/home/rick/ros_ws/install/imu_complementary_filter:/home/rick/ros_ws/install/ds4_driver:/home/rick/ros_ws/install/ds4_driver_msgs:/home/rick/ros_ws/install/cartographer_test:/home/rick/ros_ws/install/cartographer_rviz:/home/rick/ros_ws/install/cartographer_ros:/home/rick/ros_ws/install/ayuda_description:/opt/ros/humble:/home/rick/ros_ws/install/cartographer_ros_msgs:/home/rick/ros_ws/install/cartographer /home/rick/.local/bin/cmake --build /home/rick/ros_ws/build/ros_bot -- -j24 -l24
+[1.611s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rick/ros_ws/build/rosbot_nav' returned '0': CMAKE_PREFIX_PATH=/home/rick/ros_ws/install/imu_tools:/home/rick/ros_ws/install/rviz_imu_plugin:/home/rick/ros_ws/install/rosbot_nav:/home/rick/ros_ws/install/ros_bot:/home/rick/ros_ws/install/imu_filter_madgwick:/home/rick/ros_ws/install/imu_complementary_filter:/home/rick/ros_ws/install/ds4_driver:/home/rick/ros_ws/install/ds4_driver_msgs:/home/rick/ros_ws/install/cartographer_test:/home/rick/ros_ws/install/cartographer_rviz:/home/rick/ros_ws/install/cartographer_ros:/home/rick/ros_ws/install/ayuda_description:/opt/ros/humble:/home/rick/ros_ws/install/cartographer_ros_msgs:/home/rick/ros_ws/install/cartographer /home/rick/.local/bin/cmake --build /home/rick/ros_ws/build/rosbot_nav -- -j24 -l24
+[1.641s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rick/ros_ws/build/imu_complementary_filter': CMAKE_PREFIX_PATH=/home/rick/ros_ws/install/imu_tools:/home/rick/ros_ws/install/rviz_imu_plugin:/home/rick/ros_ws/install/rosbot_nav:/home/rick/ros_ws/install/ros_bot:/home/rick/ros_ws/install/imu_filter_madgwick:/home/rick/ros_ws/install/imu_complementary_filter:/home/rick/ros_ws/install/ds4_driver:/home/rick/ros_ws/install/ds4_driver_msgs:/home/rick/ros_ws/install/cartographer_test:/home/rick/ros_ws/install/cartographer_rviz:/home/rick/ros_ws/install/cartographer_ros:/home/rick/ros_ws/install/ayuda_description:/opt/ros/humble:/home/rick/ros_ws/install/cartographer_ros_msgs:/home/rick/ros_ws/install/cartographer /home/rick/.local/bin/cmake --install /home/rick/ros_ws/build/imu_complementary_filter
+[1.644s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rick/ros_ws/build/imu_filter_madgwick': CMAKE_PREFIX_PATH=/home/rick/ros_ws/install/imu_tools:/home/rick/ros_ws/install/rviz_imu_plugin:/home/rick/ros_ws/install/rosbot_nav:/home/rick/ros_ws/install/ros_bot:/home/rick/ros_ws/install/imu_filter_madgwick:/home/rick/ros_ws/install/imu_complementary_filter:/home/rick/ros_ws/install/ds4_driver:/home/rick/ros_ws/install/ds4_driver_msgs:/home/rick/ros_ws/install/cartographer_test:/home/rick/ros_ws/install/cartographer_rviz:/home/rick/ros_ws/install/cartographer_ros:/home/rick/ros_ws/install/ayuda_description:/opt/ros/humble:/home/rick/ros_ws/install/cartographer_ros_msgs:/home/rick/ros_ws/install/cartographer /home/rick/.local/bin/cmake --install /home/rick/ros_ws/build/imu_filter_madgwick
+[1.644s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rick/ros_ws/build/rviz_imu_plugin': CMAKE_PREFIX_PATH=/home/rick/ros_ws/install/imu_tools:/home/rick/ros_ws/install/rviz_imu_plugin:/home/rick/ros_ws/install/rosbot_nav:/home/rick/ros_ws/install/ros_bot:/home/rick/ros_ws/install/imu_filter_madgwick:/home/rick/ros_ws/install/imu_complementary_filter:/home/rick/ros_ws/install/ds4_driver:/home/rick/ros_ws/install/ds4_driver_msgs:/home/rick/ros_ws/install/cartographer_test:/home/rick/ros_ws/install/cartographer_rviz:/home/rick/ros_ws/install/cartographer_ros:/home/rick/ros_ws/install/ayuda_description:/opt/ros/humble:/home/rick/ros_ws/install/cartographer_ros_msgs:/home/rick/ros_ws/install/cartographer /home/rick/.local/bin/cmake --install /home/rick/ros_ws/build/rviz_imu_plugin
+[1.645s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rick/ros_ws/build/cartographer_test': CMAKE_PREFIX_PATH=/home/rick/ros_ws/install/imu_tools:/home/rick/ros_ws/install/rviz_imu_plugin:/home/rick/ros_ws/install/rosbot_nav:/home/rick/ros_ws/install/ros_bot:/home/rick/ros_ws/install/imu_filter_madgwick:/home/rick/ros_ws/install/imu_complementary_filter:/home/rick/ros_ws/install/ds4_driver:/home/rick/ros_ws/install/ds4_driver_msgs:/home/rick/ros_ws/install/cartographer_test:/home/rick/ros_ws/install/cartographer_rviz:/home/rick/ros_ws/install/cartographer_ros:/home/rick/ros_ws/install/ayuda_description:/opt/ros/humble:/home/rick/ros_ws/install/cartographer_ros_msgs:/home/rick/ros_ws/install/cartographer /home/rick/.local/bin/cmake --install /home/rick/ros_ws/build/cartographer_test
+[1.646s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rick/ros_ws/build/rosbot_nav': CMAKE_PREFIX_PATH=/home/rick/ros_ws/install/imu_tools:/home/rick/ros_ws/install/rviz_imu_plugin:/home/rick/ros_ws/install/rosbot_nav:/home/rick/ros_ws/install/ros_bot:/home/rick/ros_ws/install/imu_filter_madgwick:/home/rick/ros_ws/install/imu_complementary_filter:/home/rick/ros_ws/install/ds4_driver:/home/rick/ros_ws/install/ds4_driver_msgs:/home/rick/ros_ws/install/cartographer_test:/home/rick/ros_ws/install/cartographer_rviz:/home/rick/ros_ws/install/cartographer_ros:/home/rick/ros_ws/install/ayuda_description:/opt/ros/humble:/home/rick/ros_ws/install/cartographer_ros_msgs:/home/rick/ros_ws/install/cartographer /home/rick/.local/bin/cmake --install /home/rick/ros_ws/build/rosbot_nav
+[1.647s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rick/ros_ws/build/ros_bot': CMAKE_PREFIX_PATH=/home/rick/ros_ws/install/imu_tools:/home/rick/ros_ws/install/rviz_imu_plugin:/home/rick/ros_ws/install/rosbot_nav:/home/rick/ros_ws/install/ros_bot:/home/rick/ros_ws/install/imu_filter_madgwick:/home/rick/ros_ws/install/imu_complementary_filter:/home/rick/ros_ws/install/ds4_driver:/home/rick/ros_ws/install/ds4_driver_msgs:/home/rick/ros_ws/install/cartographer_test:/home/rick/ros_ws/install/cartographer_rviz:/home/rick/ros_ws/install/cartographer_ros:/home/rick/ros_ws/install/ayuda_description:/opt/ros/humble:/home/rick/ros_ws/install/cartographer_ros_msgs:/home/rick/ros_ws/install/cartographer /home/rick/.local/bin/cmake --install /home/rick/ros_ws/build/ros_bot
+[1.669s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(imu_complementary_filter)
+[1.682s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rick/ros_ws/build/imu_complementary_filter' returned '0': CMAKE_PREFIX_PATH=/home/rick/ros_ws/install/imu_tools:/home/rick/ros_ws/install/rviz_imu_plugin:/home/rick/ros_ws/install/rosbot_nav:/home/rick/ros_ws/install/ros_bot:/home/rick/ros_ws/install/imu_filter_madgwick:/home/rick/ros_ws/install/imu_complementary_filter:/home/rick/ros_ws/install/ds4_driver:/home/rick/ros_ws/install/ds4_driver_msgs:/home/rick/ros_ws/install/cartographer_test:/home/rick/ros_ws/install/cartographer_rviz:/home/rick/ros_ws/install/cartographer_ros:/home/rick/ros_ws/install/ayuda_description:/opt/ros/humble:/home/rick/ros_ws/install/cartographer_ros_msgs:/home/rick/ros_ws/install/cartographer /home/rick/.local/bin/cmake --install /home/rick/ros_ws/build/imu_complementary_filter
+[1.691s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/imu_complementary_filter' for CMake module files
+[1.691s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/imu_complementary_filter' for CMake config files
+[1.691s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_complementary_filter', 'cmake_prefix_path')
+[1.700s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rick/ros_ws/install/imu_complementary_filter/share/imu_complementary_filter/hook/cmake_prefix_path.ps1'
+[1.701s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rick/ros_ws/install/imu_complementary_filter/share/imu_complementary_filter/hook/cmake_prefix_path.dsv'
+[1.701s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rick/ros_ws/install/imu_complementary_filter/share/imu_complementary_filter/hook/cmake_prefix_path.sh'
+[1.701s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/imu_complementary_filter/lib'
+[1.701s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_complementary_filter', 'ld_library_path_lib')
+[1.710s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rick/ros_ws/install/imu_complementary_filter/share/imu_complementary_filter/hook/ld_library_path_lib.ps1'
+[1.711s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rick/ros_ws/install/imu_complementary_filter/share/imu_complementary_filter/hook/ld_library_path_lib.dsv'
+[1.711s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rick/ros_ws/install/imu_complementary_filter/share/imu_complementary_filter/hook/ld_library_path_lib.sh'
+[1.711s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/imu_complementary_filter/bin'
+[1.711s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/imu_complementary_filter/lib/pkgconfig/imu_complementary_filter.pc'
+[1.711s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/imu_complementary_filter/lib/python3.10/site-packages'
+[1.712s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/imu_complementary_filter/bin'
+[1.720s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/imu_complementary_filter/share/imu_complementary_filter/package.ps1'
+[1.721s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rick/ros_ws/install/imu_complementary_filter/share/imu_complementary_filter/package.dsv'
+[1.722s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/imu_complementary_filter/share/imu_complementary_filter/package.sh'
+[1.722s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/imu_complementary_filter/share/imu_complementary_filter/package.bash'
+[1.722s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/imu_complementary_filter/share/imu_complementary_filter/package.zsh'
+[1.723s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rick/ros_ws/install/imu_complementary_filter/share/colcon-core/packages/imu_complementary_filter)
+[1.724s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rosbot_nav)
+[1.725s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rick/ros_ws/build/rosbot_nav' returned '0': CMAKE_PREFIX_PATH=/home/rick/ros_ws/install/imu_tools:/home/rick/ros_ws/install/rviz_imu_plugin:/home/rick/ros_ws/install/rosbot_nav:/home/rick/ros_ws/install/ros_bot:/home/rick/ros_ws/install/imu_filter_madgwick:/home/rick/ros_ws/install/imu_complementary_filter:/home/rick/ros_ws/install/ds4_driver:/home/rick/ros_ws/install/ds4_driver_msgs:/home/rick/ros_ws/install/cartographer_test:/home/rick/ros_ws/install/cartographer_rviz:/home/rick/ros_ws/install/cartographer_ros:/home/rick/ros_ws/install/ayuda_description:/opt/ros/humble:/home/rick/ros_ws/install/cartographer_ros_msgs:/home/rick/ros_ws/install/cartographer /home/rick/.local/bin/cmake --install /home/rick/ros_ws/build/rosbot_nav
+[1.734s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/rosbot_nav' for CMake module files
+[1.734s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/rosbot_nav' for CMake config files
+[1.734s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbot_nav', 'cmake_prefix_path')
+[1.743s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rick/ros_ws/install/rosbot_nav/share/rosbot_nav/hook/cmake_prefix_path.ps1'
+[1.743s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rick/ros_ws/install/rosbot_nav/share/rosbot_nav/hook/cmake_prefix_path.dsv'
+[1.743s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rick/ros_ws/install/rosbot_nav/share/rosbot_nav/hook/cmake_prefix_path.sh'
+[1.744s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/rosbot_nav/bin'
+[1.744s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/rosbot_nav/lib/pkgconfig/rosbot_nav.pc'
+[1.744s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/rosbot_nav/lib/python3.10/site-packages'
+[1.744s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/rosbot_nav/bin'
+[1.753s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/rosbot_nav/share/rosbot_nav/package.ps1'
+[1.753s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rick/ros_ws/install/rosbot_nav/share/rosbot_nav/package.dsv'
+[1.753s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/rosbot_nav/share/rosbot_nav/package.sh'
+[1.753s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/rosbot_nav/share/rosbot_nav/package.bash'
+[1.753s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/rosbot_nav/share/rosbot_nav/package.zsh'
+[1.754s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rick/ros_ws/install/rosbot_nav/share/colcon-core/packages/rosbot_nav)
+[1.755s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rick/ros_ws/build/ds4_driver_msgs': CMAKE_PREFIX_PATH=/home/rick/ros_ws/install/imu_tools:/home/rick/ros_ws/install/rviz_imu_plugin:/home/rick/ros_ws/install/rosbot_nav:/home/rick/ros_ws/install/ros_bot:/home/rick/ros_ws/install/imu_filter_madgwick:/home/rick/ros_ws/install/imu_complementary_filter:/home/rick/ros_ws/install/ds4_driver:/home/rick/ros_ws/install/ds4_driver_msgs:/home/rick/ros_ws/install/cartographer_test:/home/rick/ros_ws/install/cartographer_rviz:/home/rick/ros_ws/install/cartographer_ros:/home/rick/ros_ws/install/ayuda_description:/opt/ros/humble:/home/rick/ros_ws/install/cartographer_ros_msgs:/home/rick/ros_ws/install/cartographer /home/rick/.local/bin/cmake --install /home/rick/ros_ws/build/ds4_driver_msgs
+[1.756s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(imu_filter_madgwick)
+[1.756s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rick/ros_ws/build/imu_filter_madgwick' returned '0': CMAKE_PREFIX_PATH=/home/rick/ros_ws/install/imu_tools:/home/rick/ros_ws/install/rviz_imu_plugin:/home/rick/ros_ws/install/rosbot_nav:/home/rick/ros_ws/install/ros_bot:/home/rick/ros_ws/install/imu_filter_madgwick:/home/rick/ros_ws/install/imu_complementary_filter:/home/rick/ros_ws/install/ds4_driver:/home/rick/ros_ws/install/ds4_driver_msgs:/home/rick/ros_ws/install/cartographer_test:/home/rick/ros_ws/install/cartographer_rviz:/home/rick/ros_ws/install/cartographer_ros:/home/rick/ros_ws/install/ayuda_description:/opt/ros/humble:/home/rick/ros_ws/install/cartographer_ros_msgs:/home/rick/ros_ws/install/cartographer /home/rick/.local/bin/cmake --install /home/rick/ros_ws/build/imu_filter_madgwick
+[1.766s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/imu_filter_madgwick' for CMake module files
+[1.766s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/imu_filter_madgwick' for CMake config files
+[1.767s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_filter_madgwick', 'cmake_prefix_path')
+[1.776s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rick/ros_ws/install/imu_filter_madgwick/share/imu_filter_madgwick/hook/cmake_prefix_path.ps1'
+[1.776s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rick/ros_ws/install/imu_filter_madgwick/share/imu_filter_madgwick/hook/cmake_prefix_path.dsv'
+[1.776s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rick/ros_ws/install/imu_filter_madgwick/share/imu_filter_madgwick/hook/cmake_prefix_path.sh'
+[1.777s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/imu_filter_madgwick/lib'
+[1.777s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_filter_madgwick', 'ld_library_path_lib')
+[1.786s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rick/ros_ws/install/imu_filter_madgwick/share/imu_filter_madgwick/hook/ld_library_path_lib.ps1'
+[1.786s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rick/ros_ws/install/imu_filter_madgwick/share/imu_filter_madgwick/hook/ld_library_path_lib.dsv'
+[1.786s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rick/ros_ws/install/imu_filter_madgwick/share/imu_filter_madgwick/hook/ld_library_path_lib.sh'
+[1.787s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/imu_filter_madgwick/bin'
+[1.787s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/imu_filter_madgwick/lib/pkgconfig/imu_filter_madgwick.pc'
+[1.787s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/imu_filter_madgwick/lib/python3.10/site-packages'
+[1.787s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/imu_filter_madgwick/bin'
+[1.796s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/imu_filter_madgwick/share/imu_filter_madgwick/package.ps1'
+[1.796s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rick/ros_ws/install/imu_filter_madgwick/share/imu_filter_madgwick/package.dsv'
+[1.797s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/imu_filter_madgwick/share/imu_filter_madgwick/package.sh'
+[1.797s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/imu_filter_madgwick/share/imu_filter_madgwick/package.bash'
+[1.797s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/imu_filter_madgwick/share/imu_filter_madgwick/package.zsh'
+[1.797s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rick/ros_ws/install/imu_filter_madgwick/share/colcon-core/packages/imu_filter_madgwick)
+[1.798s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cartographer_test)
+[1.798s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rick/ros_ws/build/cartographer_test' returned '0': CMAKE_PREFIX_PATH=/home/rick/ros_ws/install/imu_tools:/home/rick/ros_ws/install/rviz_imu_plugin:/home/rick/ros_ws/install/rosbot_nav:/home/rick/ros_ws/install/ros_bot:/home/rick/ros_ws/install/imu_filter_madgwick:/home/rick/ros_ws/install/imu_complementary_filter:/home/rick/ros_ws/install/ds4_driver:/home/rick/ros_ws/install/ds4_driver_msgs:/home/rick/ros_ws/install/cartographer_test:/home/rick/ros_ws/install/cartographer_rviz:/home/rick/ros_ws/install/cartographer_ros:/home/rick/ros_ws/install/ayuda_description:/opt/ros/humble:/home/rick/ros_ws/install/cartographer_ros_msgs:/home/rick/ros_ws/install/cartographer /home/rick/.local/bin/cmake --install /home/rick/ros_ws/build/cartographer_test
+[1.809s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/cartographer_test' for CMake module files
+[1.809s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/cartographer_test' for CMake config files
+[1.809s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer_test', 'cmake_prefix_path')
+[1.819s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rick/ros_ws/install/cartographer_test/share/cartographer_test/hook/cmake_prefix_path.ps1'
+[1.819s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rick/ros_ws/install/cartographer_test/share/cartographer_test/hook/cmake_prefix_path.dsv'
+[1.820s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rick/ros_ws/install/cartographer_test/share/cartographer_test/hook/cmake_prefix_path.sh'
+[1.820s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/cartographer_test/bin'
+[1.820s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/cartographer_test/lib/pkgconfig/cartographer_test.pc'
+[1.820s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/cartographer_test/lib/python3.10/site-packages'
+[1.820s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/cartographer_test/bin'
+[1.829s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/cartographer_test/share/cartographer_test/package.ps1'
+[1.830s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rick/ros_ws/install/cartographer_test/share/cartographer_test/package.dsv'
+[1.830s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/cartographer_test/share/cartographer_test/package.sh'
+[1.830s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/cartographer_test/share/cartographer_test/package.bash'
+[1.830s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/cartographer_test/share/cartographer_test/package.zsh'
+[1.830s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rick/ros_ws/install/cartographer_test/share/colcon-core/packages/cartographer_test)
+[1.831s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rviz_imu_plugin)
+[1.831s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rick/ros_ws/build/rviz_imu_plugin' returned '0': CMAKE_PREFIX_PATH=/home/rick/ros_ws/install/imu_tools:/home/rick/ros_ws/install/rviz_imu_plugin:/home/rick/ros_ws/install/rosbot_nav:/home/rick/ros_ws/install/ros_bot:/home/rick/ros_ws/install/imu_filter_madgwick:/home/rick/ros_ws/install/imu_complementary_filter:/home/rick/ros_ws/install/ds4_driver:/home/rick/ros_ws/install/ds4_driver_msgs:/home/rick/ros_ws/install/cartographer_test:/home/rick/ros_ws/install/cartographer_rviz:/home/rick/ros_ws/install/cartographer_ros:/home/rick/ros_ws/install/ayuda_description:/opt/ros/humble:/home/rick/ros_ws/install/cartographer_ros_msgs:/home/rick/ros_ws/install/cartographer /home/rick/.local/bin/cmake --install /home/rick/ros_ws/build/rviz_imu_plugin
+[1.841s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/rviz_imu_plugin' for CMake module files
+[1.842s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/rviz_imu_plugin' for CMake config files
+[1.842s] Level 1:colcon.colcon_core.shell:create_environment_hook('rviz_imu_plugin', 'cmake_prefix_path')
+[1.851s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rick/ros_ws/install/rviz_imu_plugin/share/rviz_imu_plugin/hook/cmake_prefix_path.ps1'
+[1.852s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rick/ros_ws/install/rviz_imu_plugin/share/rviz_imu_plugin/hook/cmake_prefix_path.dsv'
+[1.852s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rick/ros_ws/install/rviz_imu_plugin/share/rviz_imu_plugin/hook/cmake_prefix_path.sh'
+[1.852s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/rviz_imu_plugin/lib'
+[1.852s] Level 1:colcon.colcon_core.shell:create_environment_hook('rviz_imu_plugin', 'ld_library_path_lib')
+[1.861s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rick/ros_ws/install/rviz_imu_plugin/share/rviz_imu_plugin/hook/ld_library_path_lib.ps1'
+[1.862s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rick/ros_ws/install/rviz_imu_plugin/share/rviz_imu_plugin/hook/ld_library_path_lib.dsv'
+[1.862s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rick/ros_ws/install/rviz_imu_plugin/share/rviz_imu_plugin/hook/ld_library_path_lib.sh'
+[1.862s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/rviz_imu_plugin/bin'
+[1.862s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/rviz_imu_plugin/lib/pkgconfig/rviz_imu_plugin.pc'
+[1.862s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/rviz_imu_plugin/lib/python3.10/site-packages'
+[1.863s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/rviz_imu_plugin/bin'
+[1.872s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/rviz_imu_plugin/share/rviz_imu_plugin/package.ps1'
+[1.872s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rick/ros_ws/install/rviz_imu_plugin/share/rviz_imu_plugin/package.dsv'
+[1.872s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/rviz_imu_plugin/share/rviz_imu_plugin/package.sh'
+[1.873s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/rviz_imu_plugin/share/rviz_imu_plugin/package.bash'
+[1.873s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/rviz_imu_plugin/share/rviz_imu_plugin/package.zsh'
+[1.873s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rick/ros_ws/install/rviz_imu_plugin/share/colcon-core/packages/rviz_imu_plugin)
+[1.874s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_bot)
+[1.874s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rick/ros_ws/build/ros_bot' returned '0': CMAKE_PREFIX_PATH=/home/rick/ros_ws/install/imu_tools:/home/rick/ros_ws/install/rviz_imu_plugin:/home/rick/ros_ws/install/rosbot_nav:/home/rick/ros_ws/install/ros_bot:/home/rick/ros_ws/install/imu_filter_madgwick:/home/rick/ros_ws/install/imu_complementary_filter:/home/rick/ros_ws/install/ds4_driver:/home/rick/ros_ws/install/ds4_driver_msgs:/home/rick/ros_ws/install/cartographer_test:/home/rick/ros_ws/install/cartographer_rviz:/home/rick/ros_ws/install/cartographer_ros:/home/rick/ros_ws/install/ayuda_description:/opt/ros/humble:/home/rick/ros_ws/install/cartographer_ros_msgs:/home/rick/ros_ws/install/cartographer /home/rick/.local/bin/cmake --install /home/rick/ros_ws/build/ros_bot
+[1.884s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/ros_bot' for CMake module files
+[1.885s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/ros_bot' for CMake config files
+[1.885s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_bot', 'cmake_prefix_path')
+[1.895s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rick/ros_ws/install/ros_bot/share/ros_bot/hook/cmake_prefix_path.ps1'
+[1.895s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rick/ros_ws/install/ros_bot/share/ros_bot/hook/cmake_prefix_path.dsv'
+[1.896s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rick/ros_ws/install/ros_bot/share/ros_bot/hook/cmake_prefix_path.sh'
+[1.896s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/ros_bot/lib'
+[1.896s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/ros_bot/bin'
+[1.896s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/ros_bot/lib/pkgconfig/ros_bot.pc'
+[1.896s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/ros_bot/lib/python3.10/site-packages'
+[1.896s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/ros_bot/bin'
+[1.905s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/ros_bot/share/ros_bot/package.ps1'
+[1.905s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rick/ros_ws/install/ros_bot/share/ros_bot/package.dsv'
+[1.906s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/ros_bot/share/ros_bot/package.sh'
+[1.906s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/ros_bot/share/ros_bot/package.bash'
+[1.906s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/ros_bot/share/ros_bot/package.zsh'
+[1.906s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rick/ros_ws/install/ros_bot/share/colcon-core/packages/ros_bot)
+[1.922s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(imu_complementary_filter)
+[1.932s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/imu_complementary_filter' for CMake module files
+[1.932s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/imu_complementary_filter' for CMake config files
+[1.932s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_complementary_filter', 'cmake_prefix_path')
+[1.941s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rick/ros_ws/install/imu_complementary_filter/share/imu_complementary_filter/hook/cmake_prefix_path.ps1'
+[1.941s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rick/ros_ws/install/imu_complementary_filter/share/imu_complementary_filter/hook/cmake_prefix_path.dsv'
+[1.941s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rick/ros_ws/install/imu_complementary_filter/share/imu_complementary_filter/hook/cmake_prefix_path.sh'
+[1.942s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/imu_complementary_filter/lib'
+[1.942s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_complementary_filter', 'ld_library_path_lib')
+[1.950s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rick/ros_ws/install/imu_complementary_filter/share/imu_complementary_filter/hook/ld_library_path_lib.ps1'
+[1.951s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rick/ros_ws/install/imu_complementary_filter/share/imu_complementary_filter/hook/ld_library_path_lib.dsv'
+[1.951s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rick/ros_ws/install/imu_complementary_filter/share/imu_complementary_filter/hook/ld_library_path_lib.sh'
+[1.951s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/imu_complementary_filter/bin'
+[1.951s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/imu_complementary_filter/lib/pkgconfig/imu_complementary_filter.pc'
+[1.951s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/imu_complementary_filter/lib/python3.10/site-packages'
+[1.951s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/imu_complementary_filter/bin'
+[1.960s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/imu_complementary_filter/share/imu_complementary_filter/package.ps1'
+[1.960s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rick/ros_ws/install/imu_complementary_filter/share/imu_complementary_filter/package.dsv'
+[1.960s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/imu_complementary_filter/share/imu_complementary_filter/package.sh'
+[1.960s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/imu_complementary_filter/share/imu_complementary_filter/package.bash'
+[1.960s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/imu_complementary_filter/share/imu_complementary_filter/package.zsh'
+[1.961s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rick/ros_ws/install/imu_complementary_filter/share/colcon-core/packages/imu_complementary_filter)
+[1.962s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rick/ros_ws/build/cartographer' returned '0': CMAKE_PREFIX_PATH=/home/rick/ros_ws/install/imu_tools:/home/rick/ros_ws/install/rviz_imu_plugin:/home/rick/ros_ws/install/rosbot_nav:/home/rick/ros_ws/install/ros_bot:/home/rick/ros_ws/install/imu_filter_madgwick:/home/rick/ros_ws/install/imu_complementary_filter:/home/rick/ros_ws/install/ds4_driver:/home/rick/ros_ws/install/ds4_driver_msgs:/home/rick/ros_ws/install/cartographer_test:/home/rick/ros_ws/install/cartographer_rviz:/home/rick/ros_ws/install/cartographer_ros:/home/rick/ros_ws/install/ayuda_description:/opt/ros/humble:/home/rick/ros_ws/install/cartographer_ros_msgs:/home/rick/ros_ws/install/cartographer /home/rick/.local/bin/cmake --build /home/rick/ros_ws/build/cartographer -- -j24 -l24
+[1.963s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rick/ros_ws/build/cartographer_ros_msgs': CMAKE_PREFIX_PATH=/home/rick/ros_ws/install/imu_tools:/home/rick/ros_ws/install/rviz_imu_plugin:/home/rick/ros_ws/install/rosbot_nav:/home/rick/ros_ws/install/ros_bot:/home/rick/ros_ws/install/imu_filter_madgwick:/home/rick/ros_ws/install/imu_complementary_filter:/home/rick/ros_ws/install/ds4_driver:/home/rick/ros_ws/install/ds4_driver_msgs:/home/rick/ros_ws/install/cartographer_test:/home/rick/ros_ws/install/cartographer_rviz:/home/rick/ros_ws/install/cartographer_ros:/home/rick/ros_ws/install/ayuda_description:/opt/ros/humble:/home/rick/ros_ws/install/cartographer_ros_msgs:/home/rick/ros_ws/install/cartographer /home/rick/.local/bin/cmake --install /home/rick/ros_ws/build/cartographer_ros_msgs
+[1.972s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rosbot_nav)
+[1.981s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/rosbot_nav' for CMake module files
+[1.981s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/rosbot_nav' for CMake config files
+[1.981s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbot_nav', 'cmake_prefix_path')
+[1.990s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rick/ros_ws/install/rosbot_nav/share/rosbot_nav/hook/cmake_prefix_path.ps1'
+[1.990s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rick/ros_ws/install/rosbot_nav/share/rosbot_nav/hook/cmake_prefix_path.dsv'
+[1.990s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rick/ros_ws/install/rosbot_nav/share/rosbot_nav/hook/cmake_prefix_path.sh'
+[1.990s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/rosbot_nav/bin'
+[1.990s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/rosbot_nav/lib/pkgconfig/rosbot_nav.pc'
+[1.990s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/rosbot_nav/lib/python3.10/site-packages'
+[1.991s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/rosbot_nav/bin'
+[2.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/rosbot_nav/share/rosbot_nav/package.ps1'
+[2.000s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rick/ros_ws/install/rosbot_nav/share/rosbot_nav/package.dsv'
+[2.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/rosbot_nav/share/rosbot_nav/package.sh'
+[2.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/rosbot_nav/share/rosbot_nav/package.bash'
+[2.001s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/rosbot_nav/share/rosbot_nav/package.zsh'
+[2.001s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rick/ros_ws/install/rosbot_nav/share/colcon-core/packages/rosbot_nav)
+[2.003s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rick/ros_ws/build/ayuda_description': PYTHONPATH=/home/rick/ros_ws/build/ayuda_description/prefix_override:/home/rick/ros_ws/install/ayuda_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/rick/ros_ws/build/ayuda_description/build --no-deps install_data
+[2.011s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(imu_filter_madgwick)
+[2.020s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/imu_filter_madgwick' for CMake module files
+[2.020s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/imu_filter_madgwick' for CMake config files
+[2.020s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_filter_madgwick', 'cmake_prefix_path')
+[2.029s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rick/ros_ws/install/imu_filter_madgwick/share/imu_filter_madgwick/hook/cmake_prefix_path.ps1'
+[2.030s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rick/ros_ws/install/imu_filter_madgwick/share/imu_filter_madgwick/hook/cmake_prefix_path.dsv'
+[2.030s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rick/ros_ws/install/imu_filter_madgwick/share/imu_filter_madgwick/hook/cmake_prefix_path.sh'
+[2.030s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/imu_filter_madgwick/lib'
+[2.030s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_filter_madgwick', 'ld_library_path_lib')
+[2.039s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rick/ros_ws/install/imu_filter_madgwick/share/imu_filter_madgwick/hook/ld_library_path_lib.ps1'
+[2.040s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rick/ros_ws/install/imu_filter_madgwick/share/imu_filter_madgwick/hook/ld_library_path_lib.dsv'
+[2.040s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rick/ros_ws/install/imu_filter_madgwick/share/imu_filter_madgwick/hook/ld_library_path_lib.sh'
+[2.040s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/imu_filter_madgwick/bin'
+[2.040s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/imu_filter_madgwick/lib/pkgconfig/imu_filter_madgwick.pc'
+[2.040s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/imu_filter_madgwick/lib/python3.10/site-packages'
+[2.040s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/imu_filter_madgwick/bin'
+[2.049s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/imu_filter_madgwick/share/imu_filter_madgwick/package.ps1'
+[2.049s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rick/ros_ws/install/imu_filter_madgwick/share/imu_filter_madgwick/package.dsv'
+[2.050s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/imu_filter_madgwick/share/imu_filter_madgwick/package.sh'
+[2.050s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/imu_filter_madgwick/share/imu_filter_madgwick/package.bash'
+[2.050s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/imu_filter_madgwick/share/imu_filter_madgwick/package.zsh'
+[2.050s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rick/ros_ws/install/imu_filter_madgwick/share/colcon-core/packages/imu_filter_madgwick)
+[2.060s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cartographer_test)
+[2.068s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/cartographer_test' for CMake module files
+[2.068s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/cartographer_test' for CMake config files
+[2.069s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer_test', 'cmake_prefix_path')
+[2.077s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rick/ros_ws/install/cartographer_test/share/cartographer_test/hook/cmake_prefix_path.ps1'
+[2.077s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rick/ros_ws/install/cartographer_test/share/cartographer_test/hook/cmake_prefix_path.dsv'
+[2.078s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rick/ros_ws/install/cartographer_test/share/cartographer_test/hook/cmake_prefix_path.sh'
+[2.078s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/cartographer_test/bin'
+[2.078s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/cartographer_test/lib/pkgconfig/cartographer_test.pc'
+[2.078s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/cartographer_test/lib/python3.10/site-packages'
+[2.078s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/cartographer_test/bin'
+[2.087s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/cartographer_test/share/cartographer_test/package.ps1'
+[2.087s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rick/ros_ws/install/cartographer_test/share/cartographer_test/package.dsv'
+[2.088s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/cartographer_test/share/cartographer_test/package.sh'
+[2.088s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/cartographer_test/share/cartographer_test/package.bash'
+[2.088s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/cartographer_test/share/cartographer_test/package.zsh'
+[2.088s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rick/ros_ws/install/cartographer_test/share/colcon-core/packages/cartographer_test)
+[2.120s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rviz_imu_plugin)
+[2.130s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/rviz_imu_plugin' for CMake module files
+[2.130s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/rviz_imu_plugin' for CMake config files
+[2.131s] Level 1:colcon.colcon_core.shell:create_environment_hook('rviz_imu_plugin', 'cmake_prefix_path')
+[2.140s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rick/ros_ws/install/rviz_imu_plugin/share/rviz_imu_plugin/hook/cmake_prefix_path.ps1'
+[2.140s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rick/ros_ws/install/rviz_imu_plugin/share/rviz_imu_plugin/hook/cmake_prefix_path.dsv'
+[2.140s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rick/ros_ws/install/rviz_imu_plugin/share/rviz_imu_plugin/hook/cmake_prefix_path.sh'
+[2.141s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/rviz_imu_plugin/lib'
+[2.141s] Level 1:colcon.colcon_core.shell:create_environment_hook('rviz_imu_plugin', 'ld_library_path_lib')
+[2.149s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rick/ros_ws/install/rviz_imu_plugin/share/rviz_imu_plugin/hook/ld_library_path_lib.ps1'
+[2.149s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rick/ros_ws/install/rviz_imu_plugin/share/rviz_imu_plugin/hook/ld_library_path_lib.dsv'
+[2.150s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rick/ros_ws/install/rviz_imu_plugin/share/rviz_imu_plugin/hook/ld_library_path_lib.sh'
+[2.150s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/rviz_imu_plugin/bin'
+[2.150s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/rviz_imu_plugin/lib/pkgconfig/rviz_imu_plugin.pc'
+[2.150s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/rviz_imu_plugin/lib/python3.10/site-packages'
+[2.150s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/rviz_imu_plugin/bin'
+[2.159s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/rviz_imu_plugin/share/rviz_imu_plugin/package.ps1'
+[2.160s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rick/ros_ws/install/rviz_imu_plugin/share/rviz_imu_plugin/package.dsv'
+[2.160s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/rviz_imu_plugin/share/rviz_imu_plugin/package.sh'
+[2.160s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/rviz_imu_plugin/share/rviz_imu_plugin/package.bash'
+[2.160s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/rviz_imu_plugin/share/rviz_imu_plugin/package.zsh'
+[2.160s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rick/ros_ws/install/rviz_imu_plugin/share/colcon-core/packages/rviz_imu_plugin)
+[2.170s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_bot)
+[2.179s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/ros_bot' for CMake module files
+[2.179s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/ros_bot' for CMake config files
+[2.179s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_bot', 'cmake_prefix_path')
+[2.198s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rick/ros_ws/install/ros_bot/share/ros_bot/hook/cmake_prefix_path.ps1'
+[2.198s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rick/ros_ws/install/ros_bot/share/ros_bot/hook/cmake_prefix_path.dsv'
+[2.198s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rick/ros_ws/install/ros_bot/share/ros_bot/hook/cmake_prefix_path.sh'
+[2.199s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/ros_bot/lib'
+[2.199s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/ros_bot/bin'
+[2.199s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/ros_bot/lib/pkgconfig/ros_bot.pc'
+[2.199s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/ros_bot/lib/python3.10/site-packages'
+[2.199s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/ros_bot/bin'
+[2.208s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/ros_bot/share/ros_bot/package.ps1'
+[2.208s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rick/ros_ws/install/ros_bot/share/ros_bot/package.dsv'
+[2.208s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/ros_bot/share/ros_bot/package.sh'
+[2.208s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/ros_bot/share/ros_bot/package.bash'
+[2.209s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/ros_bot/share/ros_bot/package.zsh'
+[2.209s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rick/ros_ws/install/ros_bot/share/colcon-core/packages/ros_bot)
+[2.209s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ds4_driver_msgs)
+[2.209s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rick/ros_ws/build/ds4_driver_msgs' returned '0': CMAKE_PREFIX_PATH=/home/rick/ros_ws/install/imu_tools:/home/rick/ros_ws/install/rviz_imu_plugin:/home/rick/ros_ws/install/rosbot_nav:/home/rick/ros_ws/install/ros_bot:/home/rick/ros_ws/install/imu_filter_madgwick:/home/rick/ros_ws/install/imu_complementary_filter:/home/rick/ros_ws/install/ds4_driver:/home/rick/ros_ws/install/ds4_driver_msgs:/home/rick/ros_ws/install/cartographer_test:/home/rick/ros_ws/install/cartographer_rviz:/home/rick/ros_ws/install/cartographer_ros:/home/rick/ros_ws/install/ayuda_description:/opt/ros/humble:/home/rick/ros_ws/install/cartographer_ros_msgs:/home/rick/ros_ws/install/cartographer /home/rick/.local/bin/cmake --install /home/rick/ros_ws/build/ds4_driver_msgs
+[2.218s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/ds4_driver_msgs' for CMake module files
+[2.219s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/ds4_driver_msgs' for CMake config files
+[2.219s] Level 1:colcon.colcon_core.shell:create_environment_hook('ds4_driver_msgs', 'cmake_prefix_path')
+[2.228s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rick/ros_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/hook/cmake_prefix_path.ps1'
+[2.228s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rick/ros_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/hook/cmake_prefix_path.dsv'
+[2.229s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rick/ros_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/hook/cmake_prefix_path.sh'
+[2.229s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/ds4_driver_msgs/lib'
+[2.229s] Level 1:colcon.colcon_core.shell:create_environment_hook('ds4_driver_msgs', 'ld_library_path_lib')
+[2.238s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rick/ros_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/hook/ld_library_path_lib.ps1'
+[2.238s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rick/ros_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/hook/ld_library_path_lib.dsv'
+[2.238s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rick/ros_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/hook/ld_library_path_lib.sh'
+[2.238s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/ds4_driver_msgs/bin'
+[2.238s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/ds4_driver_msgs/lib/pkgconfig/ds4_driver_msgs.pc'
+[2.239s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/ds4_driver_msgs/lib/python3.10/site-packages'
+[2.239s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/ds4_driver_msgs/bin'
+[2.247s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/package.ps1'
+[2.248s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rick/ros_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/package.dsv'
+[2.248s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/package.sh'
+[2.248s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/package.bash'
+[2.248s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/package.zsh'
+[2.248s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rick/ros_ws/install/ds4_driver_msgs/share/colcon-core/packages/ds4_driver_msgs)
+[2.249s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rick/ros_ws/src/imu_tools/imu_tools' with build type 'ament_cmake'
+[2.249s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rick/ros_ws/src/imu_tools/imu_tools'
+[2.258s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.258s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.290s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cartographer_ros_msgs)
+[2.291s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rick/ros_ws/build/cartographer_ros_msgs' returned '0': CMAKE_PREFIX_PATH=/home/rick/ros_ws/install/imu_tools:/home/rick/ros_ws/install/rviz_imu_plugin:/home/rick/ros_ws/install/rosbot_nav:/home/rick/ros_ws/install/ros_bot:/home/rick/ros_ws/install/imu_filter_madgwick:/home/rick/ros_ws/install/imu_complementary_filter:/home/rick/ros_ws/install/ds4_driver:/home/rick/ros_ws/install/ds4_driver_msgs:/home/rick/ros_ws/install/cartographer_test:/home/rick/ros_ws/install/cartographer_rviz:/home/rick/ros_ws/install/cartographer_ros:/home/rick/ros_ws/install/ayuda_description:/opt/ros/humble:/home/rick/ros_ws/install/cartographer_ros_msgs:/home/rick/ros_ws/install/cartographer /home/rick/.local/bin/cmake --install /home/rick/ros_ws/build/cartographer_ros_msgs
+[2.300s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/cartographer_ros_msgs' for CMake module files
+[2.301s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/cartographer_ros_msgs' for CMake config files
+[2.302s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer_ros_msgs', 'cmake_prefix_path')
+[2.311s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rick/ros_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/cmake_prefix_path.ps1'
+[2.312s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rick/ros_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/cmake_prefix_path.dsv'
+[2.312s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rick/ros_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/cmake_prefix_path.sh'
+[2.312s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/cartographer_ros_msgs/lib'
+[2.312s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer_ros_msgs', 'ld_library_path_lib')
+[2.321s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rick/ros_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/ld_library_path_lib.ps1'
+[2.321s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rick/ros_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/ld_library_path_lib.dsv'
+[2.321s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rick/ros_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/ld_library_path_lib.sh'
+[2.321s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/cartographer_ros_msgs/bin'
+[2.321s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/cartographer_ros_msgs/lib/pkgconfig/cartographer_ros_msgs.pc'
+[2.322s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/cartographer_ros_msgs/lib/python3.10/site-packages'
+[2.322s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/cartographer_ros_msgs/bin'
+[2.331s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/package.ps1'
+[2.331s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rick/ros_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/package.dsv'
+[2.331s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/package.sh'
+[2.331s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/package.bash'
+[2.331s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/package.zsh'
+[2.332s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rick/ros_ws/install/cartographer_ros_msgs/share/colcon-core/packages/cartographer_ros_msgs)
+[2.332s] Level 1:colcon.colcon_core.shell:create_environment_hook('ayuda_description', 'pythonpath_develop')
+[2.333s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rick/ros_ws/build/ayuda_description' returned '0': PYTHONPATH=/home/rick/ros_ws/build/ayuda_description/prefix_override:/home/rick/ros_ws/install/ayuda_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/rick/ros_ws/build/ayuda_description/build --no-deps install_data
+[2.343s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rick/ros_ws/build/ayuda_description/share/ayuda_description/hook/pythonpath_develop.ps1'
+[2.343s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rick/ros_ws/build/ayuda_description/share/ayuda_description/hook/pythonpath_develop.dsv'
+[2.343s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rick/ros_ws/build/ayuda_description/share/ayuda_description/hook/pythonpath_develop.sh'
+[2.353s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/ayuda_description' for CMake module files
+[2.353s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/ayuda_description' for CMake config files
+[2.353s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/ayuda_description/lib'
+[2.353s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/ayuda_description/bin'
+[2.353s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/ayuda_description/lib/pkgconfig/ayuda_description.pc'
+[2.353s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/ayuda_description/lib/python3.10/site-packages'
+[2.354s] Level 1:colcon.colcon_core.shell:create_environment_hook('ayuda_description', 'pythonpath')
+[2.364s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rick/ros_ws/install/ayuda_description/share/ayuda_description/hook/pythonpath.ps1'
+[2.364s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rick/ros_ws/install/ayuda_description/share/ayuda_description/hook/pythonpath.dsv'
+[2.364s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rick/ros_ws/install/ayuda_description/share/ayuda_description/hook/pythonpath.sh'
+[2.365s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/ayuda_description/bin'
+[2.365s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ayuda_description)
+[2.376s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/ayuda_description/share/ayuda_description/package.ps1'
+[2.376s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rick/ros_ws/install/ayuda_description/share/ayuda_description/package.dsv'
+[2.376s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/ayuda_description/share/ayuda_description/package.sh'
+[2.377s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/ayuda_description/share/ayuda_description/package.bash'
+[2.377s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/ayuda_description/share/ayuda_description/package.zsh'
+[2.377s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rick/ros_ws/install/ayuda_description/share/colcon-core/packages/ayuda_description)
+[2.380s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rick/ros_ws/build/imu_tools': CMAKE_PREFIX_PATH=/home/rick/ros_ws/install/rviz_imu_plugin:/home/rick/ros_ws/install/imu_filter_madgwick:/home/rick/ros_ws/install/imu_complementary_filter:/home/rick/ros_ws/install/imu_tools:/home/rick/ros_ws/install/rosbot_nav:/home/rick/ros_ws/install/ros_bot:/home/rick/ros_ws/install/ds4_driver:/home/rick/ros_ws/install/ds4_driver_msgs:/home/rick/ros_ws/install/cartographer_test:/home/rick/ros_ws/install/cartographer_rviz:/home/rick/ros_ws/install/cartographer_ros:/home/rick/ros_ws/install/ayuda_description:/opt/ros/humble:/home/rick/ros_ws/install/cartographer_ros_msgs:/home/rick/ros_ws/install/cartographer LD_LIBRARY_PATH=/home/rick/ros_ws/install/rviz_imu_plugin/lib:/home/rick/ros_ws/install/imu_filter_madgwick/lib:/home/rick/ros_ws/install/imu_complementary_filter/lib:/home/rick/ros_ws/install/ds4_driver_msgs/lib:/home/rick/ros_ws/install/cartographer_rviz/lib:/home/rick/ros_ws/install/cartographer_ros/lib:/home/rick/ros_ws/install/cartographer_ros_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64 /home/rick/.local/bin/cmake --build /home/rick/ros_ws/build/imu_tools -- -j24 -l24
+[2.390s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ds4_driver_msgs)
+[2.399s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/ds4_driver_msgs' for CMake module files
+[2.399s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/ds4_driver_msgs' for CMake config files
+[2.400s] Level 1:colcon.colcon_core.shell:create_environment_hook('ds4_driver_msgs', 'cmake_prefix_path')
+[2.409s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rick/ros_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/hook/cmake_prefix_path.ps1'
+[2.409s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rick/ros_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/hook/cmake_prefix_path.dsv'
+[2.410s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rick/ros_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/hook/cmake_prefix_path.sh'
+[2.410s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/ds4_driver_msgs/lib'
+[2.410s] Level 1:colcon.colcon_core.shell:create_environment_hook('ds4_driver_msgs', 'ld_library_path_lib')
+[2.420s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rick/ros_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/hook/ld_library_path_lib.ps1'
+[2.420s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rick/ros_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/hook/ld_library_path_lib.dsv'
+[2.420s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rick/ros_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/hook/ld_library_path_lib.sh'
+[2.420s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/ds4_driver_msgs/bin'
+[2.420s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/ds4_driver_msgs/lib/pkgconfig/ds4_driver_msgs.pc'
+[2.421s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/ds4_driver_msgs/lib/python3.10/site-packages'
+[2.421s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/ds4_driver_msgs/bin'
+[2.430s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/package.ps1'
+[2.430s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rick/ros_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/package.dsv'
+[2.431s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/package.sh'
+[2.431s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/package.bash'
+[2.431s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/package.zsh'
+[2.431s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rick/ros_ws/install/ds4_driver_msgs/share/colcon-core/packages/ds4_driver_msgs)
+[2.432s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rick/ros_ws/src/ds4_driver/ds4_driver' with build type 'ament_cmake'
+[2.432s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rick/ros_ws/src/ds4_driver/ds4_driver'
+[2.441s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.441s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.470s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rick/ros_ws/build/cartographer': CMAKE_PREFIX_PATH=/home/rick/ros_ws/install/imu_tools:/home/rick/ros_ws/install/rviz_imu_plugin:/home/rick/ros_ws/install/rosbot_nav:/home/rick/ros_ws/install/ros_bot:/home/rick/ros_ws/install/imu_filter_madgwick:/home/rick/ros_ws/install/imu_complementary_filter:/home/rick/ros_ws/install/ds4_driver:/home/rick/ros_ws/install/ds4_driver_msgs:/home/rick/ros_ws/install/cartographer_test:/home/rick/ros_ws/install/cartographer_rviz:/home/rick/ros_ws/install/cartographer_ros:/home/rick/ros_ws/install/ayuda_description:/opt/ros/humble:/home/rick/ros_ws/install/cartographer_ros_msgs:/home/rick/ros_ws/install/cartographer /home/rick/.local/bin/cmake --install /home/rick/ros_ws/build/cartographer
+[2.471s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rick/ros_ws/build/imu_tools' returned '0': CMAKE_PREFIX_PATH=/home/rick/ros_ws/install/rviz_imu_plugin:/home/rick/ros_ws/install/imu_filter_madgwick:/home/rick/ros_ws/install/imu_complementary_filter:/home/rick/ros_ws/install/imu_tools:/home/rick/ros_ws/install/rosbot_nav:/home/rick/ros_ws/install/ros_bot:/home/rick/ros_ws/install/ds4_driver:/home/rick/ros_ws/install/ds4_driver_msgs:/home/rick/ros_ws/install/cartographer_test:/home/rick/ros_ws/install/cartographer_rviz:/home/rick/ros_ws/install/cartographer_ros:/home/rick/ros_ws/install/ayuda_description:/opt/ros/humble:/home/rick/ros_ws/install/cartographer_ros_msgs:/home/rick/ros_ws/install/cartographer LD_LIBRARY_PATH=/home/rick/ros_ws/install/rviz_imu_plugin/lib:/home/rick/ros_ws/install/imu_filter_madgwick/lib:/home/rick/ros_ws/install/imu_complementary_filter/lib:/home/rick/ros_ws/install/ds4_driver_msgs/lib:/home/rick/ros_ws/install/cartographer_rviz/lib:/home/rick/ros_ws/install/cartographer_ros/lib:/home/rick/ros_ws/install/cartographer_ros_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64 /home/rick/.local/bin/cmake --build /home/rick/ros_ws/build/imu_tools -- -j24 -l24
+[2.474s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rick/ros_ws/build/ds4_driver': CMAKE_PREFIX_PATH=/home/rick/ros_ws/install/ds4_driver_msgs:/home/rick/ros_ws/install/imu_tools:/home/rick/ros_ws/install/rviz_imu_plugin:/home/rick/ros_ws/install/rosbot_nav:/home/rick/ros_ws/install/ros_bot:/home/rick/ros_ws/install/imu_filter_madgwick:/home/rick/ros_ws/install/imu_complementary_filter:/home/rick/ros_ws/install/ds4_driver:/home/rick/ros_ws/install/cartographer_test:/home/rick/ros_ws/install/cartographer_rviz:/home/rick/ros_ws/install/cartographer_ros:/home/rick/ros_ws/install/ayuda_description:/opt/ros/humble:/home/rick/ros_ws/install/cartographer_ros_msgs:/home/rick/ros_ws/install/cartographer LD_LIBRARY_PATH=/home/rick/ros_ws/install/ds4_driver_msgs/lib:/home/rick/ros_ws/install/rviz_imu_plugin/lib:/home/rick/ros_ws/install/imu_filter_madgwick/lib:/home/rick/ros_ws/install/imu_complementary_filter/lib:/home/rick/ros_ws/install/cartographer_rviz/lib:/home/rick/ros_ws/install/cartographer_ros/lib:/home/rick/ros_ws/install/cartographer_ros_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64 /home/rick/.local/bin/cmake --build /home/rick/ros_ws/build/ds4_driver -- -j24 -l24
+[2.495s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rick/ros_ws/build/cartographer' returned '0': CMAKE_PREFIX_PATH=/home/rick/ros_ws/install/imu_tools:/home/rick/ros_ws/install/rviz_imu_plugin:/home/rick/ros_ws/install/rosbot_nav:/home/rick/ros_ws/install/ros_bot:/home/rick/ros_ws/install/imu_filter_madgwick:/home/rick/ros_ws/install/imu_complementary_filter:/home/rick/ros_ws/install/ds4_driver:/home/rick/ros_ws/install/ds4_driver_msgs:/home/rick/ros_ws/install/cartographer_test:/home/rick/ros_ws/install/cartographer_rviz:/home/rick/ros_ws/install/cartographer_ros:/home/rick/ros_ws/install/ayuda_description:/opt/ros/humble:/home/rick/ros_ws/install/cartographer_ros_msgs:/home/rick/ros_ws/install/cartographer /home/rick/.local/bin/cmake --install /home/rick/ros_ws/build/cartographer
+[2.500s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rick/ros_ws/build/imu_tools': CMAKE_PREFIX_PATH=/home/rick/ros_ws/install/rviz_imu_plugin:/home/rick/ros_ws/install/imu_filter_madgwick:/home/rick/ros_ws/install/imu_complementary_filter:/home/rick/ros_ws/install/imu_tools:/home/rick/ros_ws/install/rosbot_nav:/home/rick/ros_ws/install/ros_bot:/home/rick/ros_ws/install/ds4_driver:/home/rick/ros_ws/install/ds4_driver_msgs:/home/rick/ros_ws/install/cartographer_test:/home/rick/ros_ws/install/cartographer_rviz:/home/rick/ros_ws/install/cartographer_ros:/home/rick/ros_ws/install/ayuda_description:/opt/ros/humble:/home/rick/ros_ws/install/cartographer_ros_msgs:/home/rick/ros_ws/install/cartographer LD_LIBRARY_PATH=/home/rick/ros_ws/install/rviz_imu_plugin/lib:/home/rick/ros_ws/install/imu_filter_madgwick/lib:/home/rick/ros_ws/install/imu_complementary_filter/lib:/home/rick/ros_ws/install/ds4_driver_msgs/lib:/home/rick/ros_ws/install/cartographer_rviz/lib:/home/rick/ros_ws/install/cartographer_ros/lib:/home/rick/ros_ws/install/cartographer_ros_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64 /home/rick/.local/bin/cmake --install /home/rick/ros_ws/build/imu_tools
+[2.523s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(imu_tools)
+[2.524s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rick/ros_ws/build/imu_tools' returned '0': CMAKE_PREFIX_PATH=/home/rick/ros_ws/install/rviz_imu_plugin:/home/rick/ros_ws/install/imu_filter_madgwick:/home/rick/ros_ws/install/imu_complementary_filter:/home/rick/ros_ws/install/imu_tools:/home/rick/ros_ws/install/rosbot_nav:/home/rick/ros_ws/install/ros_bot:/home/rick/ros_ws/install/ds4_driver:/home/rick/ros_ws/install/ds4_driver_msgs:/home/rick/ros_ws/install/cartographer_test:/home/rick/ros_ws/install/cartographer_rviz:/home/rick/ros_ws/install/cartographer_ros:/home/rick/ros_ws/install/ayuda_description:/opt/ros/humble:/home/rick/ros_ws/install/cartographer_ros_msgs:/home/rick/ros_ws/install/cartographer LD_LIBRARY_PATH=/home/rick/ros_ws/install/rviz_imu_plugin/lib:/home/rick/ros_ws/install/imu_filter_madgwick/lib:/home/rick/ros_ws/install/imu_complementary_filter/lib:/home/rick/ros_ws/install/ds4_driver_msgs/lib:/home/rick/ros_ws/install/cartographer_rviz/lib:/home/rick/ros_ws/install/cartographer_ros/lib:/home/rick/ros_ws/install/cartographer_ros_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64 /home/rick/.local/bin/cmake --install /home/rick/ros_ws/build/imu_tools
+[2.533s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/imu_tools' for CMake module files
+[2.533s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/imu_tools' for CMake config files
+[2.533s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_tools', 'cmake_prefix_path')
+[2.542s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rick/ros_ws/install/imu_tools/share/imu_tools/hook/cmake_prefix_path.ps1'
+[2.542s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rick/ros_ws/install/imu_tools/share/imu_tools/hook/cmake_prefix_path.dsv'
+[2.542s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rick/ros_ws/install/imu_tools/share/imu_tools/hook/cmake_prefix_path.sh'
+[2.543s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/imu_tools/bin'
+[2.543s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/imu_tools/lib/pkgconfig/imu_tools.pc'
+[2.543s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/imu_tools/lib/python3.10/site-packages'
+[2.543s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/imu_tools/bin'
+[2.553s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/imu_tools/share/imu_tools/package.ps1'
+[2.553s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rick/ros_ws/install/imu_tools/share/imu_tools/package.dsv'
+[2.553s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/imu_tools/share/imu_tools/package.sh'
+[2.553s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/imu_tools/share/imu_tools/package.bash'
+[2.554s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/imu_tools/share/imu_tools/package.zsh'
+[2.554s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rick/ros_ws/install/imu_tools/share/colcon-core/packages/imu_tools)
+[2.590s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(imu_tools)
+[2.600s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/imu_tools' for CMake module files
+[2.600s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/imu_tools' for CMake config files
+[2.601s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_tools', 'cmake_prefix_path')
+[2.610s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rick/ros_ws/install/imu_tools/share/imu_tools/hook/cmake_prefix_path.ps1'
+[2.610s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rick/ros_ws/install/imu_tools/share/imu_tools/hook/cmake_prefix_path.dsv'
+[2.610s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rick/ros_ws/install/imu_tools/share/imu_tools/hook/cmake_prefix_path.sh'
+[2.611s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/imu_tools/bin'
+[2.611s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/imu_tools/lib/pkgconfig/imu_tools.pc'
+[2.611s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/imu_tools/lib/python3.10/site-packages'
+[2.611s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/imu_tools/bin'
+[2.619s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/imu_tools/share/imu_tools/package.ps1'
+[2.620s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rick/ros_ws/install/imu_tools/share/imu_tools/package.dsv'
+[2.620s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/imu_tools/share/imu_tools/package.sh'
+[2.620s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/imu_tools/share/imu_tools/package.bash'
+[2.620s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/imu_tools/share/imu_tools/package.zsh'
+[2.620s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rick/ros_ws/install/imu_tools/share/colcon-core/packages/imu_tools)
+[2.630s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cartographer_ros_msgs)
+[2.639s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/cartographer_ros_msgs' for CMake module files
+[2.639s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/cartographer_ros_msgs' for CMake config files
+[2.640s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer_ros_msgs', 'cmake_prefix_path')
+[2.649s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rick/ros_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/cmake_prefix_path.ps1'
+[2.649s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rick/ros_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/cmake_prefix_path.dsv'
+[2.649s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rick/ros_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/cmake_prefix_path.sh'
+[2.650s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/cartographer_ros_msgs/lib'
+[2.650s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer_ros_msgs', 'ld_library_path_lib')
+[2.660s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rick/ros_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/ld_library_path_lib.ps1'
+[2.660s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rick/ros_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/ld_library_path_lib.dsv'
+[2.660s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rick/ros_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/ld_library_path_lib.sh'
+[2.660s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/cartographer_ros_msgs/bin'
+[2.661s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/cartographer_ros_msgs/lib/pkgconfig/cartographer_ros_msgs.pc'
+[2.661s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/cartographer_ros_msgs/lib/python3.10/site-packages'
+[2.661s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/cartographer_ros_msgs/bin'
+[2.670s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/package.ps1'
+[2.671s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rick/ros_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/package.dsv'
+[2.671s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/package.sh'
+[2.671s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/package.bash'
+[2.671s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/package.zsh'
+[2.672s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rick/ros_ws/install/cartographer_ros_msgs/share/colcon-core/packages/cartographer_ros_msgs)
+[2.673s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rick/ros_ws/build/ds4_driver' returned '0': CMAKE_PREFIX_PATH=/home/rick/ros_ws/install/ds4_driver_msgs:/home/rick/ros_ws/install/imu_tools:/home/rick/ros_ws/install/rviz_imu_plugin:/home/rick/ros_ws/install/rosbot_nav:/home/rick/ros_ws/install/ros_bot:/home/rick/ros_ws/install/imu_filter_madgwick:/home/rick/ros_ws/install/imu_complementary_filter:/home/rick/ros_ws/install/ds4_driver:/home/rick/ros_ws/install/cartographer_test:/home/rick/ros_ws/install/cartographer_rviz:/home/rick/ros_ws/install/cartographer_ros:/home/rick/ros_ws/install/ayuda_description:/opt/ros/humble:/home/rick/ros_ws/install/cartographer_ros_msgs:/home/rick/ros_ws/install/cartographer LD_LIBRARY_PATH=/home/rick/ros_ws/install/ds4_driver_msgs/lib:/home/rick/ros_ws/install/rviz_imu_plugin/lib:/home/rick/ros_ws/install/imu_filter_madgwick/lib:/home/rick/ros_ws/install/imu_complementary_filter/lib:/home/rick/ros_ws/install/cartographer_rviz/lib:/home/rick/ros_ws/install/cartographer_ros/lib:/home/rick/ros_ws/install/cartographer_ros_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64 /home/rick/.local/bin/cmake --build /home/rick/ros_ws/build/ds4_driver -- -j24 -l24
+[2.704s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rick/ros_ws/build/ds4_driver': CMAKE_PREFIX_PATH=/home/rick/ros_ws/install/ds4_driver_msgs:/home/rick/ros_ws/install/imu_tools:/home/rick/ros_ws/install/rviz_imu_plugin:/home/rick/ros_ws/install/rosbot_nav:/home/rick/ros_ws/install/ros_bot:/home/rick/ros_ws/install/imu_filter_madgwick:/home/rick/ros_ws/install/imu_complementary_filter:/home/rick/ros_ws/install/ds4_driver:/home/rick/ros_ws/install/cartographer_test:/home/rick/ros_ws/install/cartographer_rviz:/home/rick/ros_ws/install/cartographer_ros:/home/rick/ros_ws/install/ayuda_description:/opt/ros/humble:/home/rick/ros_ws/install/cartographer_ros_msgs:/home/rick/ros_ws/install/cartographer LD_LIBRARY_PATH=/home/rick/ros_ws/install/ds4_driver_msgs/lib:/home/rick/ros_ws/install/rviz_imu_plugin/lib:/home/rick/ros_ws/install/imu_filter_madgwick/lib:/home/rick/ros_ws/install/imu_complementary_filter/lib:/home/rick/ros_ws/install/cartographer_rviz/lib:/home/rick/ros_ws/install/cartographer_ros/lib:/home/rick/ros_ws/install/cartographer_ros_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64 /home/rick/.local/bin/cmake --install /home/rick/ros_ws/build/ds4_driver
+[2.752s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ds4_driver)
+[2.753s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rick/ros_ws/build/ds4_driver' returned '0': CMAKE_PREFIX_PATH=/home/rick/ros_ws/install/ds4_driver_msgs:/home/rick/ros_ws/install/imu_tools:/home/rick/ros_ws/install/rviz_imu_plugin:/home/rick/ros_ws/install/rosbot_nav:/home/rick/ros_ws/install/ros_bot:/home/rick/ros_ws/install/imu_filter_madgwick:/home/rick/ros_ws/install/imu_complementary_filter:/home/rick/ros_ws/install/ds4_driver:/home/rick/ros_ws/install/cartographer_test:/home/rick/ros_ws/install/cartographer_rviz:/home/rick/ros_ws/install/cartographer_ros:/home/rick/ros_ws/install/ayuda_description:/opt/ros/humble:/home/rick/ros_ws/install/cartographer_ros_msgs:/home/rick/ros_ws/install/cartographer LD_LIBRARY_PATH=/home/rick/ros_ws/install/ds4_driver_msgs/lib:/home/rick/ros_ws/install/rviz_imu_plugin/lib:/home/rick/ros_ws/install/imu_filter_madgwick/lib:/home/rick/ros_ws/install/imu_complementary_filter/lib:/home/rick/ros_ws/install/cartographer_rviz/lib:/home/rick/ros_ws/install/cartographer_ros/lib:/home/rick/ros_ws/install/cartographer_ros_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64 /home/rick/.local/bin/cmake --install /home/rick/ros_ws/build/ds4_driver
+[2.762s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/ds4_driver' for CMake module files
+[2.762s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/ds4_driver' for CMake config files
+[2.762s] Level 1:colcon.colcon_core.shell:create_environment_hook('ds4_driver', 'cmake_prefix_path')
+[2.771s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rick/ros_ws/install/ds4_driver/share/ds4_driver/hook/cmake_prefix_path.ps1'
+[2.771s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rick/ros_ws/install/ds4_driver/share/ds4_driver/hook/cmake_prefix_path.dsv'
+[2.771s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rick/ros_ws/install/ds4_driver/share/ds4_driver/hook/cmake_prefix_path.sh'
+[2.772s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/ds4_driver/lib'
+[2.772s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/ds4_driver/bin'
+[2.772s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/ds4_driver/lib/pkgconfig/ds4_driver.pc'
+[2.772s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/ds4_driver/lib/python3.10/site-packages'
+[2.772s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/ds4_driver/bin'
+[2.782s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/ds4_driver/share/ds4_driver/package.ps1'
+[2.782s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rick/ros_ws/install/ds4_driver/share/ds4_driver/package.dsv'
+[2.782s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/ds4_driver/share/ds4_driver/package.sh'
+[2.783s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/ds4_driver/share/ds4_driver/package.bash'
+[2.783s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/ds4_driver/share/ds4_driver/package.zsh'
+[2.783s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rick/ros_ws/install/ds4_driver/share/colcon-core/packages/ds4_driver)
+[2.823s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ds4_driver)
+[2.832s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/ds4_driver' for CMake module files
+[2.833s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/ds4_driver' for CMake config files
+[2.833s] Level 1:colcon.colcon_core.shell:create_environment_hook('ds4_driver', 'cmake_prefix_path')
+[2.841s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rick/ros_ws/install/ds4_driver/share/ds4_driver/hook/cmake_prefix_path.ps1'
+[2.841s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rick/ros_ws/install/ds4_driver/share/ds4_driver/hook/cmake_prefix_path.dsv'
+[2.842s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rick/ros_ws/install/ds4_driver/share/ds4_driver/hook/cmake_prefix_path.sh'
+[2.842s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/ds4_driver/lib'
+[2.842s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/ds4_driver/bin'
+[2.842s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/ds4_driver/lib/pkgconfig/ds4_driver.pc'
+[2.842s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/ds4_driver/lib/python3.10/site-packages'
+[2.842s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/ds4_driver/bin'
+[2.851s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/ds4_driver/share/ds4_driver/package.ps1'
+[2.852s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rick/ros_ws/install/ds4_driver/share/ds4_driver/package.dsv'
+[2.852s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/ds4_driver/share/ds4_driver/package.sh'
+[2.852s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/ds4_driver/share/ds4_driver/package.bash'
+[2.852s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/ds4_driver/share/ds4_driver/package.zsh'
+[2.852s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rick/ros_ws/install/ds4_driver/share/colcon-core/packages/ds4_driver)
+[3.112s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer', 'pkg_config_path')
+[3.129s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rick/ros_ws/install/cartographer/share/cartographer/hook/pkg_config_path.ps1'
+[3.129s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rick/ros_ws/install/cartographer/share/cartographer/hook/pkg_config_path.dsv'
+[3.129s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rick/ros_ws/install/cartographer/share/cartographer/hook/pkg_config_path.sh'
+[3.130s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer', 'pkg_config_path_multiarch')
+[3.139s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rick/ros_ws/install/cartographer/share/cartographer/hook/pkg_config_path_multiarch.ps1'
+[3.139s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rick/ros_ws/install/cartographer/share/cartographer/hook/pkg_config_path_multiarch.dsv'
+[3.140s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rick/ros_ws/install/cartographer/share/cartographer/hook/pkg_config_path_multiarch.sh'
+[3.140s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cartographer)
+[3.148s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/cartographer' for CMake module files
+[3.148s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/cartographer' for CMake config files
+[3.148s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer', 'cmake_prefix_path')
+[3.157s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rick/ros_ws/install/cartographer/share/cartographer/hook/cmake_prefix_path.ps1'
+[3.157s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rick/ros_ws/install/cartographer/share/cartographer/hook/cmake_prefix_path.dsv'
+[3.157s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rick/ros_ws/install/cartographer/share/cartographer/hook/cmake_prefix_path.sh'
+[3.158s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/cartographer/lib'
+[3.158s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/cartographer/bin'
+[3.158s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer', 'path')
+[3.166s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rick/ros_ws/install/cartographer/share/cartographer/hook/path.ps1'
+[3.166s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rick/ros_ws/install/cartographer/share/cartographer/hook/path.dsv'
+[3.166s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rick/ros_ws/install/cartographer/share/cartographer/hook/path.sh'
+[3.167s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/cartographer/lib/pkgconfig/cartographer.pc'
+[3.167s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/cartographer/lib/python3.10/site-packages'
+[3.167s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/cartographer/bin'
+[3.167s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer', 'pythonscriptspath')
+[3.175s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rick/ros_ws/install/cartographer/share/cartographer/hook/pythonscriptspath.ps1'
+[3.175s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rick/ros_ws/install/cartographer/share/cartographer/hook/pythonscriptspath.dsv'
+[3.176s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rick/ros_ws/install/cartographer/share/cartographer/hook/pythonscriptspath.sh'
+[3.184s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/cartographer/share/cartographer/package.ps1'
+[3.185s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rick/ros_ws/install/cartographer/share/cartographer/package.dsv'
+[3.185s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/cartographer/share/cartographer/package.sh'
+[3.185s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/cartographer/share/cartographer/package.bash'
+[3.185s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/cartographer/share/cartographer/package.zsh'
+[3.186s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rick/ros_ws/install/cartographer/share/colcon-core/packages/cartographer)
+[3.186s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rick/ros_ws/src/cartographer_ros/cartographer_ros' with build type 'ament_cmake'
+[3.186s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rick/ros_ws/src/cartographer_ros/cartographer_ros'
+[3.195s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.195s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.228s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rick/ros_ws/build/cartographer_ros': CMAKE_PREFIX_PATH=/home/rick/ros_ws/install/ayuda_description:/opt/ros/humble:/home/rick/ros_ws/install/cartographer_ros_msgs:/home/rick/ros_ws/install/cartographer:/home/rick/ros_ws/install/imu_tools:/home/rick/ros_ws/install/rviz_imu_plugin:/home/rick/ros_ws/install/rosbot_nav:/home/rick/ros_ws/install/ros_bot:/home/rick/ros_ws/install/imu_filter_madgwick:/home/rick/ros_ws/install/imu_complementary_filter:/home/rick/ros_ws/install/ds4_driver:/home/rick/ros_ws/install/ds4_driver_msgs:/home/rick/ros_ws/install/cartographer_test:/home/rick/ros_ws/install/cartographer_rviz:/home/rick/ros_ws/install/cartographer_ros LD_LIBRARY_PATH=/home/rick/ros_ws/install/cartographer_ros_msgs/lib:/home/rick/ros_ws/install/rviz_imu_plugin/lib:/home/rick/ros_ws/install/imu_filter_madgwick/lib:/home/rick/ros_ws/install/imu_complementary_filter/lib:/home/rick/ros_ws/install/ds4_driver_msgs/lib:/home/rick/ros_ws/install/cartographer_rviz/lib:/home/rick/ros_ws/install/cartographer_ros/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64 /home/rick/.local/bin/cmake --build /home/rick/ros_ws/build/cartographer_ros -- -j24 -l24
+[3.328s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rick/ros_ws/build/cartographer_ros' returned '0': CMAKE_PREFIX_PATH=/home/rick/ros_ws/install/ayuda_description:/opt/ros/humble:/home/rick/ros_ws/install/cartographer_ros_msgs:/home/rick/ros_ws/install/cartographer:/home/rick/ros_ws/install/imu_tools:/home/rick/ros_ws/install/rviz_imu_plugin:/home/rick/ros_ws/install/rosbot_nav:/home/rick/ros_ws/install/ros_bot:/home/rick/ros_ws/install/imu_filter_madgwick:/home/rick/ros_ws/install/imu_complementary_filter:/home/rick/ros_ws/install/ds4_driver:/home/rick/ros_ws/install/ds4_driver_msgs:/home/rick/ros_ws/install/cartographer_test:/home/rick/ros_ws/install/cartographer_rviz:/home/rick/ros_ws/install/cartographer_ros LD_LIBRARY_PATH=/home/rick/ros_ws/install/cartographer_ros_msgs/lib:/home/rick/ros_ws/install/rviz_imu_plugin/lib:/home/rick/ros_ws/install/imu_filter_madgwick/lib:/home/rick/ros_ws/install/imu_complementary_filter/lib:/home/rick/ros_ws/install/ds4_driver_msgs/lib:/home/rick/ros_ws/install/cartographer_rviz/lib:/home/rick/ros_ws/install/cartographer_ros/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64 /home/rick/.local/bin/cmake --build /home/rick/ros_ws/build/cartographer_ros -- -j24 -l24
+[3.491s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rick/ros_ws/build/cartographer_ros': CMAKE_PREFIX_PATH=/home/rick/ros_ws/install/ayuda_description:/opt/ros/humble:/home/rick/ros_ws/install/cartographer_ros_msgs:/home/rick/ros_ws/install/cartographer:/home/rick/ros_ws/install/imu_tools:/home/rick/ros_ws/install/rviz_imu_plugin:/home/rick/ros_ws/install/rosbot_nav:/home/rick/ros_ws/install/ros_bot:/home/rick/ros_ws/install/imu_filter_madgwick:/home/rick/ros_ws/install/imu_complementary_filter:/home/rick/ros_ws/install/ds4_driver:/home/rick/ros_ws/install/ds4_driver_msgs:/home/rick/ros_ws/install/cartographer_test:/home/rick/ros_ws/install/cartographer_rviz:/home/rick/ros_ws/install/cartographer_ros LD_LIBRARY_PATH=/home/rick/ros_ws/install/cartographer_ros_msgs/lib:/home/rick/ros_ws/install/rviz_imu_plugin/lib:/home/rick/ros_ws/install/imu_filter_madgwick/lib:/home/rick/ros_ws/install/imu_complementary_filter/lib:/home/rick/ros_ws/install/ds4_driver_msgs/lib:/home/rick/ros_ws/install/cartographer_rviz/lib:/home/rick/ros_ws/install/cartographer_ros/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64 /home/rick/.local/bin/cmake --install /home/rick/ros_ws/build/cartographer_ros
+[3.529s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cartographer_ros)
+[3.529s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rick/ros_ws/build/cartographer_ros' returned '0': CMAKE_PREFIX_PATH=/home/rick/ros_ws/install/ayuda_description:/opt/ros/humble:/home/rick/ros_ws/install/cartographer_ros_msgs:/home/rick/ros_ws/install/cartographer:/home/rick/ros_ws/install/imu_tools:/home/rick/ros_ws/install/rviz_imu_plugin:/home/rick/ros_ws/install/rosbot_nav:/home/rick/ros_ws/install/ros_bot:/home/rick/ros_ws/install/imu_filter_madgwick:/home/rick/ros_ws/install/imu_complementary_filter:/home/rick/ros_ws/install/ds4_driver:/home/rick/ros_ws/install/ds4_driver_msgs:/home/rick/ros_ws/install/cartographer_test:/home/rick/ros_ws/install/cartographer_rviz:/home/rick/ros_ws/install/cartographer_ros LD_LIBRARY_PATH=/home/rick/ros_ws/install/cartographer_ros_msgs/lib:/home/rick/ros_ws/install/rviz_imu_plugin/lib:/home/rick/ros_ws/install/imu_filter_madgwick/lib:/home/rick/ros_ws/install/imu_complementary_filter/lib:/home/rick/ros_ws/install/ds4_driver_msgs/lib:/home/rick/ros_ws/install/cartographer_rviz/lib:/home/rick/ros_ws/install/cartographer_ros/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64 /home/rick/.local/bin/cmake --install /home/rick/ros_ws/build/cartographer_ros
+[3.538s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/cartographer_ros' for CMake module files
+[3.539s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/cartographer_ros' for CMake config files
+[3.539s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer_ros', 'cmake_prefix_path')
+[3.548s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rick/ros_ws/install/cartographer_ros/share/cartographer_ros/hook/cmake_prefix_path.ps1'
+[3.548s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rick/ros_ws/install/cartographer_ros/share/cartographer_ros/hook/cmake_prefix_path.dsv'
+[3.549s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rick/ros_ws/install/cartographer_ros/share/cartographer_ros/hook/cmake_prefix_path.sh'
+[3.549s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/cartographer_ros/lib'
+[3.549s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/cartographer_ros/bin'
+[3.549s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/cartographer_ros/lib/pkgconfig/cartographer_ros.pc'
+[3.549s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/cartographer_ros/lib/python3.10/site-packages'
+[3.549s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/cartographer_ros/bin'
+[3.558s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/cartographer_ros/share/cartographer_ros/package.ps1'
+[3.559s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rick/ros_ws/install/cartographer_ros/share/cartographer_ros/package.dsv'
+[3.559s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/cartographer_ros/share/cartographer_ros/package.sh'
+[3.559s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/cartographer_ros/share/cartographer_ros/package.bash'
+[3.559s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/cartographer_ros/share/cartographer_ros/package.zsh'
+[3.559s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rick/ros_ws/install/cartographer_ros/share/colcon-core/packages/cartographer_ros)
+[3.770s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cartographer_ros)
+[3.779s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/cartographer_ros' for CMake module files
+[3.779s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/cartographer_ros' for CMake config files
+[3.780s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer_ros', 'cmake_prefix_path')
+[3.788s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rick/ros_ws/install/cartographer_ros/share/cartographer_ros/hook/cmake_prefix_path.ps1'
+[3.788s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rick/ros_ws/install/cartographer_ros/share/cartographer_ros/hook/cmake_prefix_path.dsv'
+[3.789s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rick/ros_ws/install/cartographer_ros/share/cartographer_ros/hook/cmake_prefix_path.sh'
+[3.789s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/cartographer_ros/lib'
+[3.789s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/cartographer_ros/bin'
+[3.789s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/cartographer_ros/lib/pkgconfig/cartographer_ros.pc'
+[3.789s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/cartographer_ros/lib/python3.10/site-packages'
+[3.789s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/cartographer_ros/bin'
+[3.798s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/cartographer_ros/share/cartographer_ros/package.ps1'
+[3.798s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rick/ros_ws/install/cartographer_ros/share/cartographer_ros/package.dsv'
+[3.798s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/cartographer_ros/share/cartographer_ros/package.sh'
+[3.798s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/cartographer_ros/share/cartographer_ros/package.bash'
+[3.798s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/cartographer_ros/share/cartographer_ros/package.zsh'
+[3.799s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rick/ros_ws/install/cartographer_ros/share/colcon-core/packages/cartographer_ros)
+[3.799s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rick/ros_ws/src/cartographer_ros/cartographer_rviz' with build type 'ament_cmake'
+[3.799s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rick/ros_ws/src/cartographer_ros/cartographer_rviz'
+[3.808s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.808s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.850s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rick/ros_ws/build/cartographer_rviz': CMAKE_PREFIX_PATH=/home/rick/ros_ws/install/cartographer_ros:/home/rick/ros_ws/install/ayuda_description:/opt/ros/humble:/home/rick/ros_ws/install/cartographer_ros_msgs:/home/rick/ros_ws/install/cartographer:/home/rick/ros_ws/install/imu_tools:/home/rick/ros_ws/install/rviz_imu_plugin:/home/rick/ros_ws/install/rosbot_nav:/home/rick/ros_ws/install/ros_bot:/home/rick/ros_ws/install/imu_filter_madgwick:/home/rick/ros_ws/install/imu_complementary_filter:/home/rick/ros_ws/install/ds4_driver:/home/rick/ros_ws/install/ds4_driver_msgs:/home/rick/ros_ws/install/cartographer_test:/home/rick/ros_ws/install/cartographer_rviz LD_LIBRARY_PATH=/home/rick/ros_ws/install/cartographer_ros_msgs/lib:/home/rick/ros_ws/install/rviz_imu_plugin/lib:/home/rick/ros_ws/install/imu_filter_madgwick/lib:/home/rick/ros_ws/install/imu_complementary_filter/lib:/home/rick/ros_ws/install/ds4_driver_msgs/lib:/home/rick/ros_ws/install/cartographer_rviz/lib:/home/rick/ros_ws/install/cartographer_ros/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64 /home/rick/.local/bin/cmake --build /home/rick/ros_ws/build/cartographer_rviz -- -j24 -l24
+[3.949s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rick/ros_ws/build/cartographer_rviz' returned '0': CMAKE_PREFIX_PATH=/home/rick/ros_ws/install/cartographer_ros:/home/rick/ros_ws/install/ayuda_description:/opt/ros/humble:/home/rick/ros_ws/install/cartographer_ros_msgs:/home/rick/ros_ws/install/cartographer:/home/rick/ros_ws/install/imu_tools:/home/rick/ros_ws/install/rviz_imu_plugin:/home/rick/ros_ws/install/rosbot_nav:/home/rick/ros_ws/install/ros_bot:/home/rick/ros_ws/install/imu_filter_madgwick:/home/rick/ros_ws/install/imu_complementary_filter:/home/rick/ros_ws/install/ds4_driver:/home/rick/ros_ws/install/ds4_driver_msgs:/home/rick/ros_ws/install/cartographer_test:/home/rick/ros_ws/install/cartographer_rviz LD_LIBRARY_PATH=/home/rick/ros_ws/install/cartographer_ros_msgs/lib:/home/rick/ros_ws/install/rviz_imu_plugin/lib:/home/rick/ros_ws/install/imu_filter_madgwick/lib:/home/rick/ros_ws/install/imu_complementary_filter/lib:/home/rick/ros_ws/install/ds4_driver_msgs/lib:/home/rick/ros_ws/install/cartographer_rviz/lib:/home/rick/ros_ws/install/cartographer_ros/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64 /home/rick/.local/bin/cmake --build /home/rick/ros_ws/build/cartographer_rviz -- -j24 -l24
+[4.005s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rick/ros_ws/build/cartographer_rviz': CMAKE_PREFIX_PATH=/home/rick/ros_ws/install/cartographer_ros:/home/rick/ros_ws/install/ayuda_description:/opt/ros/humble:/home/rick/ros_ws/install/cartographer_ros_msgs:/home/rick/ros_ws/install/cartographer:/home/rick/ros_ws/install/imu_tools:/home/rick/ros_ws/install/rviz_imu_plugin:/home/rick/ros_ws/install/rosbot_nav:/home/rick/ros_ws/install/ros_bot:/home/rick/ros_ws/install/imu_filter_madgwick:/home/rick/ros_ws/install/imu_complementary_filter:/home/rick/ros_ws/install/ds4_driver:/home/rick/ros_ws/install/ds4_driver_msgs:/home/rick/ros_ws/install/cartographer_test:/home/rick/ros_ws/install/cartographer_rviz LD_LIBRARY_PATH=/home/rick/ros_ws/install/cartographer_ros_msgs/lib:/home/rick/ros_ws/install/rviz_imu_plugin/lib:/home/rick/ros_ws/install/imu_filter_madgwick/lib:/home/rick/ros_ws/install/imu_complementary_filter/lib:/home/rick/ros_ws/install/ds4_driver_msgs/lib:/home/rick/ros_ws/install/cartographer_rviz/lib:/home/rick/ros_ws/install/cartographer_ros/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64 /home/rick/.local/bin/cmake --install /home/rick/ros_ws/build/cartographer_rviz
+[4.063s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cartographer_rviz)
+[4.063s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rick/ros_ws/build/cartographer_rviz' returned '0': CMAKE_PREFIX_PATH=/home/rick/ros_ws/install/cartographer_ros:/home/rick/ros_ws/install/ayuda_description:/opt/ros/humble:/home/rick/ros_ws/install/cartographer_ros_msgs:/home/rick/ros_ws/install/cartographer:/home/rick/ros_ws/install/imu_tools:/home/rick/ros_ws/install/rviz_imu_plugin:/home/rick/ros_ws/install/rosbot_nav:/home/rick/ros_ws/install/ros_bot:/home/rick/ros_ws/install/imu_filter_madgwick:/home/rick/ros_ws/install/imu_complementary_filter:/home/rick/ros_ws/install/ds4_driver:/home/rick/ros_ws/install/ds4_driver_msgs:/home/rick/ros_ws/install/cartographer_test:/home/rick/ros_ws/install/cartographer_rviz LD_LIBRARY_PATH=/home/rick/ros_ws/install/cartographer_ros_msgs/lib:/home/rick/ros_ws/install/rviz_imu_plugin/lib:/home/rick/ros_ws/install/imu_filter_madgwick/lib:/home/rick/ros_ws/install/imu_complementary_filter/lib:/home/rick/ros_ws/install/ds4_driver_msgs/lib:/home/rick/ros_ws/install/cartographer_rviz/lib:/home/rick/ros_ws/install/cartographer_ros/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64 /home/rick/.local/bin/cmake --install /home/rick/ros_ws/build/cartographer_rviz
+[4.074s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/cartographer_rviz' for CMake module files
+[4.074s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/cartographer_rviz' for CMake config files
+[4.074s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer_rviz', 'cmake_prefix_path')
+[4.083s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rick/ros_ws/install/cartographer_rviz/share/cartographer_rviz/hook/cmake_prefix_path.ps1'
+[4.083s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rick/ros_ws/install/cartographer_rviz/share/cartographer_rviz/hook/cmake_prefix_path.dsv'
+[4.083s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rick/ros_ws/install/cartographer_rviz/share/cartographer_rviz/hook/cmake_prefix_path.sh'
+[4.083s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/cartographer_rviz/lib'
+[4.083s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer_rviz', 'ld_library_path_lib')
+[4.092s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rick/ros_ws/install/cartographer_rviz/share/cartographer_rviz/hook/ld_library_path_lib.ps1'
+[4.092s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rick/ros_ws/install/cartographer_rviz/share/cartographer_rviz/hook/ld_library_path_lib.dsv'
+[4.092s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rick/ros_ws/install/cartographer_rviz/share/cartographer_rviz/hook/ld_library_path_lib.sh'
+[4.092s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/cartographer_rviz/bin'
+[4.092s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/cartographer_rviz/lib/pkgconfig/cartographer_rviz.pc'
+[4.093s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/cartographer_rviz/lib/python3.10/site-packages'
+[4.093s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/cartographer_rviz/bin'
+[4.101s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/cartographer_rviz/share/cartographer_rviz/package.ps1'
+[4.102s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rick/ros_ws/install/cartographer_rviz/share/cartographer_rviz/package.dsv'
+[4.102s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/cartographer_rviz/share/cartographer_rviz/package.sh'
+[4.102s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/cartographer_rviz/share/cartographer_rviz/package.bash'
+[4.102s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/cartographer_rviz/share/cartographer_rviz/package.zsh'
+[4.102s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rick/ros_ws/install/cartographer_rviz/share/colcon-core/packages/cartographer_rviz)
+[4.167s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cartographer_rviz)
+[4.177s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/cartographer_rviz' for CMake module files
+[4.177s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/cartographer_rviz' for CMake config files
+[4.177s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer_rviz', 'cmake_prefix_path')
+[4.185s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rick/ros_ws/install/cartographer_rviz/share/cartographer_rviz/hook/cmake_prefix_path.ps1'
+[4.186s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rick/ros_ws/install/cartographer_rviz/share/cartographer_rviz/hook/cmake_prefix_path.dsv'
+[4.186s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rick/ros_ws/install/cartographer_rviz/share/cartographer_rviz/hook/cmake_prefix_path.sh'
+[4.186s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/cartographer_rviz/lib'
+[4.186s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer_rviz', 'ld_library_path_lib')
+[4.194s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rick/ros_ws/install/cartographer_rviz/share/cartographer_rviz/hook/ld_library_path_lib.ps1'
+[4.195s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rick/ros_ws/install/cartographer_rviz/share/cartographer_rviz/hook/ld_library_path_lib.dsv'
+[4.195s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rick/ros_ws/install/cartographer_rviz/share/cartographer_rviz/hook/ld_library_path_lib.sh'
+[4.195s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/cartographer_rviz/bin'
+[4.195s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/cartographer_rviz/lib/pkgconfig/cartographer_rviz.pc'
+[4.195s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/cartographer_rviz/lib/python3.10/site-packages'
+[4.195s] Level 1:colcon.colcon_core.environment:checking '/home/rick/ros_ws/install/cartographer_rviz/bin'
+[4.203s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/cartographer_rviz/share/cartographer_rviz/package.ps1'
+[4.204s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rick/ros_ws/install/cartographer_rviz/share/cartographer_rviz/package.dsv'
+[4.204s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/cartographer_rviz/share/cartographer_rviz/package.sh'
+[4.204s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/cartographer_rviz/share/cartographer_rviz/package.bash'
+[4.204s] INFO:colcon.colcon_core.shell:Creating package script '/home/rick/ros_ws/install/cartographer_rviz/share/cartographer_rviz/package.zsh'
+[4.204s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rick/ros_ws/install/cartographer_rviz/share/colcon-core/packages/cartographer_rviz)
+[4.205s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.205s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.205s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.205s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.218s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.218s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.218s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.227s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.240s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rick/ros_ws/install/local_setup.ps1'
+[4.241s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rick/ros_ws/install/_local_setup_util_ps1.py'
+[4.245s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rick/ros_ws/install/setup.ps1'
+[4.257s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rick/ros_ws/install/local_setup.sh'
+[4.257s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rick/ros_ws/install/_local_setup_util_sh.py'
+[4.257s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rick/ros_ws/install/setup.sh'
+[4.267s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rick/ros_ws/install/local_setup.bash'
+[4.267s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rick/ros_ws/install/setup.bash'
+[4.276s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rick/ros_ws/install/local_setup.zsh'
+[4.276s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rick/ros_ws/install/setup.zsh'

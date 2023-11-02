@@ -1,0 +1,1 @@
+/home/rick/ros_ws/build/cartographer_test/ament_cmake_core/cartographer_testConfig.cmake

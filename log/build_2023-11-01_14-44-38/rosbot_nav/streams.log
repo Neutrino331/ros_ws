@@ -1,0 +1,3 @@
+[0.259s] Invoking command in '/home/rick/ros_ws/build/rosbot_nav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rick/ros_ws/install/ayuda_description:/opt/ros/humble /home/rick/.local/bin/cmake --build /home/rick/ros_ws/build/rosbot_nav -- -j24 -l24
+[0.276s] Invoked command in '/home/rick/ros_ws/build/rosbot_nav' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rick/ros_ws/install/ayuda_description:/opt/ros/humble /home/rick/.local/bin/cmake --build /home/rick/ros_ws/build/rosbot_nav -- -j24 -l24
+[0.359s] Invoking command in '/home/rick/ros_ws/build/rosbot_nav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rick/ros_ws/install/ayuda_description:/opt/ros/humble /home/rick/.local/bin/cmake --install /home/rick/ros_ws/build/rosbot_nav

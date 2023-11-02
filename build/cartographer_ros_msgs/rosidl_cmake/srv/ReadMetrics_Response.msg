@@ -1,4 +1,0 @@
-
-cartographer_ros_msgs/StatusResponse status
-cartographer_ros_msgs/MetricFamily[] metric_families
-builtin_interfaces/Time timestamp

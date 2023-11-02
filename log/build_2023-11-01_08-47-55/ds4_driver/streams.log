@@ -1,0 +1,49 @@
+[0.124s] Invoking command in '/home/rick/ros_ws/build/ds4_driver': AMENT_PREFIX_PATH=/home/rick/ros_ws/install/ds4_driver_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rick/ros_ws/install/ds4_driver_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/rick/ros_ws/install/ds4_driver_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64 PYTHONPATH=/home/rick/ros_ws/install/ds4_driver_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/rick/.local/bin/cmake --build /home/rick/ros_ws/build/ds4_driver -- -j24 -l24
+[0.150s] Built target ament_cmake_python_symlink_ds4_driver
+[0.387s] running egg_info
+[0.387s] writing ds4_driver.egg-info/PKG-INFO
+[0.387s] writing dependency_links to ds4_driver.egg-info/dependency_links.txt
+[0.387s] writing top-level names to ds4_driver.egg-info/top_level.txt
+[0.389s] reading manifest file 'ds4_driver.egg-info/SOURCES.txt'
+[0.389s] writing manifest file 'ds4_driver.egg-info/SOURCES.txt'
+[0.401s] Built target ament_cmake_python_build_ds4_driver_egg
+[0.426s] Invoked command in '/home/rick/ros_ws/build/ds4_driver' returned '0': AMENT_PREFIX_PATH=/home/rick/ros_ws/install/ds4_driver_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rick/ros_ws/install/ds4_driver_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/rick/ros_ws/install/ds4_driver_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64 PYTHONPATH=/home/rick/ros_ws/install/ds4_driver_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/rick/.local/bin/cmake --build /home/rick/ros_ws/build/ds4_driver -- -j24 -l24
+[0.454s] Invoking command in '/home/rick/ros_ws/build/ds4_driver': AMENT_PREFIX_PATH=/home/rick/ros_ws/install/ds4_driver_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rick/ros_ws/install/ds4_driver_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/rick/ros_ws/install/ds4_driver_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64 PYTHONPATH=/home/rick/ros_ws/install/ds4_driver_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/rick/.local/bin/cmake --install /home/rick/ros_ws/build/ds4_driver
+[0.515s] -- Install configuration: ""
+[0.517s] -- Execute custom install script
+[0.517s] -- Up-to-date symlink: /home/rick/ros_ws/install/ds4_driver/share/ds4_driver/environment/pythonpath.sh
+[0.518s] -- Up-to-date symlink: /home/rick/ros_ws/install/ds4_driver/share/ds4_driver/environment/pythonpath.dsv
+[0.519s] -- Up-to-date symlink: /home/rick/ros_ws/install/ds4_driver/local/lib/python3.10/dist-packages/ds4_driver-0.2.1-py3.10.egg-info/PKG-INFO
+[0.519s] -- Up-to-date symlink: /home/rick/ros_ws/install/ds4_driver/local/lib/python3.10/dist-packages/ds4_driver-0.2.1-py3.10.egg-info/SOURCES.txt
+[0.519s] -- Up-to-date symlink: /home/rick/ros_ws/install/ds4_driver/local/lib/python3.10/dist-packages/ds4_driver-0.2.1-py3.10.egg-info/dependency_links.txt
+[0.520s] -- Up-to-date symlink: /home/rick/ros_ws/install/ds4_driver/local/lib/python3.10/dist-packages/ds4_driver-0.2.1-py3.10.egg-info/top_level.txt
+[0.520s] -- Up-to-date symlink: /home/rick/ros_ws/install/ds4_driver/local/lib/python3.10/dist-packages/ds4_driver/__init__.py
+[0.520s] -- Up-to-date symlink: /home/rick/ros_ws/install/ds4_driver/local/lib/python3.10/dist-packages/ds4_driver/controller.py
+[0.521s] -- Up-to-date symlink: /home/rick/ros_ws/install/ds4_driver/local/lib/python3.10/dist-packages/ds4_driver/controller_ros.py
+[0.521s] -- Up-to-date symlink: /home/rick/ros_ws/install/ds4_driver/local/lib/python3.10/dist-packages/ds4_driver/logger.py
+[0.521s] -- Up-to-date symlink: /home/rick/ros_ws/install/ds4_driver/share/ds4_driver//config/params.yaml
+[0.521s] -- Up-to-date symlink: /home/rick/ros_ws/install/ds4_driver/share/ds4_driver//config/twist_2dof.yaml
+[0.522s] -- Up-to-date symlink: /home/rick/ros_ws/install/ds4_driver/share/ds4_driver//config/twist_6dof.yaml
+[0.522s] -- Up-to-date symlink: /home/rick/ros_ws/install/ds4_driver/share/ds4_driver//launch/demo.launch.xml
+[0.523s] -- Up-to-date symlink: /home/rick/ros_ws/install/ds4_driver/share/ds4_driver//launch/ds4_driver.launch.xml
+[0.523s] -- Up-to-date symlink: /home/rick/ros_ws/install/ds4_driver/share/ds4_driver//launch/ds4_twist.launch.xml
+[0.523s] -- Up-to-date symlink: /home/rick/ros_ws/install/ds4_driver/lib/ds4_driver/demo.py
+[0.524s] -- Up-to-date symlink: /home/rick/ros_ws/install/ds4_driver/lib/ds4_driver/ds4_driver_node.py
+[0.524s] -- Up-to-date symlink: /home/rick/ros_ws/install/ds4_driver/lib/ds4_driver/ds4_twist_node.py
+[0.525s] -- Up-to-date symlink: /home/rick/ros_ws/install/ds4_driver/share/ament_index/resource_index/package_run_dependencies/ds4_driver
+[0.525s] -- Up-to-date symlink: /home/rick/ros_ws/install/ds4_driver/share/ament_index/resource_index/parent_prefix_path/ds4_driver
+[0.525s] -- Up-to-date symlink: /home/rick/ros_ws/install/ds4_driver/share/ds4_driver/environment/ament_prefix_path.sh
+[0.525s] -- Up-to-date symlink: /home/rick/ros_ws/install/ds4_driver/share/ds4_driver/environment/ament_prefix_path.dsv
+[0.525s] -- Up-to-date symlink: /home/rick/ros_ws/install/ds4_driver/share/ds4_driver/environment/path.sh
+[0.526s] -- Up-to-date symlink: /home/rick/ros_ws/install/ds4_driver/share/ds4_driver/environment/path.dsv
+[0.526s] -- Up-to-date symlink: /home/rick/ros_ws/install/ds4_driver/share/ds4_driver/local_setup.bash
+[0.526s] -- Up-to-date symlink: /home/rick/ros_ws/install/ds4_driver/share/ds4_driver/local_setup.sh
+[0.527s] -- Up-to-date symlink: /home/rick/ros_ws/install/ds4_driver/share/ds4_driver/local_setup.zsh
+[0.527s] -- Up-to-date symlink: /home/rick/ros_ws/install/ds4_driver/share/ds4_driver/local_setup.dsv
+[0.527s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver/share/ds4_driver/package.dsv
+[0.535s] -- Up-to-date symlink: /home/rick/ros_ws/install/ds4_driver/share/ament_index/resource_index/packages/ds4_driver
+[0.536s] -- Up-to-date symlink: /home/rick/ros_ws/install/ds4_driver/share/ds4_driver/cmake/ds4_driverConfig.cmake
+[0.536s] -- Up-to-date symlink: /home/rick/ros_ws/install/ds4_driver/share/ds4_driver/cmake/ds4_driverConfig-version.cmake
+[0.537s] -- Up-to-date symlink: /home/rick/ros_ws/install/ds4_driver/share/ds4_driver/package.xml
+[0.614s] Listing '/home/rick/ros_ws/install/ds4_driver/local/lib/python3.10/dist-packages/ds4_driver'...
+[0.633s] Invoked command in '/home/rick/ros_ws/build/ds4_driver' returned '0': AMENT_PREFIX_PATH=/home/rick/ros_ws/install/ds4_driver_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rick/ros_ws/install/ds4_driver_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/rick/ros_ws/install/ds4_driver_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64 PYTHONPATH=/home/rick/ros_ws/install/ds4_driver_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/rick/.local/bin/cmake --install /home/rick/ros_ws/build/ds4_driver

@@ -1,1 +1,0 @@
-/home/rick/ros_ws/src/cartographer_ros/cartographer_rviz/include/cartographer_rviz/drawable_submap.h

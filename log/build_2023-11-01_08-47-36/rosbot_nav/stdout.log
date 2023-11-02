@@ -1,0 +1,17 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/rick/ros_ws/install/rosbot_nav/share/ament_index/resource_index/package_run_dependencies/rosbot_nav
+-- Up-to-date symlink: /home/rick/ros_ws/install/rosbot_nav/share/ament_index/resource_index/parent_prefix_path/rosbot_nav
+-- Up-to-date symlink: /home/rick/ros_ws/install/rosbot_nav/share/rosbot_nav/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/rick/ros_ws/install/rosbot_nav/share/rosbot_nav/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/rick/ros_ws/install/rosbot_nav/share/rosbot_nav/environment/path.sh
+-- Up-to-date symlink: /home/rick/ros_ws/install/rosbot_nav/share/rosbot_nav/environment/path.dsv
+-- Up-to-date symlink: /home/rick/ros_ws/install/rosbot_nav/share/rosbot_nav/local_setup.bash
+-- Up-to-date symlink: /home/rick/ros_ws/install/rosbot_nav/share/rosbot_nav/local_setup.sh
+-- Up-to-date symlink: /home/rick/ros_ws/install/rosbot_nav/share/rosbot_nav/local_setup.zsh
+-- Up-to-date symlink: /home/rick/ros_ws/install/rosbot_nav/share/rosbot_nav/local_setup.dsv
+-- Symlinking: /home/rick/ros_ws/install/rosbot_nav/share/rosbot_nav/package.dsv
+-- Up-to-date symlink: /home/rick/ros_ws/install/rosbot_nav/share/ament_index/resource_index/packages/rosbot_nav
+-- Up-to-date symlink: /home/rick/ros_ws/install/rosbot_nav/share/rosbot_nav/cmake/rosbot_navConfig.cmake
+-- Up-to-date symlink: /home/rick/ros_ws/install/rosbot_nav/share/rosbot_nav/cmake/rosbot_navConfig-version.cmake
+-- Up-to-date symlink: /home/rick/ros_ws/install/rosbot_nav/share/rosbot_nav/package.xml

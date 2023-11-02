@@ -1,0 +1,14 @@
+-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[31mCMake Error at /opt/ros/humble/share/ament_cmake_python/cmake/ament_python_install_package.cmake:66 (message):
+  ament_python_install_package() the Python package folder
+  '/home/rick/ros_ws/src/ros_bot/ros_bot' doesn't contain an '__init__.py'
+  file
+Call Stack (most recent call first):
+  /opt/ros/humble/share/ament_cmake_python/cmake/ament_python_install_package.cmake:39 (_ament_cmake_python_install_package)
+  CMakeLists.txt:35 (ament_python_install_package)
+
+[0m
+-- Configuring incomplete, errors occurred!
+gmake: *** [Makefile:226：cmake_check_build_system] 錯誤 1

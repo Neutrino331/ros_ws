@@ -1,1 +1,0 @@
-/home/rick/ros_ws/src/cartographer_ros/cartographer_ros/launch/assets_writer_ros_map.launch.py

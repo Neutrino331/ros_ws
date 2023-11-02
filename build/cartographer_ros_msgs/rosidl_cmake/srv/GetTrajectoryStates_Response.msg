@@ -1,3 +1,0 @@
-
-cartographer_ros_msgs/StatusResponse status
-cartographer_ros_msgs/TrajectoryStates trajectory_states

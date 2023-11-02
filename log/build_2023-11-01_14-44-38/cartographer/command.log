@@ -1,0 +1,1 @@
+Invoking command in '/home/rick/ros_ws/build/cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rick/ros_ws/install/ayuda_description:/opt/ros/humble /home/rick/.local/bin/cmake /home/rick/ros_ws/src/cartographer -DCMAKE_INSTALL_PREFIX=/home/rick/ros_ws/install/cartographer

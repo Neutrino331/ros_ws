@@ -7,7 +7,7 @@ events:
       - "/home/rick/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:211 (message)"
       - "CMakeLists.txt:2 (project)"
     message: |
-      The system is: Linux - 6.2.0-35-generic - x86_64
+      The system is: Linux - 6.2.0-36-generic - x86_64
   -
     kind: "message-v1"
     backtrace:
@@ -61,8 +61,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-B8sHrf"
-      binary: "/home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-B8sHrf"
+      source: "/home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-wtZpUf"
+      binary: "/home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-wtZpUf"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -71,13 +71,13 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-B8sHrf'
+        Change Dir: '/home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-wtZpUf'
         
-        Run Build Command(s): /home/rick/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_85289/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_85289.dir/build.make CMakeFiles/cmTC_85289.dir/build
-        gmake[1]: Entering directory '/home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-B8sHrf'
-        Building C object CMakeFiles/cmTC_85289.dir/CMakeCCompilerABI.c.o
-        /usr/bin/cc   -v -o CMakeFiles/cmTC_85289.dir/CMakeCCompilerABI.c.o -c /home/rick/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /home/rick/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_904ae/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_904ae.dir/build.make CMakeFiles/cmTC_904ae.dir/build
+        gmake[1]: Entering directory '/home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-wtZpUf'
+        Building C object CMakeFiles/cmTC_904ae.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -v -o CMakeFiles/cmTC_904ae.dir/CMakeCCompilerABI.c.o -c /home/rick/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=/usr/bin/cc
         OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
@@ -87,8 +87,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_85289.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_85289.dir/'
-         /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /home/rick/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_85289.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cc6wxjnq.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_904ae.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_904ae.dir/'
+         /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /home/rick/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_904ae.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccUk9IyZ.s
         GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
         	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
         
@@ -108,15 +108,15 @@ events:
         
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: 50eaa2331df977b8016186198deb2d18
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_85289.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_85289.dir/'
-         as -v --64 -o CMakeFiles/cmTC_85289.dir/CMakeCCompilerABI.c.o /tmp/cc6wxjnq.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_904ae.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_904ae.dir/'
+         as -v --64 -o CMakeFiles/cmTC_904ae.dir/CMakeCCompilerABI.c.o /tmp/ccUk9IyZ.s
         GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
         COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_85289.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_85289.dir/CMakeCCompilerABI.c.'
-        Linking C executable cmTC_85289
-        /home/rick/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_85289.dir/link.txt --verbose=1
-        /usr/bin/cc  -v CMakeFiles/cmTC_85289.dir/CMakeCCompilerABI.c.o -o cmTC_85289 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_904ae.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_904ae.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_904ae
+        /home/rick/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_904ae.dir/link.txt --verbose=1
+        /usr/bin/cc  -v CMakeFiles/cmTC_904ae.dir/CMakeCCompilerABI.c.o -o cmTC_904ae 
         Using built-in specs.
         COLLECT_GCC=/usr/bin/cc
         COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
@@ -129,10 +129,10 @@ events:
         gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
         COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_85289' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_85289.'
-         /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccfJYm0m.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_85289 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_85289.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_85289' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_85289.'
-        gmake[1]: Leaving directory '/home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-B8sHrf'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_904ae' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_904ae.'
+         /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccu4WkFC.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_904ae /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_904ae.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_904ae' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_904ae.'
+        gmake[1]: Leaving directory '/home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-wtZpUf'
         
       exitCode: 0
   -
@@ -166,13 +166,13 @@ events:
     message: |
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: '/home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-B8sHrf']
+        ignore line: [Change Dir: '/home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-wtZpUf']
         ignore line: []
-        ignore line: [Run Build Command(s): /home/rick/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_85289/fast]
-        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_85289.dir/build.make CMakeFiles/cmTC_85289.dir/build]
-        ignore line: [gmake[1]: Entering directory '/home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-B8sHrf']
-        ignore line: [Building C object CMakeFiles/cmTC_85289.dir/CMakeCCompilerABI.c.o]
-        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_85289.dir/CMakeCCompilerABI.c.o -c /home/rick/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /home/rick/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_904ae/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_904ae.dir/build.make CMakeFiles/cmTC_904ae.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-wtZpUf']
+        ignore line: [Building C object CMakeFiles/cmTC_904ae.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_904ae.dir/CMakeCCompilerABI.c.o -c /home/rick/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/cc]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
@@ -182,8 +182,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_85289.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_85289.dir/']
-        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /home/rick/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_85289.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cc6wxjnq.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_904ae.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_904ae.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /home/rick/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_904ae.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccUk9IyZ.s]
         ignore line: [GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
         ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
         ignore line: []
@@ -203,15 +203,15 @@ events:
         ignore line: []
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: 50eaa2331df977b8016186198deb2d18]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_85289.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_85289.dir/']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_85289.dir/CMakeCCompilerABI.c.o /tmp/cc6wxjnq.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_904ae.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_904ae.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_904ae.dir/CMakeCCompilerABI.c.o /tmp/ccUk9IyZ.s]
         ignore line: [GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_85289.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_85289.dir/CMakeCCompilerABI.c.']
-        ignore line: [Linking C executable cmTC_85289]
-        ignore line: [/home/rick/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_85289.dir/link.txt --verbose=1]
-        ignore line: [/usr/bin/cc  -v CMakeFiles/cmTC_85289.dir/CMakeCCompilerABI.c.o -o cmTC_85289 ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_904ae.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_904ae.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_904ae]
+        ignore line: [/home/rick/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_904ae.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/cc  -v CMakeFiles/cmTC_904ae.dir/CMakeCCompilerABI.c.o -o cmTC_904ae ]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/cc]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper]
@@ -224,13 +224,13 @@ events:
         ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_85289' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_85289.']
-        link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccfJYm0m.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_85289 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_85289.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_904ae' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_904ae.']
+        link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccu4WkFC.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_904ae /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_904ae.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccfJYm0m.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccu4WkFC.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -248,7 +248,7 @@ events:
           arg [-znow] ==> ignore
           arg [-zrelro] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_85289] ==> ignore
+          arg [cmTC_904ae] ==> ignore
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
@@ -260,7 +260,7 @@ events:
           arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
           arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
           arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..]
-          arg [CMakeFiles/cmTC_85289.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [CMakeFiles/cmTC_904ae.dir/CMakeCCompilerABI.c.o] ==> ignore
           arg [-lgcc] ==> lib [gcc]
           arg [--push-state] ==> ignore
           arg [--as-needed] ==> ignore
@@ -300,8 +300,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-PGAM3v"
-      binary: "/home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-PGAM3v"
+      source: "/home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-vc2FeW"
+      binary: "/home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-vc2FeW"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -310,13 +310,13 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-PGAM3v'
+        Change Dir: '/home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-vc2FeW'
         
-        Run Build Command(s): /home/rick/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c41ba/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_c41ba.dir/build.make CMakeFiles/cmTC_c41ba.dir/build
-        gmake[1]: Entering directory '/home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-PGAM3v'
-        Building CXX object CMakeFiles/cmTC_c41ba.dir/CMakeCXXCompilerABI.cpp.o
-        /usr/bin/c++   -v -o CMakeFiles/cmTC_c41ba.dir/CMakeCXXCompilerABI.cpp.o -c /home/rick/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /home/rick/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_dc202/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_dc202.dir/build.make CMakeFiles/cmTC_dc202.dir/build
+        gmake[1]: Entering directory '/home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-vc2FeW'
+        Building CXX object CMakeFiles/cmTC_dc202.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -v -o CMakeFiles/cmTC_dc202.dir/CMakeCXXCompilerABI.cpp.o -c /home/rick/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
@@ -326,8 +326,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c41ba.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c41ba.dir/'
-         /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/rick/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_c41ba.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccCvO4lM.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_dc202.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_dc202.dir/'
+         /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/rick/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_dc202.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccldeRLR.s
         GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
         	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
         
@@ -351,15 +351,15 @@ events:
         
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: d591828bb4d392ae8b7b160e5bb0b95f
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c41ba.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c41ba.dir/'
-         as -v --64 -o CMakeFiles/cmTC_c41ba.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccCvO4lM.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_dc202.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_dc202.dir/'
+         as -v --64 -o CMakeFiles/cmTC_dc202.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccldeRLR.s
         GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
         COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c41ba.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c41ba.dir/CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_c41ba
-        /home/rick/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c41ba.dir/link.txt --verbose=1
-        /usr/bin/c++  -v CMakeFiles/cmTC_c41ba.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_c41ba 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_dc202.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_dc202.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_dc202
+        /home/rick/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dc202.dir/link.txt --verbose=1
+        /usr/bin/c++  -v CMakeFiles/cmTC_dc202.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_dc202 
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
@@ -372,10 +372,10 @@ events:
         gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
         COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c41ba' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_c41ba.'
-         /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccvGP71h.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_c41ba /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_c41ba.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c41ba' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_c41ba.'
-        gmake[1]: Leaving directory '/home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-PGAM3v'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_dc202' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_dc202.'
+         /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccsfsZS7.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_dc202 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_dc202.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_dc202' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_dc202.'
+        gmake[1]: Leaving directory '/home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-vc2FeW'
         
       exitCode: 0
   -
@@ -415,13 +415,13 @@ events:
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: '/home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-PGAM3v']
+        ignore line: [Change Dir: '/home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-vc2FeW']
         ignore line: []
-        ignore line: [Run Build Command(s): /home/rick/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c41ba/fast]
-        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_c41ba.dir/build.make CMakeFiles/cmTC_c41ba.dir/build]
-        ignore line: [gmake[1]: Entering directory '/home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-PGAM3v']
-        ignore line: [Building CXX object CMakeFiles/cmTC_c41ba.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_c41ba.dir/CMakeCXXCompilerABI.cpp.o -c /home/rick/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /home/rick/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_dc202/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_dc202.dir/build.make CMakeFiles/cmTC_dc202.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-vc2FeW']
+        ignore line: [Building CXX object CMakeFiles/cmTC_dc202.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_dc202.dir/CMakeCXXCompilerABI.cpp.o -c /home/rick/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
@@ -431,8 +431,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c41ba.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c41ba.dir/']
-        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/rick/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_c41ba.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccCvO4lM.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_dc202.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_dc202.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/rick/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_dc202.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccldeRLR.s]
         ignore line: [GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
         ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
         ignore line: []
@@ -456,15 +456,15 @@ events:
         ignore line: []
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: d591828bb4d392ae8b7b160e5bb0b95f]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c41ba.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c41ba.dir/']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_c41ba.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccCvO4lM.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_dc202.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_dc202.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_dc202.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccldeRLR.s]
         ignore line: [GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c41ba.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c41ba.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_c41ba]
-        ignore line: [/home/rick/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c41ba.dir/link.txt --verbose=1]
-        ignore line: [/usr/bin/c++  -v CMakeFiles/cmTC_c41ba.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_c41ba ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_dc202.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_dc202.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_dc202]
+        ignore line: [/home/rick/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dc202.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/c++  -v CMakeFiles/cmTC_dc202.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_dc202 ]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper]
@@ -477,13 +477,13 @@ events:
         ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c41ba' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_c41ba.']
-        link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccvGP71h.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_c41ba /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_c41ba.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_dc202' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_dc202.']
+        link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccsfsZS7.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_dc202 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_dc202.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccvGP71h.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccsfsZS7.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -501,7 +501,7 @@ events:
           arg [-znow] ==> ignore
           arg [-zrelro] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_c41ba] ==> ignore
+          arg [cmTC_dc202] ==> ignore
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
@@ -513,7 +513,7 @@ events:
           arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
           arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
           arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..]
-          arg [CMakeFiles/cmTC_c41ba.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_dc202.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgcc_s] ==> lib [gcc_s]
@@ -562,8 +562,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "/home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-0HoW0z"
-      binary: "/home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-0HoW0z"
+      source: "/home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-5TQO4v"
+      binary: "/home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-5TQO4v"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -573,17 +573,17 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: '/home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-0HoW0z'
+        Change Dir: '/home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-5TQO4v'
         
-        Run Build Command(s): /home/rick/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c122c/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_c122c.dir/build.make CMakeFiles/cmTC_c122c.dir/build
-        gmake[1]: 進入目錄「/home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-0HoW0z」
-        Building C object CMakeFiles/cmTC_c122c.dir/src.c.o
-        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_c122c.dir/src.c.o -c /home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-0HoW0z/src.c
-        Linking C executable cmTC_c122c
-        /home/rick/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c122c.dir/link.txt --verbose=1
-        /usr/bin/cc CMakeFiles/cmTC_c122c.dir/src.c.o -o cmTC_c122c 
-        gmake[1]: 離開目錄「/home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-0HoW0z」
+        Run Build Command(s): /home/rick/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_1a4a2/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_1a4a2.dir/build.make CMakeFiles/cmTC_1a4a2.dir/build
+        gmake[1]: 進入目錄「/home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-5TQO4v」
+        Building C object CMakeFiles/cmTC_1a4a2.dir/src.c.o
+        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_1a4a2.dir/src.c.o -c /home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-5TQO4v/src.c
+        Linking C executable cmTC_1a4a2
+        /home/rick/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1a4a2.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_1a4a2.dir/src.c.o -o cmTC_1a4a2 
+        gmake[1]: 離開目錄「/home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-5TQO4v」
         
       exitCode: 0
   -
@@ -601,8 +601,8 @@ events:
     checks:
       - "Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so"
     directories:
-      source: "/home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-iF82b9"
-      binary: "/home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-iF82b9"
+      source: "/home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-siefaq"
+      binary: "/home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-siefaq"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -612,17 +612,17 @@ events:
       variable: "X11_LIB_X11_SOLO"
       cached: true
       stdout: |
-        Change Dir: '/home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-iF82b9'
+        Change Dir: '/home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-siefaq'
         
-        Run Build Command(s): /home/rick/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_76419/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_76419.dir/build.make CMakeFiles/cmTC_76419.dir/build
-        gmake[1]: 進入目錄「/home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-iF82b9」
-        Building C object CMakeFiles/cmTC_76419.dir/CheckFunctionExists.c.o
-        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay -o CMakeFiles/cmTC_76419.dir/CheckFunctionExists.c.o -c /home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-iF82b9/CheckFunctionExists.c
-        Linking C executable cmTC_76419
-        /home/rick/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_76419.dir/link.txt --verbose=1
-        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=XOpenDisplay CMakeFiles/cmTC_76419.dir/CheckFunctionExists.c.o -o cmTC_76419  /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libXext.so 
-        gmake[1]: 離開目錄「/home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-iF82b9」
+        Run Build Command(s): /home/rick/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_670ca/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_670ca.dir/build.make CMakeFiles/cmTC_670ca.dir/build
+        gmake[1]: 進入目錄「/home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-siefaq」
+        Building C object CMakeFiles/cmTC_670ca.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay -o CMakeFiles/cmTC_670ca.dir/CheckFunctionExists.c.o -c /home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-siefaq/CheckFunctionExists.c
+        Linking C executable cmTC_670ca
+        /home/rick/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_670ca.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=XOpenDisplay CMakeFiles/cmTC_670ca.dir/CheckFunctionExists.c.o -o cmTC_670ca  /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libXext.so 
+        gmake[1]: 離開目錄「/home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-siefaq」
         
       exitCode: 0
   -
@@ -640,8 +640,8 @@ events:
     checks:
       - "Looking for gethostbyname"
     directories:
-      source: "/home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-kC3Ym5"
-      binary: "/home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-kC3Ym5"
+      source: "/home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-fqhsN8"
+      binary: "/home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-fqhsN8"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -651,17 +651,17 @@ events:
       variable: "CMAKE_HAVE_GETHOSTBYNAME"
       cached: true
       stdout: |
-        Change Dir: '/home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-kC3Ym5'
+        Change Dir: '/home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-fqhsN8'
         
-        Run Build Command(s): /home/rick/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_b8c85/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_b8c85.dir/build.make CMakeFiles/cmTC_b8c85.dir/build
-        gmake[1]: 進入目錄「/home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-kC3Ym5」
-        Building C object CMakeFiles/cmTC_b8c85.dir/CheckFunctionExists.c.o
-        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname -o CMakeFiles/cmTC_b8c85.dir/CheckFunctionExists.c.o -c /home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-kC3Ym5/CheckFunctionExists.c
-        Linking C executable cmTC_b8c85
-        /home/rick/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b8c85.dir/link.txt --verbose=1
-        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gethostbyname CMakeFiles/cmTC_b8c85.dir/CheckFunctionExists.c.o -o cmTC_b8c85 
-        gmake[1]: 離開目錄「/home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-kC3Ym5」
+        Run Build Command(s): /home/rick/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_995fc/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_995fc.dir/build.make CMakeFiles/cmTC_995fc.dir/build
+        gmake[1]: 進入目錄「/home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-fqhsN8」
+        Building C object CMakeFiles/cmTC_995fc.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname -o CMakeFiles/cmTC_995fc.dir/CheckFunctionExists.c.o -c /home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-fqhsN8/CheckFunctionExists.c
+        Linking C executable cmTC_995fc
+        /home/rick/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_995fc.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gethostbyname CMakeFiles/cmTC_995fc.dir/CheckFunctionExists.c.o -o cmTC_995fc 
+        gmake[1]: 離開目錄「/home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-fqhsN8」
         
       exitCode: 0
   -
@@ -679,8 +679,8 @@ events:
     checks:
       - "Looking for connect"
     directories:
-      source: "/home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-GZ8MAU"
-      binary: "/home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-GZ8MAU"
+      source: "/home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-wBqDCa"
+      binary: "/home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-wBqDCa"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -690,17 +690,17 @@ events:
       variable: "CMAKE_HAVE_CONNECT"
       cached: true
       stdout: |
-        Change Dir: '/home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-GZ8MAU'
+        Change Dir: '/home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-wBqDCa'
         
-        Run Build Command(s): /home/rick/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_0bfb5/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_0bfb5.dir/build.make CMakeFiles/cmTC_0bfb5.dir/build
-        gmake[1]: 進入目錄「/home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-GZ8MAU」
-        Building C object CMakeFiles/cmTC_0bfb5.dir/CheckFunctionExists.c.o
-        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect -o CMakeFiles/cmTC_0bfb5.dir/CheckFunctionExists.c.o -c /home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-GZ8MAU/CheckFunctionExists.c
-        Linking C executable cmTC_0bfb5
-        /home/rick/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0bfb5.dir/link.txt --verbose=1
-        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=connect CMakeFiles/cmTC_0bfb5.dir/CheckFunctionExists.c.o -o cmTC_0bfb5 
-        gmake[1]: 離開目錄「/home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-GZ8MAU」
+        Run Build Command(s): /home/rick/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_fdb90/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_fdb90.dir/build.make CMakeFiles/cmTC_fdb90.dir/build
+        gmake[1]: 進入目錄「/home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-wBqDCa」
+        Building C object CMakeFiles/cmTC_fdb90.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect -o CMakeFiles/cmTC_fdb90.dir/CheckFunctionExists.c.o -c /home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-wBqDCa/CheckFunctionExists.c
+        Linking C executable cmTC_fdb90
+        /home/rick/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fdb90.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=connect CMakeFiles/cmTC_fdb90.dir/CheckFunctionExists.c.o -o cmTC_fdb90 
+        gmake[1]: 離開目錄「/home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-wBqDCa」
         
       exitCode: 0
   -
@@ -718,8 +718,8 @@ events:
     checks:
       - "Looking for remove"
     directories:
-      source: "/home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-1sjj8x"
-      binary: "/home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-1sjj8x"
+      source: "/home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-qNohen"
+      binary: "/home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-qNohen"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -729,17 +729,17 @@ events:
       variable: "CMAKE_HAVE_REMOVE"
       cached: true
       stdout: |
-        Change Dir: '/home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-1sjj8x'
+        Change Dir: '/home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-qNohen'
         
-        Run Build Command(s): /home/rick/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_97f94/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_97f94.dir/build.make CMakeFiles/cmTC_97f94.dir/build
-        gmake[1]: 進入目錄「/home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-1sjj8x」
-        Building C object CMakeFiles/cmTC_97f94.dir/CheckFunctionExists.c.o
-        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove -o CMakeFiles/cmTC_97f94.dir/CheckFunctionExists.c.o -c /home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-1sjj8x/CheckFunctionExists.c
-        Linking C executable cmTC_97f94
-        /home/rick/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_97f94.dir/link.txt --verbose=1
-        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=remove CMakeFiles/cmTC_97f94.dir/CheckFunctionExists.c.o -o cmTC_97f94 
-        gmake[1]: 離開目錄「/home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-1sjj8x」
+        Run Build Command(s): /home/rick/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_68b16/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_68b16.dir/build.make CMakeFiles/cmTC_68b16.dir/build
+        gmake[1]: 進入目錄「/home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-qNohen」
+        Building C object CMakeFiles/cmTC_68b16.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove -o CMakeFiles/cmTC_68b16.dir/CheckFunctionExists.c.o -c /home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-qNohen/CheckFunctionExists.c
+        Linking C executable cmTC_68b16
+        /home/rick/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_68b16.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=remove CMakeFiles/cmTC_68b16.dir/CheckFunctionExists.c.o -o cmTC_68b16 
+        gmake[1]: 離開目錄「/home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-qNohen」
         
       exitCode: 0
   -
@@ -757,8 +757,8 @@ events:
     checks:
       - "Looking for shmat"
     directories:
-      source: "/home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-O9uVaJ"
-      binary: "/home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-O9uVaJ"
+      source: "/home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-FYVTpY"
+      binary: "/home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-FYVTpY"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -768,17 +768,17 @@ events:
       variable: "CMAKE_HAVE_SHMAT"
       cached: true
       stdout: |
-        Change Dir: '/home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-O9uVaJ'
+        Change Dir: '/home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-FYVTpY'
         
-        Run Build Command(s): /home/rick/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_08f8e/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_08f8e.dir/build.make CMakeFiles/cmTC_08f8e.dir/build
-        gmake[1]: 進入目錄「/home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-O9uVaJ」
-        Building C object CMakeFiles/cmTC_08f8e.dir/CheckFunctionExists.c.o
-        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat -o CMakeFiles/cmTC_08f8e.dir/CheckFunctionExists.c.o -c /home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-O9uVaJ/CheckFunctionExists.c
-        Linking C executable cmTC_08f8e
-        /home/rick/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_08f8e.dir/link.txt --verbose=1
-        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=shmat CMakeFiles/cmTC_08f8e.dir/CheckFunctionExists.c.o -o cmTC_08f8e 
-        gmake[1]: 離開目錄「/home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-O9uVaJ」
+        Run Build Command(s): /home/rick/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_b8aa7/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_b8aa7.dir/build.make CMakeFiles/cmTC_b8aa7.dir/build
+        gmake[1]: 進入目錄「/home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-FYVTpY」
+        Building C object CMakeFiles/cmTC_b8aa7.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat -o CMakeFiles/cmTC_b8aa7.dir/CheckFunctionExists.c.o -c /home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-FYVTpY/CheckFunctionExists.c
+        Linking C executable cmTC_b8aa7
+        /home/rick/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b8aa7.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=shmat CMakeFiles/cmTC_b8aa7.dir/CheckFunctionExists.c.o -o cmTC_b8aa7 
+        gmake[1]: 離開目錄「/home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-FYVTpY」
         
       exitCode: 0
   -
@@ -796,8 +796,8 @@ events:
     checks:
       - "Looking for IceConnectionNumber in ICE"
     directories:
-      source: "/home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-vUGAU6"
-      binary: "/home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-vUGAU6"
+      source: "/home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-vIB0TT"
+      binary: "/home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-vIB0TT"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -807,17 +807,17 @@ events:
       variable: "CMAKE_LIB_ICE_HAS_ICECONNECTIONNUMBER"
       cached: true
       stdout: |
-        Change Dir: '/home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-vUGAU6'
+        Change Dir: '/home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-vIB0TT'
         
-        Run Build Command(s): /home/rick/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ffa29/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_ffa29.dir/build.make CMakeFiles/cmTC_ffa29.dir/build
-        gmake[1]: 進入目錄「/home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-vUGAU6」
-        Building C object CMakeFiles/cmTC_ffa29.dir/CheckFunctionExists.c.o
-        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -o CMakeFiles/cmTC_ffa29.dir/CheckFunctionExists.c.o -c /home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-vUGAU6/CheckFunctionExists.c
-        Linking C executable cmTC_ffa29
-        /home/rick/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ffa29.dir/link.txt --verbose=1
-        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber CMakeFiles/cmTC_ffa29.dir/CheckFunctionExists.c.o -o cmTC_ffa29  -lICE 
-        gmake[1]: 離開目錄「/home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-vUGAU6」
+        Run Build Command(s): /home/rick/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_88d15/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_88d15.dir/build.make CMakeFiles/cmTC_88d15.dir/build
+        gmake[1]: 進入目錄「/home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-vIB0TT」
+        Building C object CMakeFiles/cmTC_88d15.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -o CMakeFiles/cmTC_88d15.dir/CheckFunctionExists.c.o -c /home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-vIB0TT/CheckFunctionExists.c
+        Linking C executable cmTC_88d15
+        /home/rick/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_88d15.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber CMakeFiles/cmTC_88d15.dir/CheckFunctionExists.c.o -o cmTC_88d15  -lICE 
+        gmake[1]: 離開目錄「/home/rick/ros_ws/build/rviz_imu_plugin/CMakeFiles/CMakeScratch/TryCompile-vIB0TT」
         
       exitCode: 0
 ...

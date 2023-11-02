@@ -1,1 +1,0 @@
-/home/rick/ros_ws/build/cartographer_ros_msgs/rosidl_typesupport_fastrtps_c/cartographer_ros_msgs/srv/detail/write_state__rosidl_typesupport_fastrtps_c.h

@@ -313,6 +313,9 @@ message(STATUS "Execute custom install script")
 # install(DIRECTORY "config" "description" "launch" "worlds" "maps" "DESTINATION" "share/ros_bot")
 ament_cmake_symlink_install_directory("/home/rick/ros_ws/src/ros_bot" DIRECTORY "config" "description" "launch" "worlds" "maps" "DESTINATION" "share/ros_bot")
 
+# install(PROGRAMS "nodes/odometry_publisher.py" "DESTINATION" "lib/ros_bot")
+ament_cmake_symlink_install_programs("/home/rick/ros_ws/src/ros_bot" PROGRAMS "nodes/odometry_publisher.py" "DESTINATION" "lib/ros_bot")
+
 # install(FILES "/home/rick/ros_ws/build/ros_bot/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/ros_bot" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/rick/ros_ws/src/ros_bot" FILES "/home/rick/ros_ws/build/ros_bot/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/ros_bot" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 

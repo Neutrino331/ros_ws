@@ -1,0 +1,3 @@
+Invoking command in '/home/rick/ros_ws/build/imu_filter_madgwick': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rick/ros_ws/install/ayuda_description:/opt/ros/humble /home/rick/.local/bin/cmake --build /home/rick/ros_ws/build/imu_filter_madgwick -- -j24 -l24
+Invoked command in '/home/rick/ros_ws/build/imu_filter_madgwick' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rick/ros_ws/install/ayuda_description:/opt/ros/humble /home/rick/.local/bin/cmake --build /home/rick/ros_ws/build/imu_filter_madgwick -- -j24 -l24
+Invoking command in '/home/rick/ros_ws/build/imu_filter_madgwick': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rick/ros_ws/install/ayuda_description:/opt/ros/humble /home/rick/.local/bin/cmake --install /home/rick/ros_ws/build/imu_filter_madgwick

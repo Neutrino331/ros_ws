@@ -1,0 +1,314 @@
+[0.205s] Invoking command in '/home/rick/ros_ws/build/ds4_driver_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /home/rick/.local/bin/cmake /home/rick/ros_ws/src/ds4_driver/ds4_driver_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rick/ros_ws/install/ds4_driver_msgs
+[0.387s] -- The C compiler identification is GNU 11.4.0
+[0.388s] -- The CXX compiler identification is GNU 11.4.0
+[0.388s] -- Detecting C compiler ABI info
+[0.409s] -- Detecting C compiler ABI info - done
+[0.416s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.416s] -- Detecting C compile features
+[0.416s] -- Detecting C compile features - done
+[0.423s] -- Detecting CXX compiler ABI info
+[0.474s] -- Detecting CXX compiler ABI info - done
+[0.480s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.481s] -- Detecting CXX compile features
+[0.481s] -- Detecting CXX compile features - done
+[0.485s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.754s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.798s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.831s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.868s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.873s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.884s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.901s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.921s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.940s] -- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)
+[0.970s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.072s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.426s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.031s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.249s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.250s] [33mCMake Warning (dev) at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):
+[2.250s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[2.250s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[2.251s]   the cmake_policy command to set the policy and suppress this warning.
+[2.251s] 
+[2.251s] Call Stack (most recent call first):
+[2.251s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.251s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[2.251s]   CMakeLists.txt:15 (rosidl_generate_interfaces)
+[2.251s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.251s] [0m
+[2.263s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.264s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.265s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):
+[2.265s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[2.265s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[2.265s]   the cmake_policy command to set the policy and suppress this warning.
+[2.265s] 
+[2.265s] Call Stack (most recent call first):
+[2.265s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[2.265s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.265s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[2.265s]   CMakeLists.txt:15 (rosidl_generate_interfaces)
+[2.265s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.265s] [0m
+[2.277s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):
+[2.277s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[2.277s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[2.278s]   the cmake_policy command to set the policy and suppress this warning.
+[2.278s] 
+[2.278s] Call Stack (most recent call first):
+[2.278s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[2.278s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.278s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[2.278s]   CMakeLists.txt:15 (rosidl_generate_interfaces)
+[2.278s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.278s] [0m
+[2.282s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.282s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.282s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.282s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.296s] -- Found PythonExtra: .so  
+[2.361s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.374s] -- Added test 'lint_cmake' to check CMake code style
+[2.374s] -- Added test 'xmllint' to check XML markup files
+[2.376s] -- Configuring done (2.1s)
+[2.402s] -- Generating done (0.0s)
+[2.404s] -- Build files have been written to: /home/rick/ros_ws/build/ds4_driver_msgs
+[2.414s] Invoked command in '/home/rick/ros_ws/build/ds4_driver_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/rick/.local/bin/cmake /home/rick/ros_ws/src/ds4_driver/ds4_driver_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rick/ros_ws/install/ds4_driver_msgs
+[2.416s] Invoking command in '/home/rick/ros_ws/build/ds4_driver_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /home/rick/.local/bin/cmake --build /home/rick/ros_ws/build/ds4_driver_msgs -- -j24 -l24
+[2.441s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.444s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.445s] [  3%] Built target ament_cmake_python_symlink_ds4_driver_msgs
+[2.591s] running egg_info
+[2.591s] creating ds4_driver_msgs.egg-info
+[2.591s] writing ds4_driver_msgs.egg-info/PKG-INFO
+[2.592s] writing dependency_links to ds4_driver_msgs.egg-info/dependency_links.txt
+[2.592s] writing top-level names to ds4_driver_msgs.egg-info/top_level.txt
+[2.592s] writing manifest file 'ds4_driver_msgs.egg-info/SOURCES.txt'
+[2.593s] reading manifest file 'ds4_driver_msgs.egg-info/SOURCES.txt'
+[2.593s] writing manifest file 'ds4_driver_msgs.egg-info/SOURCES.txt'
+[2.607s] [  3%] Built target ament_cmake_python_build_ds4_driver_msgs_egg
+[3.104s] [  3%] Built target ds4_driver_msgs__cpp
+[3.108s] [  9%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.108s] [  9%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.108s] [  9%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.174s] [ 14%] [32mBuilding C object CMakeFiles/ds4_driver_msgs__rosidl_generator_c.dir/rosidl_generator_c/ds4_driver_msgs/msg/detail/report__functions.c.o[0m
+[3.174s] [ 14%] [32mBuilding C object CMakeFiles/ds4_driver_msgs__rosidl_generator_c.dir/rosidl_generator_c/ds4_driver_msgs/msg/detail/status__functions.c.o[0m
+[3.174s] [ 16%] [32mBuilding C object CMakeFiles/ds4_driver_msgs__rosidl_generator_c.dir/rosidl_generator_c/ds4_driver_msgs/msg/detail/trackpad__functions.c.o[0m
+[3.174s] [ 16%] [32mBuilding C object CMakeFiles/ds4_driver_msgs__rosidl_generator_c.dir/rosidl_generator_c/ds4_driver_msgs/msg/detail/feedback__functions.c.o[0m
+[3.218s] [ 18%] [32m[1mLinking C shared library libds4_driver_msgs__rosidl_generator_c.so[0m
+[3.248s] [ 18%] Built target ds4_driver_msgs__rosidl_generator_c
+[3.253s] [ 23%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.253s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.253s] [ 23%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.743s] [ 29%] [32mBuilding CXX object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ds4_driver_msgs/msg/report__type_support.cpp.o[0m
+[3.744s] [ 29%] [32mBuilding CXX object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ds4_driver_msgs/msg/status__type_support.cpp.o[0m
+[3.744s] [ 30%] [32mBuilding CXX object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ds4_driver_msgs/msg/trackpad__type_support.cpp.o[0m
+[3.744s] [ 30%] [32mBuilding CXX object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ds4_driver_msgs/msg/feedback__type_support.cpp.o[0m
+[3.787s] [ 38%] [32mBuilding C object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ds4_driver_msgs/msg/detail/status__type_support.c.o[0m
+[3.787s] [ 38%] [32mBuilding CXX object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ds4_driver_msgs/msg/detail/status__type_support.cpp.o[0m
+[3.787s] [ 40%] [32mBuilding CXX object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ds4_driver_msgs/msg/detail/report__type_support.cpp.o[0m
+[3.787s] [ 40%] [32mBuilding CXX object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ds4_driver_msgs/msg/detail/feedback__type_support.cpp.o[0m
+[3.787s] [ 41%] [32mBuilding C object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ds4_driver_msgs/msg/detail/report__type_support.c.o[0m
+[3.788s] [ 41%] [32mBuilding C object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ds4_driver_msgs/msg/detail/feedback__type_support.c.o[0m
+[3.788s] [ 43%] [32mBuilding C object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ds4_driver_msgs/msg/detail/trackpad__type_support.c.o[0m
+[3.789s] [ 45%] [32mBuilding CXX object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ds4_driver_msgs/msg/detail/trackpad__type_support.cpp.o[0m
+[3.828s] [ 47%] [32m[1mLinking C shared library libds4_driver_msgs__rosidl_typesupport_introspection_c.so[0m
+[3.844s] [ 49%] [32mBuilding CXX object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ds4_driver_msgs/msg/detail/dds_fastrtps/status__type_support.cpp.o[0m
+[3.845s] [ 50%] [32mBuilding CXX object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ds4_driver_msgs/msg/detail/dds_fastrtps/feedback__type_support.cpp.o[0m
+[3.847s] [ 52%] [32mBuilding CXX object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ds4_driver_msgs/msg/detail/dds_fastrtps/report__type_support.cpp.o[0m
+[3.857s] [ 54%] [32mBuilding CXX object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ds4_driver_msgs/msg/detail/dds_fastrtps/trackpad__type_support.cpp.o[0m
+[3.857s] [ 54%] Built target ds4_driver_msgs__rosidl_typesupport_introspection_c
+[3.912s] [ 56%] [32mBuilding CXX object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ds4_driver_msgs/msg/feedback__type_support.cpp.o[0m
+[3.924s] [ 58%] [32mBuilding CXX object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ds4_driver_msgs/msg/report__type_support.cpp.o[0m
+[3.929s] [ 60%] [32mBuilding CXX object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ds4_driver_msgs/msg/trackpad__type_support.cpp.o[0m
+[3.937s] [ 61%] [32mBuilding CXX object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ds4_driver_msgs/msg/status__type_support.cpp.o[0m
+[3.982s] [ 63%] [32m[1mLinking CXX shared library libds4_driver_msgs__rosidl_typesupport_c.so[0m
+[3.992s] [ 69%] [32mBuilding CXX object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ds4_driver_msgs/msg/detail/feedback__type_support_c.cpp.o[0m
+[3.992s] [ 69%] [32mBuilding CXX object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ds4_driver_msgs/msg/detail/report__type_support_c.cpp.o[0m
+[3.992s] [ 69%] [32mBuilding CXX object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ds4_driver_msgs/msg/detail/trackpad__type_support_c.cpp.o[0m
+[3.993s] [ 70%] [32mBuilding CXX object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ds4_driver_msgs/msg/detail/status__type_support_c.cpp.o[0m
+[4.002s] [ 72%] [32m[1mLinking CXX shared library libds4_driver_msgs__rosidl_typesupport_cpp.so[0m
+[4.015s] [ 72%] Built target ds4_driver_msgs__rosidl_typesupport_c
+[4.032s] [ 72%] Built target ds4_driver_msgs__rosidl_typesupport_cpp
+[4.175s] [ 74%] [32m[1mLinking CXX shared library libds4_driver_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[4.255s] [ 76%] [32m[1mLinking CXX shared library libds4_driver_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.268s] [ 76%] Built target ds4_driver_msgs__rosidl_typesupport_introspection_cpp
+[4.309s] [ 76%] Built target ds4_driver_msgs__rosidl_typesupport_fastrtps_cpp
+[4.312s] [ 78%] [32m[1mLinking CXX shared library libds4_driver_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[4.351s] [ 78%] Built target ds4_driver_msgs__rosidl_typesupport_fastrtps_c
+[4.357s] [ 78%] Built target ds4_driver_msgs
+[4.362s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[5.102s] [ 80%] Built target ds4_driver_msgs__py
+[5.107s] [ 81%] [32mBuilding C object CMakeFiles/ds4_driver_msgs__rosidl_generator_py.dir/rosidl_generator_py/ds4_driver_msgs/msg/_feedback_s.c.o[0m
+[5.108s] [ 85%] [32mBuilding C object CMakeFiles/ds4_driver_msgs__rosidl_generator_py.dir/rosidl_generator_py/ds4_driver_msgs/msg/_status_s.c.o[0m
+[5.108s] [ 85%] [32mBuilding C object CMakeFiles/ds4_driver_msgs__rosidl_generator_py.dir/rosidl_generator_py/ds4_driver_msgs/msg/_report_s.c.o[0m
+[5.108s] [ 87%] [32mBuilding C object CMakeFiles/ds4_driver_msgs__rosidl_generator_py.dir/rosidl_generator_py/ds4_driver_msgs/msg/_trackpad_s.c.o[0m
+[5.208s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/ds4_driver_msgs/libds4_driver_msgs__rosidl_generator_py.so[0m
+[5.234s] [ 89%] Built target ds4_driver_msgs__rosidl_generator_py
+[5.241s] [ 90%] [32mBuilding C object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/ds4_driver_msgs/_ds4_driver_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[5.241s] [ 92%] [32mBuilding C object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/ds4_driver_msgs/_ds4_driver_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.242s] [ 94%] [32mBuilding C object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/ds4_driver_msgs/_ds4_driver_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[5.306s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/ds4_driver_msgs/ds4_driver_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.311s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/ds4_driver_msgs/ds4_driver_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.327s] [100%] [32m[1mLinking C shared library rosidl_generator_py/ds4_driver_msgs/ds4_driver_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.329s] [100%] Built target ds4_driver_msgs__rosidl_typesupport_fastrtps_c__pyext
+[5.333s] [100%] Built target ds4_driver_msgs__rosidl_typesupport_c__pyext
+[5.345s] [100%] Built target ds4_driver_msgs__rosidl_typesupport_introspection_c__pyext
+[5.352s] Invoked command in '/home/rick/ros_ws/build/ds4_driver_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/rick/.local/bin/cmake --build /home/rick/ros_ws/build/ds4_driver_msgs -- -j24 -l24
+[5.417s] Invoking command in '/home/rick/ros_ws/build/ds4_driver_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /home/rick/.local/bin/cmake --install /home/rick/ros_ws/build/ds4_driver_msgs
+[5.440s] -- Install configuration: ""
+[5.440s] -- Execute custom install script
+[5.441s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/share/ament_index/resource_index/rosidl_interfaces/ds4_driver_msgs
+[5.444s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/feedback__functions.h
+[5.446s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/feedback__struct.h
+[5.448s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/feedback__type_support.h
+[5.450s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/report__functions.h
+[5.451s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/report__struct.h
+[5.453s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/report__type_support.h
+[5.455s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/status__functions.h
+[5.457s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/status__struct.h
+[5.458s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/status__type_support.h
+[5.460s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/trackpad__functions.h
+[5.462s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/trackpad__struct.h
+[5.463s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/trackpad__type_support.h
+[5.465s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/feedback.h
+[5.467s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/report.h
+[5.468s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/rosidl_generator_c__visibility_control.h
+[5.470s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/status.h
+[5.472s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/trackpad.h
+[5.473s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/environment/library_path.sh
+[5.475s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/environment/library_path.dsv
+[5.477s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/feedback__rosidl_typesupport_fastrtps_c.h
+[5.479s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/report__rosidl_typesupport_fastrtps_c.h
+[5.481s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/status__rosidl_typesupport_fastrtps_c.h
+[5.482s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/trackpad__rosidl_typesupport_fastrtps_c.h
+[5.484s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.486s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/feedback__builder.hpp
+[5.488s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/feedback__struct.hpp
+[5.490s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/feedback__traits.hpp
+[5.491s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/report__builder.hpp
+[5.493s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/report__struct.hpp
+[5.495s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/report__traits.hpp
+[5.497s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/status__builder.hpp
+[5.498s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/status__struct.hpp
+[5.500s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/status__traits.hpp
+[5.502s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/trackpad__builder.hpp
+[5.504s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/trackpad__struct.hpp
+[5.506s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/trackpad__traits.hpp
+[5.508s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/feedback.hpp
+[5.509s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/report.hpp
+[5.511s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/status.hpp
+[5.513s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/trackpad.hpp
+[5.515s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/feedback__rosidl_typesupport_fastrtps_cpp.hpp
+[5.517s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/report__rosidl_typesupport_fastrtps_cpp.hpp
+[5.519s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/status__rosidl_typesupport_fastrtps_cpp.hpp
+[5.521s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/trackpad__rosidl_typesupport_fastrtps_cpp.hpp
+[5.523s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.525s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/feedback__rosidl_typesupport_introspection_c.h
+[5.526s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/report__rosidl_typesupport_introspection_c.h
+[5.528s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/status__rosidl_typesupport_introspection_c.h
+[5.530s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/trackpad__rosidl_typesupport_introspection_c.h
+[5.532s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.534s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/feedback__rosidl_typesupport_introspection_cpp.hpp
+[5.535s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/report__rosidl_typesupport_introspection_cpp.hpp
+[5.537s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/status__rosidl_typesupport_introspection_cpp.hpp
+[5.539s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/trackpad__rosidl_typesupport_introspection_cpp.hpp
+[5.541s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/environment/pythonpath.sh
+[5.542s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/environment/pythonpath.dsv
+[5.545s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[5.546s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[5.548s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[5.550s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[5.552s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/__init__.py
+[5.555s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/_ds4_driver_msgs_s.ep.rosidl_typesupport_c.c
+[5.556s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/_ds4_driver_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.558s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/_ds4_driver_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[5.560s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/ds4_driver_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.562s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/ds4_driver_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.564s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/ds4_driver_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.565s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/libds4_driver_msgs__rosidl_generator_py.so
+[5.567s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/msg/__init__.py
+[5.569s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/msg/_feedback.py
+[5.571s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/msg/_feedback_s.c
+[5.573s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/msg/_report.py
+[5.575s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/msg/_report_s.c
+[5.576s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/msg/_status.py
+[5.578s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/msg/_status_s.c
+[5.580s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/msg/_trackpad.py
+[5.582s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/msg/_trackpad_s.c
+[5.584s] -- Up-to-date symlink: /home/rick/ros_ws/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/ds4_driver_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.584s] -- Up-to-date symlink: /home/rick/ros_ws/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/ds4_driver_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.585s] -- Up-to-date symlink: /home/rick/ros_ws/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/ds4_driver_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.585s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/msg/Feedback.idl
+[5.587s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/msg/Status.idl
+[5.589s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/msg/Report.idl
+[5.591s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/msg/Trackpad.idl
+[5.592s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/msg/Feedback.msg
+[5.594s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/msg/Status.msg
+[5.596s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/msg/Report.msg
+[5.598s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/msg/Trackpad.msg
+[5.600s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/share/ament_index/resource_index/package_run_dependencies/ds4_driver_msgs
+[5.602s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/share/ament_index/resource_index/parent_prefix_path/ds4_driver_msgs
+[5.604s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/environment/ament_prefix_path.sh
+[5.606s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/environment/ament_prefix_path.dsv
+[5.608s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/environment/path.sh
+[5.610s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/environment/path.dsv
+[5.612s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/local_setup.bash
+[5.614s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/local_setup.sh
+[5.616s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/local_setup.zsh
+[5.617s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/local_setup.dsv
+[5.619s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/package.dsv
+[5.621s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/share/ament_index/resource_index/packages/ds4_driver_msgs
+[5.623s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/rosidl_cmake-extras.cmake
+[5.624s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.626s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.628s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[5.630s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[5.632s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.633s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.635s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/ds4_driver_msgsConfig.cmake
+[5.637s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/ds4_driver_msgsConfig-version.cmake
+[5.638s] -- Symlinking: /home/rick/ros_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/package.xml
+[5.640s] -- Installing: /home/rick/ros_ws/install/ds4_driver_msgs/lib/libds4_driver_msgs__rosidl_generator_c.so
+[5.641s] -- Set runtime path of "/home/rick/ros_ws/install/ds4_driver_msgs/lib/libds4_driver_msgs__rosidl_generator_c.so" to ""
+[5.641s] -- Installing: /home/rick/ros_ws/install/ds4_driver_msgs/lib/libds4_driver_msgs__rosidl_typesupport_fastrtps_c.so
+[5.641s] -- Set runtime path of "/home/rick/ros_ws/install/ds4_driver_msgs/lib/libds4_driver_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[5.641s] -- Installing: /home/rick/ros_ws/install/ds4_driver_msgs/lib/libds4_driver_msgs__rosidl_typesupport_fastrtps_cpp.so
+[5.641s] -- Set runtime path of "/home/rick/ros_ws/install/ds4_driver_msgs/lib/libds4_driver_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[5.641s] -- Installing: /home/rick/ros_ws/install/ds4_driver_msgs/lib/libds4_driver_msgs__rosidl_typesupport_introspection_c.so
+[5.642s] -- Set runtime path of "/home/rick/ros_ws/install/ds4_driver_msgs/lib/libds4_driver_msgs__rosidl_typesupport_introspection_c.so" to ""
+[5.642s] -- Installing: /home/rick/ros_ws/install/ds4_driver_msgs/lib/libds4_driver_msgs__rosidl_typesupport_c.so
+[5.642s] -- Set runtime path of "/home/rick/ros_ws/install/ds4_driver_msgs/lib/libds4_driver_msgs__rosidl_typesupport_c.so" to ""
+[5.642s] -- Installing: /home/rick/ros_ws/install/ds4_driver_msgs/lib/libds4_driver_msgs__rosidl_typesupport_introspection_cpp.so
+[5.642s] -- Set runtime path of "/home/rick/ros_ws/install/ds4_driver_msgs/lib/libds4_driver_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[5.642s] -- Installing: /home/rick/ros_ws/install/ds4_driver_msgs/lib/libds4_driver_msgs__rosidl_typesupport_cpp.so
+[5.642s] -- Set runtime path of "/home/rick/ros_ws/install/ds4_driver_msgs/lib/libds4_driver_msgs__rosidl_typesupport_cpp.so" to ""
+[5.675s] Listing '/home/rick/ros_ws/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs'...
+[5.675s] Compiling '/home/rick/ros_ws/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/__init__.py'...
+[5.675s] Listing '/home/rick/ros_ws/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/msg'...
+[5.675s] Compiling '/home/rick/ros_ws/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/msg/__init__.py'...
+[5.675s] Compiling '/home/rick/ros_ws/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/msg/_feedback.py'...
+[5.675s] Compiling '/home/rick/ros_ws/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/msg/_report.py'...
+[5.676s] Compiling '/home/rick/ros_ws/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/msg/_status.py'...
+[5.676s] Compiling '/home/rick/ros_ws/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/msg/_trackpad.py'...
+[5.678s] -- Installing: /home/rick/ros_ws/install/ds4_driver_msgs/lib/libds4_driver_msgs__rosidl_generator_py.so
+[5.678s] -- Set runtime path of "/home/rick/ros_ws/install/ds4_driver_msgs/lib/libds4_driver_msgs__rosidl_generator_py.so" to ""
+[5.678s] -- Installing: /home/rick/ros_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/export_ds4_driver_msgs__rosidl_generator_cExport.cmake
+[5.679s] -- Installing: /home/rick/ros_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/export_ds4_driver_msgs__rosidl_generator_cExport-noconfig.cmake
+[5.679s] -- Installing: /home/rick/ros_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/export_ds4_driver_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[5.679s] -- Installing: /home/rick/ros_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/export_ds4_driver_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.679s] -- Installing: /home/rick/ros_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/export_ds4_driver_msgs__rosidl_generator_cppExport.cmake
+[5.679s] -- Installing: /home/rick/ros_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/export_ds4_driver_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.679s] -- Installing: /home/rick/ros_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/export_ds4_driver_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.679s] -- Installing: /home/rick/ros_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/ds4_driver_msgs__rosidl_typesupport_introspection_cExport.cmake
+[5.679s] -- Installing: /home/rick/ros_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/ds4_driver_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.679s] -- Installing: /home/rick/ros_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/ds4_driver_msgs__rosidl_typesupport_cExport.cmake
+[5.679s] -- Installing: /home/rick/ros_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/ds4_driver_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[5.680s] -- Installing: /home/rick/ros_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/ds4_driver_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[5.680s] -- Installing: /home/rick/ros_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/ds4_driver_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.680s] -- Installing: /home/rick/ros_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/ds4_driver_msgs__rosidl_typesupport_cppExport.cmake
+[5.680s] -- Installing: /home/rick/ros_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/ds4_driver_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[5.680s] -- Installing: /home/rick/ros_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/export_ds4_driver_msgs__rosidl_generator_pyExport.cmake
+[5.680s] -- Installing: /home/rick/ros_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/export_ds4_driver_msgs__rosidl_generator_pyExport-noconfig.cmake
+[5.685s] Invoked command in '/home/rick/ros_ws/build/ds4_driver_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/rick/.local/bin/cmake --install /home/rick/ros_ws/build/ds4_driver_msgs

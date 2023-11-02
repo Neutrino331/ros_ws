@@ -1,0 +1,19 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/rick/ros_ws/install/cartographer_test/share/cartographer_test/config/ros_bot_2d.lua
+-- Up-to-date symlink: /home/rick/ros_ws/install/cartographer_test/share/cartographer_test/launch/cartographer.launch.py
+-- Symlinking: /home/rick/ros_ws/install/cartographer_test/share/ament_index/resource_index/package_run_dependencies/cartographer_test
+-- Symlinking: /home/rick/ros_ws/install/cartographer_test/share/ament_index/resource_index/parent_prefix_path/cartographer_test
+-- Symlinking: /home/rick/ros_ws/install/cartographer_test/share/cartographer_test/environment/ament_prefix_path.sh
+-- Symlinking: /home/rick/ros_ws/install/cartographer_test/share/cartographer_test/environment/ament_prefix_path.dsv
+-- Symlinking: /home/rick/ros_ws/install/cartographer_test/share/cartographer_test/environment/path.sh
+-- Symlinking: /home/rick/ros_ws/install/cartographer_test/share/cartographer_test/environment/path.dsv
+-- Symlinking: /home/rick/ros_ws/install/cartographer_test/share/cartographer_test/local_setup.bash
+-- Symlinking: /home/rick/ros_ws/install/cartographer_test/share/cartographer_test/local_setup.sh
+-- Symlinking: /home/rick/ros_ws/install/cartographer_test/share/cartographer_test/local_setup.zsh
+-- Symlinking: /home/rick/ros_ws/install/cartographer_test/share/cartographer_test/local_setup.dsv
+-- Symlinking: /home/rick/ros_ws/install/cartographer_test/share/cartographer_test/package.dsv
+-- Symlinking: /home/rick/ros_ws/install/cartographer_test/share/ament_index/resource_index/packages/cartographer_test
+-- Symlinking: /home/rick/ros_ws/install/cartographer_test/share/cartographer_test/cmake/cartographer_testConfig.cmake
+-- Symlinking: /home/rick/ros_ws/install/cartographer_test/share/cartographer_test/cmake/cartographer_testConfig-version.cmake
+-- Symlinking: /home/rick/ros_ws/install/cartographer_test/share/cartographer_test/package.xml
