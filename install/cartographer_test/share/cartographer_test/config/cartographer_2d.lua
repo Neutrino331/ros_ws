@@ -1,0 +1,1 @@
+/home/rick/ros_ws/src/cartographer_test/config/cartographer_2d.lua

@@ -1,4 +1,4 @@
-/home/rick/ros_ws/install/cartographer_test/share/cartographer_test/config/ros_bot_2d.lua
+/home/rick/ros_ws/install/cartographer_test/share/cartographer_test/config/cartographer_2d.lua
 /home/rick/ros_ws/install/cartographer_test/share/cartographer_test/launch/cartographer.launch.py
 /home/rick/ros_ws/install/cartographer_test/share/ament_index/resource_index/package_run_dependencies/cartographer_test
 /home/rick/ros_ws/install/cartographer_test/share/ament_index/resource_index/parent_prefix_path/cartographer_test
